@@ -24,4 +24,4 @@ In the short term, we will be evaluating and pulling in changes on a monthly cyc
 The Scrum@Scale guide is in Latex format, which is a standard for academic papers and journals world wide.  There are a wide range of free and open Latex editors, for a complete list see here: https://en.wikipedia.org/wiki/Comparison_of_TeX_editors.
 
 ## License  
-Scrum@Scale is a registered trademark of Scrum Inc.  This guide is released under Creative Commons 4.0 Attribution-Sharealike License as described here: https://creativecommons.org/licenses/by-sa/4.0/.
+Scrum@Scale is a registered trademark of Scrum Inc.  This guide and all of the associated materials in this repository are released under Creative Commons 4.0 Attribution-Sharealike License as described here: https://creativecommons.org/licenses/by-sa/4.0/.
