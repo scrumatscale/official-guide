@@ -1,9 +1,9 @@
 # The Scrum@Scale Guide
 This is the repository for the Official Scrum@Scale&reg; Guide.
 
-We believe that, as with any project, the best way to get the strongest guide possible is through a sequence of "inspect and adapt" and adapt cycles based on feedback from S@S Trainers, S@S Practioners, and the Scrum community at large.    Scrum@Scale as a framework is being used in companies of different sizes, in different industries, and on different continents; it is truly global.  Our goal is to capture insights and best practices from the global community and consolidate them into a continuously improving guide.
+We believe that, as with any project, the best way to get the strongest guide possible is through a sequence of "inspect and adapt" cycles based on feedback from S@S Trainers, S@S Practioners, and the Scrum community at large.    Scrum@Scale as a framework is being used in companies of different sizes, in different industries, and on different continents; it is truly global.  Our goal is to capture insights and best practices from the global community and consolidate them into a continuously improving guide.
 
-All contributors to the guide, including Jeff Sutherland, will use the same process outlined below to submit additions and improvements to the guide for community discussion and eventual incorporation into the official guide.
+All contributors to the guide, including the primary author, Dr. Jeff Sutherland, will use the same process outlined below to submit additions and improvements to the guide for community discussion and eventual incorporation into the official guide.
 
 ## How to Suggest an Improvement
 
