@@ -14,8 +14,12 @@ Opening an issue is appropriate when you feel that you have identified an area w
 
 You can also open an issue if you have a question about that guide that you would like someone from the community to answer.
 
+For detailed instructions on how to open an issue please see this tutorial video: https://www.youtube.com/watch?v=1IEU9gZToOo
+
 ### When to submit a pull request
 If you have a concrete change or addition to the guide that you would like to suggest, you can edit the guide itself and submit your changes as a pull request.  We will allow a brief period for community discussion on the pull request and then evaluate it before merging part or all of it into the official guide as appropriate.
+
+For detailed instructions on how to submit a pull request please see this tutorial video: https://www.youtube.com/watch?v=yEf-wpawgWc&feature=youtu.be
 
 ## Cadence
 In the short term, we will be evaluating and pulling in changes on a monthly cycle.  While the guide is new, our goal is to release an update at least once a month.
