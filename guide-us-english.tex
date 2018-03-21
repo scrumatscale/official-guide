@@ -25,12 +25,15 @@
 
 \renewcommand{\labelitemi}{$\cdot$}
 \renewcommand{\labelitemii}{$\cdot$}
+\makeatletter
+\let\latexl@section\l@section
+\def\l@section#1#2{\begingroup\let\numberline\@gobble\latexl@section{#1}{#2}\endgroup}
+\makeatother
 
 \usepackage[T1]{fontenc}
 \fontfamily{verdana}
 
-
-\usepackage{fancyhdr}{}
+\usepackage{scrlayer-scrpage}{}
 \makeatletter
 \renewcommand{\@seccntformat}[1]{}
 \makeatother
@@ -47,6 +50,9 @@ Works}
 
 
 \begin{document}
+
+%\tableofcontents
+%\newpage
 
 \section{Purpose of the Scrum@Scale Guide}
 Scrum, as originally outlined in the Scrum Guide, is a framework for
@@ -103,7 +109,7 @@ Scrum@Scale (n): A framework within which networks of Scrum teams operating
 consistently with the Scrum Guide can address complex adaptive problems,
 while creatively delivering products of the highest possible value.
 
-\textbf{NOTE:} These ``products'' may be hardware, software, complex
+\textbf{\textsc{note:}} These ``products'' may be hardware, software, complex
 integrated systems, processes, services, etc., depending upon the domain of
 the Scrum teams.
 
@@ -141,7 +147,7 @@ multiple teams along a single path.
 \includegraphics[width=1.0\linewidth]{SMPO-Cycle.png}
 
 \subsection{Values-Driven Culture}
-Besides separating accountability of the ``what'' and the ``how'',
+Besides separating accountability of the ``what'' and the ``how,''
 Scrum@Scale further aims to build healthy organizations by creating a
 values-driven culture in an empirical setting. The Scrum values are:
 Openness, Courage, Focus, Respect, and Commitment. These values drive
@@ -188,7 +194,7 @@ consistent with the organization's specific strategy, product, and services.
 
 \section{Scrum Master Cycle}
 \subsection{Team-Level Process}
-The \textbf{Team-Level Process} is laid out clearly in the Scrum Guide. It
+The \textbf{Team-Level Process} constitutes the first touch point between the Scrum Master and Product Owner Cycles, and is laid out clearly in the Scrum Guide. It
 is composed of three artifacts, five events, and three roles. The goals of
 the team level process are to:
 \begin{itemize}
@@ -278,14 +284,15 @@ each artifact \& event.
 
 Scaling the SoS reduces the number of communication pathways within the
 organization so that complexity is encapsulated. The SoSoS interfaces with
-a SoS in the exact same manner that an SoS interfaces with a single Scrum
+a SoS in the exact same manner that a SoS interfaces with a single Scrum
 team which allows for linear scalability.
 
+\pagebreak
 Sample Diagrams:
 
 \includegraphics[width=1.0\linewidth]{Sos-R2.png}
 
-\textbf{NOTE:} While the Scrum Guide defines the optimal team size as being
+\textbf{\textsc{note:}} While the Scrum Guide defines the optimal team size as being
 3 to 9 people, Harvard research determined that optimal team size is 4.6
 people.\footnote{Hackman, J Richard, Leading teams: Setting the stage for
 great performances, Harvard Business Press, 2002} Experiments with high
@@ -306,7 +313,8 @@ multiple SoS's (or SoSoS's). As with any Scrum team, it needs a PO and SM.
 It would be best if the EAT met daily as a Scrum team. They must meet at
 least once per Sprint and have a transparent backlog.
 
-Sample Diagram showing an EAT coordinating 5 groupings of 25 teams
+\pagebreak
+Sample Diagram showing an EAT coordinating 5 groupings of 25 teams:
 
 \includegraphics[width=1.0\linewidth]{SoS-EAT.png}
 
@@ -434,11 +442,12 @@ organization to develop their own. For the following diagrams, we have
 chosen to add an additional ``Chief'' to the title of those PO's as they
 magnify out.
 
+%\pagebreak
 Some sample diagrams:
 
 \includegraphics[width=1.0\linewidth]{MetaScrum-R2.png}
 
-\textbf{NOTE:} As mentioned above, these pentagons represent the ideal
+\textbf{\textsc{note:} As mentioned above, these pentagons represent the ideal
 sized Scrum teams and ideal sized MetaScrums. These diagrams are meant to
 be examples only, your organizational diagram may differ greatly.
 
@@ -491,6 +500,7 @@ The goals of Release Planning are to:
 \item update prioritization, as needed.
 \end{itemize}
 
+\section{Connecting the PO/SM Cycles}
 
 \subsection{Understanding Feedback}
 The \textbf{Feedback} component is the second point where the PO \& SM
@@ -574,7 +584,7 @@ are shown as overlapping since 2 members sit on both of the teams. In very
 small organizations or implementations, the EAT \& EMS may consist entirely
 of the same team members.
 
-\subsection{End Note}
+\section{End Note}
 Scrum@Scale is designed to scale productivity, to get the entire
 organization doing twice the work in half the time with higher quality and
 in a significantly improved work environment. Large organizations that
@@ -588,7 +598,7 @@ streamlining and enhancing an organization.
 
 Well implemented Scrum can run an entire organization.
 
-\subsection{Acknowledgements}
+\section{Acknowledgements}
 We acknowledge IDX for the creation of the Scrum of Scrums which first
 allowed Scrum to scale to hundreds of teams,\footnote{Sutherland, Jeff,
 "Inventing and Reinventing SCRUM in five Companies", Sur le site officiel
