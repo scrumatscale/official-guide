@@ -12,7 +12,7 @@ This guide is released under Creative Commons 4.0 Attribution-Sharealike License
 
 Scrum@Scale是Scrum Inc.的注册商标。本指南基于"署名-相同方式共享许可协议4.0"发布。(CC BY-SA 4.0)
 
-简体中文版译者：[申健Jacky Shen, CST, CTC, Agile Coach (www.JackyShen.com)](http://www.JackyShen.com), [王洪亮Stephen Wang, CSP]()
+简体中文版译者：[申健Jacky Shen, CST, CTC, Agile Coach (www.JackyShen.com)](http://www.JackyShen.com), [王洪亮Stephen Wang, CSP, Agile Coach]()
 
 简体中文版授权译文链接：[www.ScrumChina.com/](http://www.uperform.cn/)，欢迎转载，请保留所有版权信息并遵循共享许可协议进行演绎。
 
@@ -21,9 +21,15 @@ Scrum@Scale是Scrum Inc.的注册商标。本指南基于"署名-相同方式共
 
 Scrum, as originally outlined in the Scrum Guide, is a framework for developing, delivering, and sustaining complex products by a single team. Since its inception, its usage has extended to the creation of products, processes, services, and systems that require the efforts of multiple teams. Scrum@Scale was created to efficiently coordinate this new ecosystem of teams in a way that optimizes the overall strategy of the organization. It achieves this goal through setting up a “minimum viable bureaucracy” via a scale-free architecture, which naturally extends the way a single Scrum team functions across the organization.
 
+最初在Scrum指南中描述的Scrum，是一个单团队进行开发、交付和维护复杂产品的框架。自创建以来，它已经扩展到需要多个团队合作的产品、流程、服务和系统创建。创建Scrum@Scale是为了有效地协调这种新型的团队生态系统，从而优化组织的整体策略。它利用一个自由扩展的架构建立起一个“最小可行的官僚机构”，自然地将单Scrum团队的功能扩展到整个组织中，以实现目标。
+
 This guide contains the definitions of the components that make up the Scrum@Scale framework, including its scaled roles, scaled events, and enterprise artifacts, as well as the rules that bind them together.
 
+本指南包括构成Scrum@Scale框架的组件定义，包括扩展的角色、扩展的事件、企业级工件，以及将它们组织在一起的各种规则。
+
 Dr. Jeff Sutherland developed Scrum@Scale based on the fundamental principles behind Scrum, Complex Adaptive Systems theory, game theory, and object-oriented technology. This guide was developed with the input of many experienced Scrum practitioners based on the results of their field work. The goal of this guide is for the reader to be able to implement Scrum@Scale on their own.
+
+Jeff Sutherland博士基于Scrum、复杂自适应系统理论、博弈论、面向对象技术等背后的基础原则开发了Scrum@Scale。本指南采纳了许多有经验的Scrum实践者的输入，基于他们的现场工作结果。本指南之目标是读者能够自行实施Scrum@Scale。
 
 ## Why Scrum@Scale?
 ## 为什么要Scrum@Scale?
