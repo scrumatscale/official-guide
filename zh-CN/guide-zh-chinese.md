@@ -21,7 +21,7 @@ Scrum@Scale是Scrum Inc.的注册商标。本指南基于"署名-相同方式共
 
 Scrum, as originally outlined in the Scrum Guide, is a framework for developing, delivering, and sustaining complex products by a single team. Since its inception, its usage has extended to the creation of products, processes, services, and systems that require the efforts of multiple teams. Scrum@Scale was created to efficiently coordinate this new ecosystem of teams in a way that optimizes the overall strategy of the organization. It achieves this goal through setting up a “minimum viable bureaucracy” via a scale-free architecture, which naturally extends the way a single Scrum team functions across the organization.
 
-最初在Scrum指南中描述的Scrum，是一个单团队进行开发、交付和维护复杂产品的框架。自创建以来，它已经扩展到需要多个团队合作的产品、流程、服务和系统创建。创建Scrum@Scale是为了有效地协调这种新型的团队生态系统，从而优化组织的整体策略。它利用一个无标度架构建立起一个“最小可行的官僚机构”，自然地将单Scrum团队的功能扩展到整个组织中，以实现目标。
+最初在Scrum指南中描述的Scrum，是一个单团队进行开发、交付和维护复杂产品的框架。自创建以来，它已经扩展到需要多个团队合作的产品、处理过程、服务和系统创建。创建Scrum@Scale是为了有效地整合这种新型的团队生态系统，从而优化组织的整体策略。它利用一个无标度架构建立起一个“最小可行的官僚机构”，自然地将单Scrum团队的功能扩展到整个组织中，以实现目标。
 
 This guide contains the definitions of the components that make up the Scrum@Scale framework, including its scaled roles, scaled events, and enterprise artifacts, as well as the rules that bind them together.
 
@@ -36,7 +36,7 @@ Jeff Sutherland博士基于Scrum、复杂自适应系统理论、博弈论、面
 
 Scrum was designed for a single team to be able to work at its optimal capacity while maintaining a sustainable pace. In the field, it was found that as the number of Scrum teams within an organization grew, the optimal output (working product) and velocity of those teams began to fall (due to issues like cross-team dependencies and duplication of work). It became obvious that a framework for effectively coordinating those teams was needed in order to achieve linear scalability. Scrum@Scale is designed to accomplish this goal via its scale-free architecture.
 
-Scrum是为单团队而设计，使其能够在最佳能力下工作，同时保持可持续的速率。在该领域中，人们发现随着组织内的Scrum团队数量增长，最佳输出（可工作的产品）及那些团队的速率会开始下降（比如由于跨团队依赖和重复劳动等问题）。很明显，为了获得线性的可扩展性，人们需要一个有效协调那些团队的框架。设计Scrum@Scale是为了利用无标度架构达成这个目标。
+Scrum是为单团队而设计，使其能够在最佳能力下工作，同时保持可持续的速率。在该领域中，人们发现随着组织内的Scrum团队数量增长，最佳输出（可工作的产品）及那些团队的速率会开始下降（比如由于跨团队依赖和重复劳动等问题）。很明显，为了获得线性的可扩展性，人们需要一个有效整合那些团队的框架。设计Scrum@Scale是为了利用无标度架构达成这个目标。
 
 By utilizing a scale-free architecture, the organization is not constrained to grow in a particular way determined by a set of arbitrary rules; rather it can grow organically based on its unique needs and at a sustainable pace of change that can be accepted by the groups of individuals that make up the organization.
 
@@ -51,25 +51,46 @@ Scrum@Scale是为组织的整体扩展而设计：所有部门、产品和服务
 
 Scrum (n): A framework within which people can address complex adaptive problems, while productively and creatively delivering products of the highest possible value.
 
+Scrum（名词）：Scrum是一个框架，在此框架中，人们可以解决复杂自适应问题，同
+时高效并创造性地交付最大价值的产品。
+
 The Scrum Guide is the minimal feature set that allows inspection and adaptability via radical transparency to drive innovation, performance, and team happiness.
+
+Scrum指南是最小功能的集合，它通过彻底的透明性促进检视和适应性，从而驱动创新、绩效和团队幸福感。
 
 Scrum@Scale (n): A framework within which networks of Scrum teams operating consistently with the Scrum Guide can address complex adaptive problems, while creatively delivering products of the highest possible value.
 
+Scrum@Scale（名词）：Scrum@Scale是一个框架，在此框架中，一致采用Scrum指南进行运作的Scrum团队网络可以解决复杂自适应问题，同时高效并创造性地交付最大价值的产品。
+
 **NOTE:** These “products” may be hardware, software, complex integrated systems, processes, services, etc., depending upon the domain of the Scrum teams.
 
-Scrum@Scale is:
+**注意：** 这些“产品”可以是硬件、软件、复杂的集成系统、处理过程、服务等，取决于Scrum团队所处的领域。
 
+Scrum@Scale is:
 * Lightweight – the minimum viable bureaucracy
 * Simple to understand – consists of only Scrum teams
 * Difficult to master – requires implementing a new operating model
 
+Scrum@Scale是:
+* 轻量的 - 最小可行的官僚机构
+* 易于理解的 - 仅仅包含Scrum团队们
+* 难以精通的 - 需要实施一个全新的运作模型
+
 Scrum@Scale is a framework for scaling Scrum. It radically simplifies scaling by using Scrum to scale Scrum. It consists only of Scrum teams coordinated via Scrum of Scrums and MetaScrums.
+
+Scrum@Scale是一个对Scrum进行扩展的框架。通过使用Scrum来扩展Scrum，它彻底简化了规模扩展。它仅仅包含一些Scrum团队，这些团队通过Scrum of Scrums和MetaScrums进行整合。
 
 The component-based nature of Scrum@Scale allows an organization to customize their transformational strategy and implementation. It gives them the ability to target their transformation efforts in the area(s) they deem most valuable or most in need of change and then progress on to others.
 
+Scrum@Scale本身基于组件的性质允许组织定制他们的转型策略和实现方式。它使得他们获得一种能力，可以将转型的努力聚焦在他们认为最有价值或最需要改变的领域内，然后再向其他方面取得进展。
+
 In Scrum, care is taken to separate accountability of the “what” from the “how”. The same care is taken in Scrum@Scale so that jurisdiction and accountability are expressly understood in order to eliminate wasteful organizational conflict that keep teams from achieving their optimal productivity.
 
+在Scrum中，要注意区分对“What”与“How”的问责。在Scrum@Scale中也是一样，那么就要明确地理解权限和职责，从而消除浪费性的组织冲突，令团队更容易达致最佳生产力。
+
 In separating these two jurisdictions, Scrum@Scale contains two cycles: the Scrum Master Cycle (the “how”) and the Product Owner Cycle (the “what”), each touching the other at two points. Taken together, these cycles produce a powerful framework for coordinating the efforts of multiple teams along a single path.
+
+为了区分这两个权限，Scrum@Scale包含两个循环：Scrum Master循环（“How”）和产品负责人循环（“What”），彼此具有两个相互接触点。总之，这些循环造就了一个强大的框架，整合多个团队朝着同一个方向而努力。
 
 ## The Components of the Scrum@Scale Framework
 ## Scrum@Scale框架的组件
@@ -112,7 +133,7 @@ The **Team-Level Process** is laid out clearly in the Scrum Guide. It is compose
 * operate in a way that is sustainable and enriching for the team.
 
 ## Coordinating the “How” – The Scrum of Scrums
-## 协调如何做事(“How”) - Scrum of Scrums
+## 整合如何做事(“How”) - Scrum of Scrums
 
 A set of the teams that have a need to coordinate comprise a **“Scrum of Scrums” (SoS)**. The SoS is a “team of teams,” [^2] which hold a **Scaled Daily Scrum (SDS)** event with a representative from each team (usually the team’s Scrum Master, although any person or number of people may attend). The SDS exists to coordinate teams and remove impediments to delivering value.
 
@@ -207,7 +228,7 @@ Since the goal of the SoS is to function as a release team, the deployment of pr
 # 产品负责人循环
 
 ## Coordinating the “What” – The MetaScrum
-## 协调做什么事(“What”) - MetaScrum（元Scrum？超Scrum？）
+## 整合做什么事(“What”) - MetaScrum（元Scrum？超Scrum？）
 
 A group of Product Owners who need to coordinate a single backlog that feeds a Scrum of Scrums are themselves a team called a **MetaScrum**. For each SoS there is an associated MetaScrum. A MetaScrum aligns the teams’ priorities along a single path so that they can coordinate their backlogs and build alignment with stakeholders to support the backlog. MetaScrums hold a scaled version of Backlog Refinement.
 
