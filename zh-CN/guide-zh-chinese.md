@@ -21,7 +21,7 @@ Scrum@Scale是Scrum Inc.的注册商标。本指南基于"署名-相同方式共
 
 Scrum, as originally outlined in the Scrum Guide, is a framework for developing, delivering, and sustaining complex products by a single team. Since its inception, its usage has extended to the creation of products, processes, services, and systems that require the efforts of multiple teams. Scrum@Scale was created to efficiently coordinate this new ecosystem of teams in a way that optimizes the overall strategy of the organization. It achieves this goal through setting up a “minimum viable bureaucracy” via a scale-free architecture, which naturally extends the way a single Scrum team functions across the organization.
 
-最初在Scrum指南中描述的Scrum，是一个单团队进行开发、交付和维护复杂产品的框架。自创建以来，它已经扩展到需要多个团队合作的产品、流程、服务和系统创建。创建Scrum@Scale是为了有效地协调这种新型的团队生态系统，从而优化组织的整体策略。它利用一个自由扩展的架构建立起一个“最小可行的官僚机构”，自然地将单Scrum团队的功能扩展到整个组织中，以实现目标。
+最初在Scrum指南中描述的Scrum，是一个单团队进行开发、交付和维护复杂产品的框架。自创建以来，它已经扩展到需要多个团队合作的产品、流程、服务和系统创建。创建Scrum@Scale是为了有效地协调这种新型的团队生态系统，从而优化组织的整体策略。它利用一个无标度架构建立起一个“最小可行的官僚机构”，自然地将单Scrum团队的功能扩展到整个组织中，以实现目标。
 
 This guide contains the definitions of the components that make up the Scrum@Scale framework, including its scaled roles, scaled events, and enterprise artifacts, as well as the rules that bind them together.
 
@@ -36,9 +36,15 @@ Jeff Sutherland博士基于Scrum、复杂自适应系统理论、博弈论、面
 
 Scrum was designed for a single team to be able to work at its optimal capacity while maintaining a sustainable pace. In the field, it was found that as the number of Scrum teams within an organization grew, the optimal output (working product) and velocity of those teams began to fall (due to issues like cross-team dependencies and duplication of work). It became obvious that a framework for effectively coordinating those teams was needed in order to achieve linear scalability. Scrum@Scale is designed to accomplish this goal via its scale-free architecture.
 
+Scrum是为单团队而设计，使其能够在最佳能力下工作，同时保持可持续的速率。在该领域中，人们发现随着组织内的Scrum团队数量增长，最佳输出（可工作的产品）及那些团队的速率会开始下降（比如由于跨团队依赖和重复劳动等问题）。很明显，为了获得线性的可扩展性，人们需要一个有效协调那些团队的框架。设计Scrum@Scale是为了利用无标度架构达成这个目标。
+
 By utilizing a scale-free architecture, the organization is not constrained to grow in a particular way determined by a set of arbitrary rules; rather it can grow organically based on its unique needs and at a sustainable pace of change that can be accepted by the groups of individuals that make up the organization.
 
+通过使用无标度架构，组织的增长并不受限于以一组武断规则所决定的特定方式；相反，它可以有机地基于自己的独特需求而增长，并维持可持续的变革速度，从而可以被组织的成员们接受。
+
 Scrum@Scale is designed to scale across the organization as a whole: all departments, products and services. It can be applied across multiple domains in all types of organizations in industry, government, or academia.
+
+Scrum@Scale是为组织的整体扩展而设计：所有部门、产品和服务。它可以被运用到不同领域，包括工业、政府或学术界中的各类组织。
 
 ## Definition of Scrum@Scale
 ## Scrum@Scale的定义
