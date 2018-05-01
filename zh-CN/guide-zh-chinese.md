@@ -95,7 +95,41 @@ In separating these two jurisdictions, Scrum@Scale contains two cycles: the Scru
 ## The Components of the Scrum@Scale Framework
 ## Scrum@Scale框架的组件
 
-![](https://www.scrumatscale.com/wp-content/uploads/SMPO-Cycle.png)
+![](SMPO-Cycle.png)
+
+Scrum Master Cycle
+Executive Action Team
+Continuous Improvement & Impediment Removal
+Cross-Team Coordination
+Deployment
+Product & Release Feedback
+Potentially Shippable Product Increment
+Metrics & Transparency
+Team-Level Process
+Product Owner Cycle
+Executive Meta Scrum
+Strategic Vision
+Backlog Prioritization
+Backlog Decomposition & Refinement
+Release Planning
+
+
+Scrum Master循环
+高管行动小组
+持续改进与移除障碍
+跨团队整合
+部署
+产品与发布的反馈
+潜在可交付的产品增量
+度量与透明性
+团队级过程
+产品负责人循环
+高管的Meta Scrum
+战略愿景
+待办清单排序
+待办清单分解和梳理
+编制发布计划
+
 
 
 ## Values-Driven Culture
@@ -173,7 +207,7 @@ Scaling the SoS reduces the number of communication pathways within the organiza
 
 Sample Diagrams:
 
-![](https://www.scrumatscale.com/wp-content/uploads/Sos-R2.png)
+![](Sos-R2.png)
 
 **NOTE:** While the Scrum Guide defines the optimal team size as being 3 to 9 people, Harvard research determined that optimal team size is 4.6 people.[^4] Experiments with high performing Scrum teams have repeatedly shown that 4 or 5 people doing the work is the optimal size. It is essential to linear scalability that this pattern be the same for the number of teams in a SoS. Therefore, in the above and following diagrams, pentagons were chosen to represent a team of 5. These diagrams are meant to be examples only, your organizational diagram may differ greatly.
 
@@ -184,7 +218,7 @@ The Scrum of Scrums for the entire agile organization is called the Executive Ac
 
 Sample Diagram showing an EAT coordinating 5 groupings of 25 teams
 
-![](https://www.scrumatscale.com/wp-content/uploads/SoS-EAT.png)
+![](SoS-EAT.png)
 
 ## The EAT’s Backlog & Responsibilities
 ## EAT的待办清单及责任
@@ -264,7 +298,7 @@ Just as SoS’s can grow into SoSoS’s, MetaScrums can also expand by the same 
 
 Some sample diagrams:
 
-![](https://www.scrumatscale.com/wp-content/uploads/MetaScrum-R2.png)
+![](MetaScrum-R2.png)
 
 **NOTE: **As mentioned above, these pentagons represent the ideal sized Scrum teams and ideal sized MetaScrums. These diagrams are meant to be examples only, your organizational diagram may differ greatly.
 
@@ -274,7 +308,7 @@ The MetaScrums enable a network design of Product Owners which is infinitely sca
 
 Sample diagram showing an EMS coordinating 5 groups of 25 teams:
 
-![](https://www.scrumatscale.com/wp-content/uploads/ExecMetaScrum.png)
+![](ExecMetaScrum.png)
 
 ## Outputs/Outcomes of the Product Owner Organization
 ## 产品负责人组织的输出/效果
@@ -341,8 +375,8 @@ The goals of having Metrics and Transparency are to:
 
 The scale-free nature of Scrum@Scale allows the design of the organization to be component-based, just like the framework itself. This permits for rebalancing or refactoring of teams in response to the market. As an organization grows, capturing the benefits of distributed teams may be important. Some organizations reach talent otherwise unavailable and are able to expand and contract as needed through outsourced development. Scrum@Scale shows how to do this while avoiding long lag times, compromised communications, and inferior quality, enabling linear scalability both in size and global distribution.[^5]
 
-![](https://www.scrumatscale.com/wp-content/uploads/VariableSoS-R2.png)
-![](https://www.scrumatscale.com/wp-content/uploads/OrganizationalDiagram.png)
+![](VariableSoS-R2.png)
+![](OrganizationalDiagram.png)
 
 In this organizational diagram, the **Knowledge & Infrastructure Teams** represent virtual teams of specialists of which there are too few to staff each team. They coordinate with the Scrum teams as a group via service-level agreements where requests flow through a PO for each specialty who converts them into a transparent ordered backlog. An important note is that these teams are NOT silos of individuals who sit together (this is why they are represented as hollow pentagons); their team members sit on the actual Scrum teams, but they make up this virtual Scrum of their own for the purpose of backlog dissemination and process improvement.
 
