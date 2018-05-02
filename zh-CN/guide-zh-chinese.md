@@ -137,11 +137,21 @@ Scrum Master循环
 
 Besides separating accountability of the “what” and the “how”, Scrum@Scale further aims to build healthy organizations by creating a values-driven culture in an empirical setting. The Scrum values are: Openness, Courage, Focus, Respect, and Commitment. These values drive empirical decision making, which depend on the three pillars of transparency, inspection, and adaptation.
 
+除了区分对“What”与“How”的问责，Scrum@Scale还进一步以实证过程来创建价值驱动的文化，旨在建立健康的组织。Scrum的价值观包括：开放、勇气、专注、尊重和承诺。这些价值驱动着实验性决策，取决于透明、检视和调整这三大支柱。
+
 Openness supports transparency into all of the work and processes, without which there is no ability to inspect them honestly and attempt to adapt them for the better. Courage refers to taking the bold leaps required to deliver value quicker in innovative ways.
+
+开放支持着所有工作和过程的透明性，没有这种透明度，就无法诚实地检视它们，或更好地调整它们。勇气指的是大胆跳跃，才能以创新的方式更快地交付价值。
 
 Focus and Commitment refer to the way we handle our work obligations, putting customer value delivery as the highest priority. Lastly, all of this must occur in an environment based on respect for the individuals doing the work, without whom nothing can be created.
 
+专注和承诺是我们处理工作职责的方式，把交付客户价值作为最高优先级。最后，所有这一切都必须发生在一个尊重每个人的工作环境中，否则没有人可以创造任何东西。
+
 Scrum@Scale helps organizations thrive by supporting both a servant-leadership and intent-based leadership model,[^1] which fosters a positive environment for working at a sustainable pace and putting commitment to deliver customer-facing value at the forefront of our efforts.
+
+Scrum@Scale支持仆人式领导风格和基于意图的
+领导力模型，以帮助组织成长，[^1]培养一个以可持续速率进行工作的积极环境，把提供客户价值的承诺放在第一位。
+
 
 ## Getting Started with Scrum@Scale
 ## 利用Scrum@Scale来启动
