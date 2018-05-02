@@ -137,11 +137,11 @@ Scrum Master循环
 
 Besides separating accountability of the “what” and the “how”, Scrum@Scale further aims to build healthy organizations by creating a values-driven culture in an empirical setting. The Scrum values are: Openness, Courage, Focus, Respect, and Commitment. These values drive empirical decision making, which depend on the three pillars of transparency, inspection, and adaptation.
 
-除了区分对“What”与“How”的问责，Scrum@Scale还进一步以实证过程来创建价值驱动的文化，旨在建立健康的组织。Scrum的价值观包括：开放、勇气、专注、尊重和承诺。这些价值驱动着实验性决策，取决于透明、检视和调整这三大支柱。
+除了区分对“What”与“How”的问责，Scrum@Scale还进一步在实证背景下创造价值驱动的文化，旨在建立健康的组织。Scrum的价值观包括：开放、勇气、专注、尊重和承诺。这些价值驱动着实验性决策，而其取决于透明、检视和调整这三大支柱。
 
 Openness supports transparency into all of the work and processes, without which there is no ability to inspect them honestly and attempt to adapt them for the better. Courage refers to taking the bold leaps required to deliver value quicker in innovative ways.
 
-开放支持着所有工作和过程的透明性，没有这种透明度，就无法诚实地检视它们，或更好地调整它们。勇气指的是大胆跳跃，才能以创新的方式更快地交付价值。
+开放支持着所有工作和过程的透明性，没有这种透明度，就无法诚实地检视并试图更好地调整它们。勇气指的是大胆跳跃，这是以创新方式更快地交付价值所需要的。
 
 Focus and Commitment refer to the way we handle our work obligations, putting customer value delivery as the highest priority. Lastly, all of this must occur in an environment based on respect for the individuals doing the work, without whom nothing can be created.
 
@@ -150,19 +150,29 @@ Focus and Commitment refer to the way we handle our work obligations, putting cu
 Scrum@Scale helps organizations thrive by supporting both a servant-leadership and intent-based leadership model,[^1] which fosters a positive environment for working at a sustainable pace and putting commitment to deliver customer-facing value at the forefront of our efforts.
 
 Scrum@Scale支持仆人式领导风格和基于意图的
-领导力模型，以帮助组织成长，[^1]培养一个以可持续速率进行工作的积极环境，把提供客户价值的承诺放在第一位。
+领导力模型，以帮助组织蓬勃发展，[^1]培养一个以可持续速率进行工作的积极环境，致力于将面向客户价值放在努力的第一位。
 
 
 ## Getting Started with Scrum@Scale
-## 利用Scrum@Scale来启动
+## 开始使用Scrum@Scale
 
 When implementing large networks of teams, it is critical to develop a scalable Reference Model for a small set of teams. Any deficiencies in a Scrum implementation will be magnified when multiple teams are deployed.
 
+在实施大型团队网络时，针对少量团队开发出一个可扩展的参考模型是至关重要的。当部署多个团队时，Scrum实施中的任何缺陷都会被放大。
+
 Therefore, the first challenge is to create a small set of teams that implements Scrum well. This set of teams works through organizational issues that block agility and creates a Reference Model for Scrum that is known to work in the organization and can be used as a pattern for scaling Scrum across the organization.
+
+因此，第一个挑战就是建立少量良好实施Scrum的团队。这组团队克服了那些阻碍敏捷性的组织问题，并为Scrum创建一个在组织中众所周知可运行的参考模型，将其用作整个组织范围内扩展Scrum的模式。
+
 
 As the Reference Model of teams accelerates, impediments and bottlenecks that delay delivery, produce waste, or impede business agility become apparent. The most effective way to eliminate these problems is to spread Scrum across the organization so that the entire value stream is optimized.
 
+随着团队参考模型的加速，延迟交付、产生浪费或妨碍业务敏捷性的障碍及瓶颈会变得明显。消除这些问题的最有效方法是在整个组织中传播Scrum，以便优化整个价值流。
+
 Scrum@Scale achieves linear scaling in productivity by saturating the organization with Scrum and distributing velocity and quality organically, consistent with the organization’s specific strategy, product, and services.
+
+Scrum @ Scale通过使组织浸泡在Scrum中，并有机地分配速度和质量，从而实现了生产力的线性扩展，，与组织的特定策略、产品和服务保持一致。
+
 
 # Scrum Master Cycle
 # Scrum Master循环
