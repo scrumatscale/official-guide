@@ -182,9 +182,15 @@ Scrum @ Scale通过使组织浸泡在Scrum中，并有机地分配速度和质�
 
 The **Team-Level Process** is laid out clearly in the Scrum Guide. It is composed of three artifacts, five events, and three roles. The goals of the team level process are to:
 
+在Scrum指南中明确阐述了**团队级过程**。它由三个工件、五个事件和三个角色组成。团队级过程旨在：
+
 * maximize the flow of completed and quality tested work.
 * increase velocity a little each Sprint.
 * operate in a way that is sustainable and enriching for the team.
+
+* 最大限度地使完成和通过质量验证的工作流动起来。
+* 每个Sprint都提高一点点速率。
+* 以一种可持续和丰富的方式运作。
 
 ## Coordinating the “How” – The Scrum of Scrums
 ## 整合如何做事(“How”) - Scrum of Scrums
