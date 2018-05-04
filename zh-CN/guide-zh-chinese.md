@@ -235,12 +235,21 @@ It needs to have all of the skills necessary to deliver a fully integrated poten
 
 The Scrum of Scrums Master (SoSM) is accountable for the release of the joint teams’ effort and must:
 
+SoSM负责联合团队的发布，并且必须：
+
 * make an impediment backlog visible to the organization.
 * remove impediments that the teams cannot address themselves.
 * prioritize the impediments, with particular attention to cross-team dependencies and the distribution of backlog.
 * improve the efficacy of the Scrum of Scrums.
 * work closely with the Product Owners to deploy a potentially releasable Product Increment at least every Sprint.
 * coordinate the teams’ deployment with the Product Owner’s Release Plans.
+
+* 使组织可以看到障碍待办清单。
+* 移除团队自己无法解决的障碍。
+* 对障碍进行排序，特别要关注跨团队依赖和产品待办清单的分配。
+* 提升Scrum of Scrums的效果。
+* 与产品负责人们密切合作，每个Sprint部署至少一个潜在可交付的产品增量。
+* 利用产品负责人的发布计划来整合多团队的部署工作。
 
 ## Scaling the SoS
 ## 扩展SoS
