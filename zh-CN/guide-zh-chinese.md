@@ -197,7 +197,11 @@ The **Team-Level Process** is laid out clearly in the Scrum Guide. It is compose
 
 A set of the teams that have a need to coordinate comprise a **“Scrum of Scrums” (SoS)**. The SoS is a “team of teams,” [^2] which hold a **Scaled Daily Scrum (SDS)** event with a representative from each team (usually the team’s Scrum Master, although any person or number of people may attend). The SDS exists to coordinate teams and remove impediments to delivering value.
 
+一组需要协作的团队组成一个**“Scrum of Scrums” (SoS)**。SOS是“团队的团队”[^2]，每天举行一个**规模化每日站会 (SDS)**事件，每个团队派代表参加（通常是团队的Scrum Master，尽管任何人都可以参加，也可以派多个人参加）。SDS的存在是为了整合团队并移除障碍以交付价值。
+
 The SDS event mirrors the Daily Scrum in that it optimizes the collaboration and performance of the network of teams. Additionally, the SDS:
+
+SDS事件反映了每日站会，优化了团队网络的协作和绩效。另外，SDS：
 
 * is time-boxed to 15 minutes or less.
 * must be attended by a representative of each team.
@@ -206,11 +210,25 @@ The SDS event mirrors the Daily Scrum in that it optimizes the collaboration and
     * Is my team doing anything that will prevent another team from accomplishing their Sprint Goal (or impact their upcoming release)?
     * Have we discovered any new dependencies between the teams or discovered a way to resolve an existing dependency?
 
+* 少于15分钟的时间盒。
+* 每个团队必须派代表参加。
+* 是一个团队代表们解决3个简单问题的论坛：
+	* 我的团队有什么障碍阻止了他们完成他们的Sprint目标（或影响即将发布的版本）？
+    * 我的团队是否在做任何事情阻止了其他团队完成他们的Sprint目标（或影响他们即将发布的版本）？
+    * 我们发现了团队之间的任何新的依赖关系吗，或者找到了解决现有依赖关系的方法吗？
+
+
 This team of Scrum Masters is a Scrum Team unto itself which is responsible for a fully integrated set of potentially shippable increments of product at the end of every Sprint from all participating teams. The SoS team needs to be responsive in real-time to impediments raised by participating teams.
+
+这一组Scrum Master们本身就是一个Scrum团队，负责在每个Sprint末尾从所有参与团队那里完全地集成出一个潜在可交付的产品增量。
 
 A SoS functions as a Release Team and must be able to directly deliver value to customers. To do so effectively, it needs to be consistent with the Scrum Guide; that is, have its own roles, artifacts, and events. This includes a Backlog Refinement event wherein they decide what impediments are “ready” to be removed, how best to remove them, and how the team will know it is “done.” Particular attention should be paid to the SoS Retrospective in which the teams’ representatives share any learnings or process improvements that their individual teams have succeeded with, in order to standardize those practices across the teams within the SoS.
 
+SOS充当一个发布团队，必须能够直接地向客户交付价值。为了能有效地做到这一点，它需要能与Scrum指南一致；也就是说，要有自己的角色，工件和事件。这包括一个待办清单梳理事件，他们在其中决定哪些障碍已经“准备好”被移除，最佳移除障碍的方式是怎样的，团队如何才能知道它是“完成”的。要特别关注SoS回顾，团队代表们在其中分享各自团队中的任何成功的学习收获或流程改进，以便在SOS中的各个团队能够将这些实践标准化下来。
+
 It needs to have all of the skills necessary to deliver a fully integrated potentially shippable product at the end of every Sprint. It has Product Owner representation to resolve prioritization issues. It may need experienced architects, QA Leaders, and other operational skill sets. When starting Scrum@Scale the teams may not have an infrastructure that supports continuous deployment. This may force the SoS to set up an “integration team” or “release team” that generates the extra work required to overcome engineering deficiencies. The SoS is encouraged to address impediments to integration and deployment aggressively as it creates an environment for hyper-productivity, e.g. Amazon has 3300 Scrum teams deploying on average more than once per second[^3].
+
+为了在每个Sprint结束时交付一个完全集成的潜在可交付产品，它需要具备所需的所有技能。它具有产品负责人代表来解决优先级问题。它可能需要经验丰富的架构师，QA负责人和其他操作技能组。当启动Scrum@Scale时，团队们可能还不具备能够支持持续部署的基础架构。这会迫使SoS建立一个“集成团队”或“发布团队”，以完成克服工程缺陷所需的额外工作。SoS被鼓励去激进地地解决集成和部署的障碍，因为它创造了一个超高生产力的环境，例如，亚马逊有3300个Scrum团队，平均每秒部署超过一次[^3]。
 
 ## The Scrum of Scrums Master (SoSM)
 ## Scrum of Scrums Master (SoSM)
