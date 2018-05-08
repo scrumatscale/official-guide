@@ -446,23 +446,37 @@ The goals of having Metrics and Transparency are to:
 
 The scale-free nature of Scrum@Scale allows the design of the organization to be component-based, just like the framework itself. This permits for rebalancing or refactoring of teams in response to the market. As an organization grows, capturing the benefits of distributed teams may be important. Some organizations reach talent otherwise unavailable and are able to expand and contract as needed through outsourced development. Scrum@Scale shows how to do this while avoiding long lag times, compromised communications, and inferior quality, enabling linear scalability both in size and global distribution.[^5]
 
+Scrum@Scale的任意扩展属性允许将组织设计为组件单位的，就像框架本身一样。它允许根据市场的反馈来重新平衡和重构团队。伴随一个组织的增长，获取分布式团队的益处可能更为重要。有些组织获取人才，无法获取的时候则通过外包开发来扩展和签约。Scrum@Scale展示了如何在规避长的延迟时间，妥协的沟通以及不佳的质量，在规模上和全球地理分布的线性扩张的同时扩展。[^5]
+
 ![](VariableSoS-R2.png)
 ![](OrganizationalDiagram.png)
 
 In this organizational diagram, the **Knowledge & Infrastructure Teams** represent virtual teams of specialists of which there are too few to staff each team. They coordinate with the Scrum teams as a group via service-level agreements where requests flow through a PO for each specialty who converts them into a transparent ordered backlog. An important note is that these teams are NOT silos of individuals who sit together (this is why they are represented as hollow pentagons); their team members sit on the actual Scrum teams, but they make up this virtual Scrum of their own for the purpose of backlog dissemination and process improvement.
 
+在这个组织图中，这个**知识和基础设施组**对应了一个虚拟的专业团队因为他们对于其他团队来说拥有更少的人数。他们像一个组一样，遵照同样的服务水平协议，每个专员需要通过一个PO把需求翻译为透明的排序的待办事项。值得注意的是，这些团队并不是坐在一起的一群各自为政的个体(这是为什么他们被标记为中空的多边形）；这些团队成员坐在实际的Scrum团队一起，但是他们作为自己的虚拟Scrum是为了代办事项传播和过程改进的目的。
+
 **Customer Relations, Legal / Compliance, and People Operations** are included here since they are necessary parts of organizations and will exist as independent Scrum teams on their own which all of the others may rely upon.
 
+**客户关系，法务/合规和人的组织**也在这里，是因为他们是组织中必要的部分，并且独立于Scrum团队存在，且其他部门依赖于他们。
+
 A final note on the representation of the EAT & EMS: in this diagram, they are shown as overlapping since 2 members sit on both of the teams. In very small organizations or implementations, the EAT & EMS may consist entirely of the same team members.
+
+关于EAT和EMS的最后的注意事项：在这个图中，他们由于两个人都在这个团队中，看起来是重叠了。在非常小的组织或者实现中，EAT和EMS可以始终是同一组人。
 
 ## End Note
 ## 结束语
 
 Scrum@Scale is designed to scale productivity, to get the entire organization doing twice the work in half the time with higher quality and in a significantly improved work environment. Large organizations that properly implement the framework can cut the cost of their products and services while improving quality and innovation.
 
+Scrum@Scale是为了扩展生产性而设计的，为了获得整个组织能够事半功倍且高质量的，并且在一个显著改善的工作环境中。在大型组织中适当的应用本框架可以削减产品和服务的成本且带来质量和创新的提升。
+
 Scrum@Scale is designed to saturate an organization with Scrum. All teams, including Leadership, Human Resources, Legal, Consulting & Training, and product & service teams, implement the same style of Scrum while streamlining and enhancing an organization.
 
+Scrum@Scale是为了让Scrum浸透组织而设计的，包含了领导力，人力资源，法务，咨询和培训，以及产品和服务团队。是在精简和提升组织的时候采用统一种风格的Scrum。
+
 Well implemented Scrum can run an entire organization.
+
+很好的实施的Scrum可以在整个组织中流淌。
 
 ## Acknowledgements
 ## 致谢
