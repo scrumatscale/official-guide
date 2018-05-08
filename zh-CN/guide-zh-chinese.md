@@ -416,6 +416,8 @@ The goals of Release Planning are to:
 
 The **Feedback** component is the second point where the PO & SM Cycles touch. Product feedback drives continuous improvement through adjusting the Product Backlog while Release feedback drives continuous improvement through adjusting the Deployment mechanisms. The goals of obtaining and analyzing Feedback are to:
 
+**反馈**组件是PO和SM圈接触的第二个点。产品反馈通过调整产品待办驱动持续改进，发布反馈通过调整开发机制驱动持续改进。获取和分析反馈的目标是：
+
 * validate our assumptions.
 * understand how customers use and interact with the product.
 * capture ideas for new features and functionality.
@@ -423,23 +425,45 @@ The **Feedback** component is the second point where the PO & SM Cycles touch. P
 * update progress towards product/project completion to refine release planning and stakeholder alignment.
 * identify improvements to deployment methods and mechanisms.
 
+* 验证我们的假设
+* 理解顾客如何使用产品和与产品互动
+* 获取新特性和新功能的创意
+* 定义已有功能的改进
+* 朝着产品/项目完成的方向更新进度以优化发布计划和与干系人对齐
+* 识别发布方法和机制的改进项
+
 ## Metrics & Transparency
 ## 度量与透明性
 
 Radical transparency is essential for Scrum to function optimally, but it is only possible in an organization that has embraced the Scrum values. It gives the organization the ability to honestly assess its progress and to inspect and adapt its products and processes. This is the foundation of the empirical nature of Scrum as laid out in the Scrum Guide.
 
+彻底的透明性是Scrum最佳状态运作的基础，但是只在能够拥抱Scrum价值观的组织中可行。它给组织提供了诚实获取进度并检视和适应其产品及过程的能力。这是Scrum Guide中记载的Scrum的试验性本性的基石。
+
 Both the SM & PO Cycles require metrics that will be decided upon by the separate SM and PO organizations. Metrics may be unique to both specific organizations as well as to specific functions within those organizations. Scrum@Scale does not require any specific set of metrics, but it does suggest that at a bare minimum, the organization should measure:
+
+SM和PO各自圈所需要的数字应该由SM和PO的组织分别来决策。数字可以像组织的特定功能一样是对两个组织都是唯一的。Scrum@Scale并不要求任何特定的数字组合，不过推荐最低配置，组织应该度量如下数据:
 
 * Productivity – e.g. change in amount of Working Product delivered per Sprint
 * Value Delivery – e.g. business value per unit of team effort
 * Quality – e.g. defect rate or service downtime
 * Sustainability – e.g. team happiness
 
+* 生产性 —— 例如，每个Sprint能够交付的可工作产品的总量变化
+* 价值交付 —— 例如，单元团队工作量能够带来的商业价值
+* 质量 —— 例如，缺陷率或者服务宕机时间
+* 可持续性 —— 例如，团队满意度
+
 The goals of having Metrics and Transparency are to:
+
+设置这些度量指标以及透明性是为了：
 
 * provide all decision makers, including team members, with appropriate context to make good decisions.
 * shorten feedback cycles as much as possible to avoid over-correction.
 * require minimal additional effort by teams, stakeholders or leadership.
+
+* 给所有的决策者，包括团队成员在内，以适当的语境用于做良好的决策。
+* 尽量缩短反馈周期以规避矫枉过正
+* 需要团队，干系人和领导最低的额外投入。
 
 ## Some notes on Organizational Design
 ## 关于组织设计的一些说明
