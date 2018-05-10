@@ -299,7 +299,11 @@ Sample Diagram showing an EAT coordinating 5 groupings of 25 teams
 
 Scrum is an agile operating system that is different from traditional project management. The entire SM organization reports into the EAT, which is responsible for implementing this agile operating system by establishing, maintaining, and enhancing the implementation in the organization. The EAT’s role is to create an Organizational Transformation Backlog (a prioritized list of the agile initiatives that need to be accomplished) and see that it is carried out. For example, if there is a traditional Product Development Life Cycle in the old organization, a new agile Product Development Life Cycle needs to be created, implemented, and supported. It will typically support quality and compliance issues better than the old method but be implemented in a different way with different rules and guidelines. There are many other aspects of organizational development and governance that may need retuning.
 
+Scrum是一个区别于传统项目管理的敏捷组织系统。整个SM组织汇报给负责在组织内建立，维护和提升其打造的敏捷操作系统的EAT。EAT的角色是创建组织转型待办事项（一个经过排序的待完成的敏捷举措）和确保它成功。例如，如果在一个旧组织中有一个传统的产品开发生命周期，一个新的敏捷产品开发生命周期需要被创建、实现和支持。它会比旧组织典型的更好地支持质量和合规事项，但是需要一套不同的规则和指南。组织发展和治理也有很多不同的层面需要调优。
+
 The EAT is accountable for the quality of Scrum within the organization. Its responsibilities include but are not limited to:
+
+EAT对于整个组织的Scrum质量负责。它的职责包括但不仅限于：
 
 * creating an agile operating system for the Reference Model as it scales through the organization, including corporate operational rules, procedures, and guidelines to enable agility.
 * measuring and improving the quality of Scrum in the organization.
@@ -307,7 +311,15 @@ The EAT is accountable for the quality of Scrum within the organization. Its res
 * creating a center for continuous learning for Scrum professionals.
 * supporting the exploration of new ways of working.
 
+* 创建敏捷操作系统的参考模型以扩展到整个组织，包括企业操作规则，过程和指南以使能敏捷性。
+* 度量和改进组织内的Scrum质量
+* 构建组织内商业敏捷性的能力
+* 创建为Scrum专业性的持续学习中心
+* 支持探索新的工作方法
+
 Finally, the EAT must set up and support a corresponding Product Owner organization through associations of PO’s that mirror the SoS’s and scale their PO functions. These teams of PO’s and key stakeholders are known as **MetaScrums**.
+
+最终，EAT必须通过PO的联合建立和支持对应的的PO组织以反映出SoS和扩展PO的功能。这些团队的PO和关键干系人被称为**元Scrum**
 
 ## Outputs/Outcomes of the Scrum Master Organization
 ## Scrum Master组织的输出/效果
