@@ -393,7 +393,10 @@ Some sample diagrams:
 ## 高管的MetaScrum（EMS)
 The MetaScrums enable a network design of Product Owners which is infinitely scalable alongside their associated SoS’s. The MetaScrum for the entire agile organization is the Executive MetaScrum. The EMS owns the organizational vision and sets the strategic priorities for the whole company, aligning all the teams around common goals.
 
+元Scrum允许PO和其配套的SoS无限扩展的网状设计。整个敏捷组织的元Scrum是高管元Scrum。EMS拥有组织的愿景和设置整个公司的战略优先级，并且对齐各个团队围绕共同目标。
+
 Sample diagram showing an EMS coordinating 5 groups of 25 teams:
+例图展示了EMS将25个团队组协调成5个组：
 
 ![](ExecMetaScrum.png)
 
