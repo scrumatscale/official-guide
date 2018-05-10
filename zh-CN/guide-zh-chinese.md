@@ -357,11 +357,21 @@ MetaScrums, just like SoS’s, function as Scrum teams on their own. As such, th
 
 Through the MetaScrums, Chief Product Owners coordinate priorities among Product Owners who work with individual teams. They align backlog priorities with Stakeholder and Customer needs. Just like a SoSM, they may be an individual team PO who chooses to play this role as well, or they may be a person specifically dedicated to this role. Their main responsibilities are the same as a regular PO’s, but at scale:
 
+通过元Scrum，首席产品负责人通过和各个单独团队合作的Product Owner协调优先级。他们用干系人以及顾客需求来协调待办事项的优先级。像SoSM一样，他们可以是单独的选择扮演这个角色的PO团队，或者是一个人专注于这个角色。他们的主要职责和通常的PO是一样的，不过在扩展方面：
+
 * Setting a strategic vision for the whole product.
 * Creating a single, prioritized backlog of value to be delivered by all of the teams.
 * these items would be larger stories than that for a team PO.
 * Working closely with their associated SoSM so that the Release Plan that the MetaScrum team generates can be deployed efficiently.
 * Monitoring customer product feedback and adjusting the backlog accordingly.
+
+
+* 建立整个产品的战略愿景
+* 创建一个唯一的，排序过的待办事项，用于被所有的团队交付其价值。
+* 这些事项对于一个团队PO来说是较大的故事。
+* 和SoSM在一起工作，以更有效的交付元Scrum团队创建的发布计划。
+* 监控顾客对产品的反馈并相应的调整待办事项。
+
 
 ## Scaling the MetaScrum
 ## 扩展MetaScrum？
