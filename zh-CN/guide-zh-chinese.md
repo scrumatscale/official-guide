@@ -283,11 +283,14 @@ SoSoS of 25 Teams
 **注意：**尽管Scrum指南将最优团队规模定义为3到9人，但哈佛大学的研究认为最优团队规模为4.6人。[^4]针对高绩效Scrum团队的研究一再表明4或5人在一起工作是最优人数。对于SoS中的团队数量，这种模式带来的线性可扩展性是至关重要的。因此，在上图和下图中，选择了五边形来表示一个5人团队。这些图仅仅是示例，您的组织图表可能会有很大差异。
 
 ## The Executive Action Team
-## 行政措施小组（Executive Action Team）
+## 高管措施小组（Executive Action Team）
 
 The Scrum of Scrums for the entire agile organization is called the Executive Action Team (EAT). The EAT is the final stop for impediments that cannot be removed by the SoS’s that feed it. Therefore, it must be comprised of individuals who are empowered, politically and financially, to remove them. The function of the EAT is to coordinate multiple SoS’s (or SoSoS’s). As with any Scrum team, it needs a PO and SM. It would be best if the EAT met daily as a Scrum team. They must meet at least once per Sprint and have a transparent backlog.
 
+在整个敏捷组织中的Scrum of Scrums被称为高管措施小组（EAT）。EAT是SoS不能移除的障碍的终点站。所以它必须由在政策上的和财务上的经过赋能的个人组成，来移除这些障碍。EAT的功能是协作多个SoS（或者SoSoS）。和任何Scrum团队一样，它也需要PO和SM。最好是像Scrum团队也一样EAT可以每天在一起。至少在一个冲刺中他们见一次，并且有一个透明的待办事项。
+
 Sample Diagram showing an EAT coordinating 5 groupings of 25 teams
+例图展示了EAT协调25个团队为5个组。
 
 ![](SoS-EAT.png)
 
