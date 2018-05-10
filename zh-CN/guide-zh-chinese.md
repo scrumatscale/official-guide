@@ -326,23 +326,44 @@ Finally, the EAT must set up and support a corresponding Product Owner organizat
 
 The SM organization (SoS, SoSoS, and EAT) work as a whole to complete the other components of the Scrum Master Cycle: **Continuous Improvement and Impediment Removal, Cross-Team Coordination, and Deployment.**
 
+SM组织（SoS，SoSoS和EAT）作为一个整体来完成他们的Scrum Master 循环的组件：
+**持续改进和障碍移除，跨团队协调，和发布**
+
 The goals of Continuous Improvement and Impediment Removal are to:
+
+持续改进和障碍移除的目标是：
 
 * identify impediments and reframe them as opportunities.
 * maintain a safe and structured environment for prioritizing and removing impediments, and then verifying the resulting improvements.
 * ensure visibility in the organization to effect change.
 
+* 标识障碍并转化为机遇
+* 维护一个安全的和结构化的环境以排序和移除障碍，并验证和落实改进
+* 确保组织内的可见性以产生改变
+
 The goals of Cross-Team Coordination are to:
+
+跨团队协调的目标是：
 
 * coordinate similar processes across multiple related teams.
 * manage cross-team dependencies to ensure they don’t become impediments.
 * maintain alignment of team norms and guidelines for consistent output.
 
+* 协调多个相关团队的类似流程。
+* 管理跨团队依赖以确保不变成障碍。
+* 为确保持续的输出维护团队标准和指南的一致性。
+
 Since the goal of the SoS is to function as a release team, the deployment of product falls under their scope, while what is contained in any release falls under the scope of the Product Owners. Therefore, the goals of the Deployment are to:
+
+由于SoS的目标是像一个发布团队一样工作，产品的发布瀑布也其范围，其包含在任何一个PO的范围内的发布瀑布。因此，发布的目标是：
 
 * deliver a consistent flow of valuable finished product to customers.
 * integrate the work of different teams into one seamless product.
 * ensure high quality of the customer experience.
+
+* 交付持续流动的有价值的完成产品给客户。
+* 将不同组的工作集成到一个无缝的产品。
+* 确保用户体验的高质量。
 
 # Product Owner Cycle
 # 产品负责人循环
