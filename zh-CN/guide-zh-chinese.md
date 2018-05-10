@@ -605,11 +605,15 @@ Well implemented Scrum can run an entire organization.
 
 We acknowledge IDX for the creation of the Scrum of Scrums which first allowed Scrum to scale to hundreds of teams,[^6] PatientKeeper for the creation of the MetaScrum,[^7] which enabled rapid deployment of innovative product, and OpenView Venture Partners for scaling Scrum to the entire organization.[^8] We value input from Intel with over 25,000 people doing Scrum who taught us “nothing scales” except a scale-free architecture, and SAP with the largest Scrum team product organization who taught us management involvement in the MetaScrum is essential to get 2,000 Scrum teams to work together.
 
+我们感谢IDX创建了Scrum of Scrums，它把Scrum规模化到上百个团队，[^6]PatientKeeper创建了元Scrum，[^7]它带来的创新产品的快速发布，以及OpenView Venture Partners带来的扩展Scrum到整个组织。[^8] 我们珍视从英特尔超过二万五千人做Scrum的输入中教会我们的“无物扩展”，除了扩展本身——灵活的架构，还有SAP大规模Scrum团队产品组织教会我们的把管理者引入到元Scrum是超过2000个Scrum团队一起工作的基础。
+
 The agile coaches and trainers implementing these concepts at Amazon, GE, 3M, Toyota, Spotify, and many other companies working with Jeff Sutherland have been helpful in testing these concepts across a wide range of companies in different domains.
+
+敏捷教练和培训师在亚马逊，GE，3M，丰田，Spotify和很多其他公司实现了自己的概念。和Jeff Sutherland一起工作过的经验对于在更广范围的不同领域的公司验证这些概念是非常有帮助的。
 
 And finally, Avi Schneier and Alex Sutherland have been invaluable in formulating and editing this document.
 
-
+最后，Avi Schneier和Alex Sutherland在系统化和编辑本文中是价值无量的。
 
 
 [^1]: Marquet, L David, Turn the Ship Around!: How to Create Leadership at Every Level, Greenleaf Book Group, 2012
