@@ -377,11 +377,17 @@ Through the MetaScrums, Chief Product Owners coordinate priorities among Product
 ## 扩展MetaScrum？
 Just as SoS’s can grow into SoSoS’s, MetaScrums can also expand by the same mechanism. There is no specific term associated with these expanded units, nor do the CPO’s of them have specific expanded titles. We encourage each organization to develop their own. For the following diagrams, we have chosen to add an additional “Chief” to the title of those PO’s as they magnify out.
 
+如同SoS可以增长到SoSoS，元Scrum可以以同样的机制进行扩展。没有专门的术语对应这些扩展单元，对应的CPO们也没有专门的扩展职称。我们鼓励每个组织发展自己的。下图中，我们选择增加“首席”突出这些PO们职称。
+
 Some sample diagrams:
+
+一些图的例子。
 
 ![](MetaScrum-R2.png)
 
 **NOTE: **As mentioned above, these pentagons represent the ideal sized Scrum teams and ideal sized MetaScrums. These diagrams are meant to be examples only, your organizational diagram may differ greatly.
+
+**注意： **如上所述，这些多边形代表Scrum团队的理想规模和元Scrum的理想规模。这些图仅表示例子，您的组织可能会显著不同。
 
 ## The Executive MetaScrum (EMS)
 ## 高管的MetaScrum（EMS)
