@@ -441,30 +441,57 @@ Sample diagram showing an EMS coordinating 5 groups of 25 teams:
 
 The PO organization (various MetaScrums, the CPO’s, and the Executive MetaScrum) work as a whole to satisfy the components of the Product Owner Cycle: **Strategic Vision, Backlog Prioritization, Backlog Decomposition & Refinement, and Release Planning.**
 
+产品负责人组织(多种元Scrum，CPO和高管元Scrum)作为整体工作以满足PO循环的组件：**战略愿景,待办事项优先级排序，待办事项分解和优化以及发布计划**
+
 The goals of setting a Strategic Vision are to:
+
+设置战略愿景的目标是：
 
 * clearly align the entire organization along a shared path forward.
 * compellingly articulate why the organization exists.
 * describe what the organization will do to leverage key assets in support of its mission.
 * update continuously to respond to rapidly changing market conditions.
 
+* 透过一个共享的路径清晰的对齐整个组织。
+* 准确而有力的表达组织为什么存在。
+* 描述组织会做什么去调度其关键资产以支持其使命。
+* 持续更新以响应快速变化的市场条件。
+
 The goals of Backlog Prioritization are to:
+
+待办事项优先级排序的目标是：
 
 * identify a clear ordering for products, features, and services to be delivered.
 * reflect value creation, risk mitigation and internal dependencies in ordering of the backlog.
 * prioritize the high-level initiatives across the entire agile organization prior to Backlog Decomposition and Refinement.
 
+* 识别一个清晰的待交付的产品，功能和服务的顺序。
+* 通过待办事项的顺序反映价值创造，风险缓解和内部依赖的顺序。
+* 在组织内排序高级别的举措以分解和优化待办事项。
+
 The goals of Backlog Decomposition & Refinement are to:
+
+待办事项分解和优化的目标是：
 
 * break complex projects and products into independent functional elements that can be completed by one team in one Sprint.
 * capture and distill emerging requirements and customer feedback.
 * ensure all backlog items are truly “Ready” so that they can be pulled by the individual teams.
 
+* 把复杂项目和产品分解为独立的、可工作的、可以由一个团队在一个Sprint中完成的元素。
+* 获取和提炼涌现的需求和客户反馈。
+* 确保所有的待办事项项目是真的“就绪”以被各自团队拉取。
+
 The goals of Release Planning are to:
+
+发布计划的目标是：
 
 * forecast delivery of key features and capabilities.
 * communicate delivery expectations to stakeholders.
 * update prioritization, as needed.
+
+* 预报关键特性和能力的交付
+* 和干系人沟通交付预期
+* 按需更新排序
 
 ## Understanding Feedback
 ## 理解反馈
