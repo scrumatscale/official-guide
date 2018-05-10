@@ -373,10 +373,17 @@ Since the goal of the SoS is to function as a release team, the deployment of pr
 
 A group of Product Owners who need to coordinate a single backlog that feeds a Scrum of Scrums are themselves a team called a **MetaScrum**. For each SoS there is an associated MetaScrum. A MetaScrum aligns the teams’ priorities along a single path so that they can coordinate their backlogs and build alignment with stakeholders to support the backlog. MetaScrums hold a scaled version of Backlog Refinement.
 
+一组产品负责人协调一个唯一的待办事项给Scrum of Scrums称为元Scrum。每个SoS都有一个组合的对应的元Scrum。元Scrum在同一路径上对团队的优先级对齐，这样他们可以协调他们的待办事项并和干系人构建一致性以支持待办事项。元Scrum把握一份扩展版本的待办事项优化。
+
 * Each team PO (or proxy) must attend
 * This event is the forum for Leadership, Stakeholders, or other Customers to express their preferences
 
+* 每个产品负责人（或者代理）都必须参加
+* 这个事件是领导、干系人或其他客户的论坛以表达他们的倾向
+
 This event occurs as often as needed, at least once per Sprint, to ensure a Ready backlog. The main functions of the MetaScrum are to:
+
+这个事件按需发生，至少每个冲刺一次以确保一个“就绪”待办事项。元Scrum的主要功能是：
 
 * create an overarching vision for the product & make it visible to the organization.
 * build alignment with key stakeholders to secure support for backlog implementation.
@@ -386,7 +393,16 @@ This event occurs as often as needed, at least once per Sprint, to ensure a Read
 * generate a coordinated Release Plan.
 * decide upon and monitor metrics that give insight into the product.
 
+* 创建产品的一个首要愿景并且使之对整个组织可见。
+* 和干系人构建一致性以确保其对产品待办事项实现的支持。
+* 创建一个唯一的排序的待办事项列表；确保规避了重复工作。
+* 创建在SoS内所有团队统一的“完成的定义”。
+* 排除由于SoS而带来的依赖。
+* 基于能够反应产品的快照的数字进行决策并监控。
+
 MetaScrums, just like SoS’s, function as Scrum teams on their own. As such, they need to have someone who acts as a SM and keeps the team on track in discussions. They also need a single person who is responsible for coordinating the generation of a single Product Backlog for all of the teams covered by the MetaScrum. This person is designated as the **Chief Product Owner.**
+
+元Scrum，就如同SoS一样作为Scrum团队自己工作。所以，需要一个SM来保持团队在沟通的轨道上。他们需要一个唯一的人来负责为所有被元Scrum覆盖的团队协调和创建唯一的产品待办事项。这个人被设计为“首席产品负责人”。
 
 ## The Chief Product Owner (CPO)
 ## 产品总负责人(CPO)
