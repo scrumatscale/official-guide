@@ -214,8 +214,8 @@ SDS事件反映了每日站会，优化了团队网络的协作和绩效。另�
 * 每个团队必须派代表参加。
 * 是一个团队代表们解决3个简单问题的论坛：
 	* 我的团队有什么障碍阻止了他们完成他们的Sprint目标（或影响即将发布的版本）？
-    * 我的团队是否在做任何事情阻止了其他团队完成他们的Sprint目标（或影响他们即将发布的版本）？
-    * 我们发现了团队之间的任何新的依赖关系吗，或者找到了解决现有依赖关系的方法吗？
+	* 我的团队是否在做任何事情阻止了其他团队完成他们的Sprint目标（或影响他们即将发布的版本）？
+	* 我们发现了团队之间的任何新的依赖关系吗，或者找到了解决现有依赖关系的方法吗？
 
 
 This team of Scrum Masters is a Scrum Team unto itself which is responsible for a fully integrated set of potentially shippable increments of product at the end of every Sprint from all participating teams. The SoS team needs to be responsive in real-time to impediments raised by participating teams.
@@ -280,7 +280,7 @@ SoSoS of 25 Teams
 **NOTE:** While the Scrum Guide defines the optimal team size as being 3 to 9 people, Harvard research determined that optimal team size is 4.6 people.[^4] Experiments with high performing Scrum teams have repeatedly shown that 4 or 5 people doing the work is the optimal size. It is essential to linear scalability that this pattern be the same for the number of teams in a SoS. Therefore, in the above and following diagrams, pentagons were chosen to represent a team of 5. These diagrams are meant to be examples only, your organizational diagram may differ greatly.
 
 
-**注意：**尽管Scrum指南将最优团队规模定义为3到9人，但哈佛大学的研究认为最优团队规模为4.6人。[^4]针对高绩效Scrum团队的研究一再表明4或5人在一起工作是最优人数。对于SoS中的团队数量，这种模式带来的线性可扩展性是至关重要的。因此，在上图和下图中，选择了五边形来表示一个5人团队。这些图仅仅是示例，您的组织图表可能会有很大差异。
+**注意：** 尽管Scrum指南将最优团队规模定义为3到9人，但哈佛大学的研究认为最优团队规模为4.6人。[^4] 针对高绩效Scrum团队的研究一再表明4或5人在一起工作是最优人数。对于SoS中的团队数量，这种模式带来的线性可扩展性是至关重要的。因此，在上图和下图中，选择了五边形来表示一个5人团队。这些图仅仅是示例，您的组织图表可能会有很大差异。
 
 ## The Executive Action Team
 ## 高管措施小组（Executive Action Team）
@@ -429,7 +429,7 @@ Through the MetaScrums, Chief Product Owners coordinate priorities among Product
 ## 扩展MetaScrum？
 Just as SoS’s can grow into SoSoS’s, MetaScrums can also expand by the same mechanism. There is no specific term associated with these expanded units, nor do the CPO’s of them have specific expanded titles. We encourage each organization to develop their own. For the following diagrams, we have chosen to add an additional “Chief” to the title of those PO’s as they magnify out.
 
-如同SoS可以增长到SoSoS，元Scrum可以以同样的机制进行扩展。没有专门的术语对应这些扩展单元，对应的CPO们也没有专门的扩展职称。我们鼓励每个组织发展自己的。下图中，我们选择增加“首席”突出这些PO们职称。
+如同SoS可以增长到SoSoS，元Scrum可以以同样的机制进行扩展。没有专门的术语对应这些扩展单元，对应的CPO们也没有专门的扩展职称。我们鼓励每个组织发展自己的。下图中，我们选择再增加一个“首席”突出这些PO们职称。
 
 Some sample diagrams:
 
@@ -437,9 +437,9 @@ Some sample diagrams:
 
 ![](MetaScrum-R2.png)
 
-**NOTE: **As mentioned above, these pentagons represent the ideal sized Scrum teams and ideal sized MetaScrums. These diagrams are meant to be examples only, your organizational diagram may differ greatly.
+**NOTE:** As mentioned above, these pentagons represent the ideal sized Scrum teams and ideal sized MetaScrums. These diagrams are meant to be examples only, your organizational diagram may differ greatly.
 
-**注意： **如上所述，这些多边形代表Scrum团队的理想规模和元Scrum的理想规模。这些图仅表示例子，您的组织可能会显著不同。
+**注意：** 如上所述，这些多边形代表Scrum团队的理想规模和元Scrum的理想规模。这些图仅表示例子，您的组织可能会显著不同。
 
 ## The Executive MetaScrum (EMS)
 ## 高管的MetaScrum（EMS)
@@ -571,15 +571,24 @@ The scale-free nature of Scrum@Scale allows the design of the organization to be
 Scrum@Scale的任意扩展属性允许将组织设计为组件单位的，就像框架本身一样。它允许根据市场的反馈来重新平衡和重构团队。伴随一个组织的增长，获取分布式团队的益处可能更为重要。有些组织获取人才，无法获取的时候则通过外包开发来扩展和签约。Scrum@Scale展示了如何在规避长的延迟时间，妥协的沟通以及不佳的质量，在规模上和全球地理分布的线性扩张的同时扩展。[^5]
 
 ![](VariableSoS-R2.png)
+
+
 ![](OrganizationalDiagram.png)
+
+客户关系
+法务/合规
+人力组织 (敏捷HR)
+知识团队
+基础设施团队
+CCPO首席总产品负责人
 
 In this organizational diagram, the **Knowledge & Infrastructure Teams** represent virtual teams of specialists of which there are too few to staff each team. They coordinate with the Scrum teams as a group via service-level agreements where requests flow through a PO for each specialty who converts them into a transparent ordered backlog. An important note is that these teams are NOT silos of individuals who sit together (this is why they are represented as hollow pentagons); their team members sit on the actual Scrum teams, but they make up this virtual Scrum of their own for the purpose of backlog dissemination and process improvement.
 
-在这个组织图中，这个**知识和基础设施组**对应了一个虚拟的专业团队因为他们对于其他团队来说拥有更少的人数。他们像一个组一样，遵照同样的服务水平协议，每个专员需要通过一个PO把需求翻译为透明的排序的待办事项。值得注意的是，这些团队并不是坐在一起的一群各自为政的个体(这是为什么他们被标记为中空的多边形）；这些团队成员坐在实际的Scrum团队一起，但是他们作为自己的虚拟Scrum是为了代办事项传播和过程改进的目的。
+在这个组织图中，这个**知识和基础设施团队**对应了一个虚拟的专业团队因为他们对于其他团队来说拥有更少的人数。他们像一个组一样，遵照同样的服务水平协议，每个专员需要通过一个PO把需求翻译为透明的排序的待办事项。值得注意的是，这些团队并不是坐在一起的一群各自为政的个体(这是为什么他们被标记为中空的多边形）；这些团队成员坐在实际的Scrum团队一起，但是他们作为自己的虚拟Scrum是为了待办事项传播和过程改进的目的。
 
 **Customer Relations, Legal / Compliance, and People Operations** are included here since they are necessary parts of organizations and will exist as independent Scrum teams on their own which all of the others may rely upon.
 
-**客户关系，法务/合规和人的组织**也在这里，是因为他们是组织中必要的部分，并且独立于Scrum团队存在，且其他部门依赖于他们。
+**客户关系，法务/合规和人力组织**也在这里，是因为他们是组织中必要的部分，并且独立于Scrum团队存在，且其他部门依赖于他们。
 
 A final note on the representation of the EAT & EMS: in this diagram, they are shown as overlapping since 2 members sit on both of the teams. In very small organizations or implementations, the EAT & EMS may consist entirely of the same team members.
 
