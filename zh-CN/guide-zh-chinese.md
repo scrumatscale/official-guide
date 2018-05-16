@@ -379,17 +379,17 @@ SoS的目标是像个发布团队一样工作，因此产品部署也是其分�
 
 A group of Product Owners who need to coordinate a single backlog that feeds a Scrum of Scrums are themselves a team called a **MetaScrum**. For each SoS there is an associated MetaScrum. A MetaScrum aligns the teams’ priorities along a single path so that they can coordinate their backlogs and build alignment with stakeholders to support the backlog. MetaScrums hold a scaled version of Backlog Refinement.
 
-一组产品负责人协调一个唯一的待办事项给Scrum of Scrums称为元Scrum。每个SoS都有一个组合的对应的元Scrum。元Scrum在同一路径上对团队的优先级对齐，这样他们可以协调他们的待办事项并和干系人构建一致性以支持待办事项。元Scrum把握一份扩展版本的待办事项优化。
+如果一组产品负责人有必要整合一个唯一的待办清单，以供Scrum of Scrums来工作，那么他们自己就形成一个团队称为**元Scrum**。每个SoS都有一个对应的元Scrum。元Scrum沿着同一路径来对齐多个团队的优先级，这样他们就可以整合多个待办清单，并和干系人保持一致以得到他们对待办清单的支持。元Scrum举行一种规模化的待办清单梳理活动。
 
 * Each team PO (or proxy) must attend
 * This event is the forum for Leadership, Stakeholders, or other Customers to express their preferences
 
-* 每个产品负责人（或者代理）都必须参加
-* 这个事件是领导、干系人或其他客户的论坛以表达他们的倾向
+* 每个产品负责人（或其代理）都必须参加
+* 这个事件是领导者、干系人或其他客户表达各自倾向的论坛
 
 This event occurs as often as needed, at least once per Sprint, to ensure a Ready backlog. The main functions of the MetaScrum are to:
 
-这个事件按需发生，至少每个冲刺一次以确保一个“就绪”待办事项。元Scrum的主要功能是：
+这个事件按需发生，每个Sprint至少发生一次，以确保一个“就绪”的待办清单。元Scrum的主要职能是：
 
 * create an overarching vision for the product & make it visible to the organization.
 * build alignment with key stakeholders to secure support for backlog implementation.
@@ -399,23 +399,23 @@ This event occurs as often as needed, at least once per Sprint, to ensure a Read
 * generate a coordinated Release Plan.
 * decide upon and monitor metrics that give insight into the product.
 
-* 创建产品的一个首要愿景并且使之对整个组织可见。
-* 和干系人构建一致性以确保其对产品待办事项实现的支持。
-* 创建一个唯一的排序的待办事项列表；确保规避了重复工作。
-* 创建在SoS内所有团队统一的“完成的定义”。
-* 排除由于SoS而带来的依赖。
-* 基于能够反应产品的快照的数字进行决策并监控。
+* 创建产品的主要愿景并且使之对整个组织可见。
+* 和干系人保持一致以确保他们支持产品待办清单的实现。
+* 创建唯一的排序的待办清单；确保规避了重复工作。
+* 针对SoS内所有团队创建统一的“完成的定义”。
+* 消除由SoS提出的依赖。
+* 监控能够洞察产品的度量，并基于其进行决策。
 
 MetaScrums, just like SoS’s, function as Scrum teams on their own. As such, they need to have someone who acts as a SM and keeps the team on track in discussions. They also need a single person who is responsible for coordinating the generation of a single Product Backlog for all of the teams covered by the MetaScrum. This person is designated as the **Chief Product Owner.**
 
-元Scrum，就如同SoS一样作为Scrum团队自己工作。所以，需要一个SM来保持团队在沟通的轨道上。他们需要一个唯一的人来负责为所有被元Scrum覆盖的团队协调和创建唯一的产品待办事项。这个人被设计为“首席产品负责人”。
+类似于SoS，多个元Scrum本身也作为Scrum团队来运作。所以，需要某人来扮演SM来保持团队的正常沟通。他们还需要唯一的人来负责协调，使得元Scrum覆盖的所有团队创建出唯一的产品待办清单。这个人被指定为**首席产品负责人**。
 
 ## The Chief Product Owner (CPO)
-## 产品总负责人(CPO)
+## 首席产品负责人(CPO)
 
 Through the MetaScrums, Chief Product Owners coordinate priorities among Product Owners who work with individual teams. They align backlog priorities with Stakeholder and Customer needs. Just like a SoSM, they may be an individual team PO who chooses to play this role as well, or they may be a person specifically dedicated to this role. Their main responsibilities are the same as a regular PO’s, but at scale:
 
-通过元Scrum，首席产品负责人通过和各个单独团队合作的Product Owner协调优先级。他们用干系人以及顾客需求来协调待办事项的优先级。像SoSM一样，他们可以是单独的选择扮演这个角色的PO团队，或者是一个人专注于这个角色。他们的主要职责和通常的PO是一样的，不过在扩展方面：
+通过元Scrum，首席产品负责人与各个团队的产品负责人来协调优先级。他们以干系人以及顾客需求来对齐待办事项的优先级。类似于SoSM，可以是某个团队的PO来扮演这个角色，或者是某个人全职担任这个角色。他们的主要职责和普通PO是一样的，但是在扩展的时候：
 
 * Setting a strategic vision for the whole product.
 * Creating a single, prioritized backlog of value to be delivered by all of the teams.
@@ -423,47 +423,65 @@ Through the MetaScrums, Chief Product Owners coordinate priorities among Product
 * Working closely with their associated SoSM so that the Release Plan that the MetaScrum team generates can be deployed efficiently.
 * Monitoring customer product feedback and adjusting the backlog accordingly.
 
-
 * 建立整个产品的战略愿景
-* 创建一个唯一的，排序过的待办事项，用于被所有的团队交付其价值。
-* 这些事项对于一个团队PO来说是较大的故事。
-* 和SoSM在一起工作，以更有效的交付元Scrum团队创建的发布计划。
-* 监控顾客对产品的反馈并相应的调整待办事项。
+* 创建唯一的、排序的待办清单，包含将要被所有团队交付的价值。
+* 这些事项对于一个团队的PO来说可以是更大的故事。
+* 与相应的SoSM紧密工作在一起，以便有效地部署元Scrum团队创建的发布计划。
+* 监控客户对产品的反馈并相应地调整待办清单。
 
 
 ## Scaling the MetaScrum
 ## 扩展MetaScrum？
+
 Just as SoS’s can grow into SoSoS’s, MetaScrums can also expand by the same mechanism. There is no specific term associated with these expanded units, nor do the CPO’s of them have specific expanded titles. We encourage each organization to develop their own. For the following diagrams, we have chosen to add an additional “Chief” to the title of those PO’s as they magnify out.
 
-如同SoS可以增长到SoSoS，元Scrum可以以同样的机制进行扩展。没有专门的术语对应这些扩展单元，对应的CPO们也没有专门的扩展职称。我们鼓励每个组织发展自己的。下图中，我们选择再增加一个“首席”突出这些PO们职称。
+如同SoS可以增长到SoSoS，元Scrum也可以用同样的机制进行扩展。没有专门的术语对应这些扩展单元，他们的CPO们也没有专门的扩展头衔。我们鼓励每个组织发展自己的方式。下图中，我们选择了再增加一个“首席”以突出那些PO。
 
 Some sample diagrams:
-
-一些图的例子。
+一些例图：
 
 ![](MetaScrum-R2.png)
 
+Meta Scrum CPO
+CCPO Meta Scrum
+PO
+MetaScrum of 5 teams
+MetaScrum of 25 teams
+
+元Scrum CPO
+元Scrum CCPO
+PO
+5个团队的元Scrum
+25个团队的元Scrum
+
 **NOTE:** As mentioned above, these pentagons represent the ideal sized Scrum teams and ideal sized MetaScrums. These diagrams are meant to be examples only, your organizational diagram may differ greatly.
 
-**注意：** 如上所述，这些多边形代表Scrum团队的理想规模和元Scrum的理想规模。这些图仅表示例子，您的组织可能会显著不同。
+**注意：** 如上所述，这些多边形代表着理想规模的Scrum团队和元Scrum。这些图仅仅作为例子，你的组织图可能会显著不同。
 
 ## The Executive MetaScrum (EMS)
-## 高管的MetaScrum（EMS)
+## 高管元Scrum（EMS）
+
 The MetaScrums enable a network design of Product Owners which is infinitely scalable alongside their associated SoS’s. The MetaScrum for the entire agile organization is the Executive MetaScrum. The EMS owns the organizational vision and sets the strategic priorities for the whole company, aligning all the teams around common goals.
 
-元Scrum允许PO和其配套的SoS无限扩展的网状设计。整个敏捷组织的元Scrum是高管元Scrum。EMS拥有组织的愿景和设置整个公司的战略优先级，并且对齐各个团队围绕共同目标。
+元Scrum使得PO及其对应的SoS能够以一种网状设计进行无限地扩展。整个敏捷组织的元Scrum是高管元Scrum。EMS拥有组织的愿景并设立整个公司的战略优先级，使各个团队围绕共同目标来对齐。
 
 Sample diagram showing an EMS coordinating 5 groups of 25 teams:
-例图展示了EMS将25个团队组协调成5个组：
+例图展示了1个EMS，正在协调分为5个组的25个团队：
 
 ![](ExecMetaScrum.png)
+
+Executive MetaScrum
+CCPO MS
+
+高管元Scrum
+CCPO 元Scrum
 
 ## Outputs/Outcomes of the Product Owner Organization
 ## 产品负责人组织的输出/效果
 
 The PO organization (various MetaScrums, the CPO’s, and the Executive MetaScrum) work as a whole to satisfy the components of the Product Owner Cycle: **Strategic Vision, Backlog Prioritization, Backlog Decomposition & Refinement, and Release Planning.**
 
-产品负责人组织(多种元Scrum，CPO和高管元Scrum)作为整体工作以满足PO循环的组件：**战略愿景,待办事项优先级排序，待办事项分解和优化以及发布计划**
+PO组织(各种元Scrum，CPO和高管元Scrum)作为整体来工作以满足PO循环的组件：**战略愿景、待办清单优先级排序、待办清单分解和梳理，以及发布计划**
 
 The goals of setting a Strategic Vision are to:
 
@@ -474,34 +492,34 @@ The goals of setting a Strategic Vision are to:
 * describe what the organization will do to leverage key assets in support of its mission.
 * update continuously to respond to rapidly changing market conditions.
 
-* 透过一个共享的路径清晰的对齐整个组织。
-* 准确而有力的表达组织为什么存在。
-* 描述组织会做什么去调度其关键资产以支持其使命。
-* 持续更新以响应快速变化的市场条件。
+* 透过一个共享的路径清晰地对齐整个组织。
+* 清晰而有力地表述组织为什么存在。
+* 描述组织会做什么从而调度其关键资产以支持其使命。
+* 持续更新以响应快速变化的市场情况。
 
 The goals of Backlog Prioritization are to:
 
-待办事项优先级排序的目标是：
+待办清单优先级排序的目标是：
 
 * identify a clear ordering for products, features, and services to be delivered.
 * reflect value creation, risk mitigation and internal dependencies in ordering of the backlog.
 * prioritize the high-level initiatives across the entire agile organization prior to Backlog Decomposition and Refinement.
 
-* 识别一个清晰的待交付的产品，功能和服务的顺序。
-* 通过待办事项的顺序反映价值创造，风险缓解和内部依赖的顺序。
-* 在组织内排序高级别的举措以分解和优化待办事项。
+* 针对待交付的产品、功能和服务，识别出一个清晰的排序。
+* 待办清单的排序反映了价值创造、风险缓解和内部依赖。
+* 在分解和梳理待办清单之前，先在整个敏捷组织内对高层举措进行排序。
 
 The goals of Backlog Decomposition & Refinement are to:
 
-待办事项分解和优化的目标是：
+待办清单分解和梳理的目标是：
 
 * break complex projects and products into independent functional elements that can be completed by one team in one Sprint.
 * capture and distill emerging requirements and customer feedback.
 * ensure all backlog items are truly “Ready” so that they can be pulled by the individual teams.
 
-* 把复杂项目和产品分解为独立的、可工作的、可以由一个团队在一个Sprint中完成的元素。
-* 获取和提炼涌现的需求和客户反馈。
-* 确保所有的待办事项项目是真的“就绪”以被各自团队拉取。
+* 把复杂项目和产品分解为独立的可工作元素，每个元素都可以被一个团队在一个Sprint中完成。
+* 捕获和提炼涌现的需求和客户反馈。
+* 确保所有的待办事项条目是真的“准备就绪”以便被各个团队拉取。
 
 The goals of Release Planning are to:
 
@@ -512,15 +530,15 @@ The goals of Release Planning are to:
 * update prioritization, as needed.
 
 * 预报关键特性和能力的交付
-* 和干系人沟通交付预期
-* 按需更新排序
+* 向干系人沟通交付预期
+* 按需更新优先级排序
 
 ## Understanding Feedback
 ## 理解反馈
 
 The **Feedback** component is the second point where the PO & SM Cycles touch. Product feedback drives continuous improvement through adjusting the Product Backlog while Release feedback drives continuous improvement through adjusting the Deployment mechanisms. The goals of obtaining and analyzing Feedback are to:
 
-**反馈**组件是PO和SM圈接触的第二个点。产品反馈通过调整产品待办驱动持续改进，发布反馈通过调整开发机制驱动持续改进。获取和分析反馈的目标是：
+**反馈**组件是PO和SM循环交叉的第二个点。产品反馈通过调整产品待办清单来驱动持续改进，发布反馈通过调整部署机制来驱动持续改进。获取和分析反馈的目标是：
 
 * validate our assumptions.
 * understand how customers use and interact with the product.
@@ -529,31 +547,31 @@ The **Feedback** component is the second point where the PO & SM Cycles touch. P
 * update progress towards product/project completion to refine release planning and stakeholder alignment.
 * identify improvements to deployment methods and mechanisms.
 
-* 验证我们的假设
-* 理解顾客如何使用产品和与产品互动
-* 获取新特性和新功能的创意
-* 定义已有功能的改进
-* 朝着产品/项目完成的方向更新进度以优化发布计划和与干系人对齐
-* 识别发布方法和机制的改进项
+* 验证我们的假设。
+* 理解顾客如何使用产品和与产品互动。
+* 捕获新特性和新功能的创意。
+* 定义针对已有功能的改进。
+* 朝着产品/项目完成的方向更新进度，以更好地规划发布计划并与干系人对齐。
+* 识别出部署方法和机制的改进项。
 
 ## Metrics & Transparency
 ## 度量与透明性
 
 Radical transparency is essential for Scrum to function optimally, but it is only possible in an organization that has embraced the Scrum values. It gives the organization the ability to honestly assess its progress and to inspect and adapt its products and processes. This is the foundation of the empirical nature of Scrum as laid out in the Scrum Guide.
 
-彻底的透明性是Scrum最佳状态运作的基础，但是只在能够拥抱Scrum价值观的组织中可行。它给组织提供了诚实获取进度并检视和适应其产品及过程的能力。这是Scrum Guide中记载的Scrum的试验性本性的基石。
+彻底的透明性是Scrum最佳状态运作的本质，但是只在能够拥抱Scrum价值观的组织中可行。它使组织能够诚实地评估进度并检视和调整其产品及过程。这是Scrum指南中记载的Scrum的实证主义本性的基石。
 
 Both the SM & PO Cycles require metrics that will be decided upon by the separate SM and PO organizations. Metrics may be unique to both specific organizations as well as to specific functions within those organizations. Scrum@Scale does not require any specific set of metrics, but it does suggest that at a bare minimum, the organization should measure:
 
-SM和PO各自圈所需要的数字应该由SM和PO的组织分别来决策。数字可以像组织的特定功能一样是对两个组织都是唯一的。Scrum@Scale并不要求任何特定的数字组合，不过推荐最低配置，组织应该度量如下数据:
+SM和PO循环各自需要的度量会分别由SM和PO组织来决策。对于两个特定组织以及那些组织中的特定功能来说，度量也可能是唯一的。Scrum@Scale并不要求任何特定的度量集，但是它推荐了最低配置，即组织应该度量如下方面:
 
 * Productivity – e.g. change in amount of Working Product delivered per Sprint
 * Value Delivery – e.g. business value per unit of team effort
 * Quality – e.g. defect rate or service downtime
 * Sustainability – e.g. team happiness
 
-* 生产性 —— 例如，每个Sprint能够交付的可工作产品的总量变化
-* 价值交付 —— 例如，单元团队工作量能够带来的商业价值
+* 生产力 —— 例如，每个Sprint交付的可工作产品的总量变化
+* 价值交付 —— 例如，单位团队工作量能够带来的业务价值
 * 质量 —— 例如，缺陷率或者服务宕机时间
 * 可持续性 —— 例如，团队满意度
 
@@ -565,19 +583,24 @@ The goals of having Metrics and Transparency are to:
 * shorten feedback cycles as much as possible to avoid over-correction.
 * require minimal additional effort by teams, stakeholders or leadership.
 
-* 给所有的决策者，包括团队成员在内，以适当的语境用于做良好的决策。
-* 尽量缩短反馈周期以规避矫枉过正
-* 需要团队，干系人和领导最低的额外投入。
+* 提供适当的上下文给所有的决策者——包括团队成员在内——以做出优秀的决策。
+* 尽量缩短反馈周期以避免矫枉过正。
+* 最小化地要求团队、干系人和领导者进行额外投入。
 
 ## Some notes on Organizational Design
 ## 关于组织设计的一些说明
 
 The scale-free nature of Scrum@Scale allows the design of the organization to be component-based, just like the framework itself. This permits for rebalancing or refactoring of teams in response to the market. As an organization grows, capturing the benefits of distributed teams may be important. Some organizations reach talent otherwise unavailable and are able to expand and contract as needed through outsourced development. Scrum@Scale shows how to do this while avoiding long lag times, compromised communications, and inferior quality, enabling linear scalability both in size and global distribution.[^5]
 
-Scrum@Scale的任意扩展属性允许将组织设计为组件单位的，就像框架本身一样。它允许根据市场的反馈来重新平衡和重构团队。伴随一个组织的增长，获取分布式团队的益处可能更为重要。有些组织获取人才，无法获取的时候则通过外包开发来扩展和签约。Scrum@Scale展示了如何在规避长的延迟时间，妥协的沟通以及不佳的质量，在规模上和全球地理分布的线性扩张的同时扩展。[^5]
+Scrum@Scale可以任意扩展的本性，允许将组织设计为一个个组件，就像框架本身一样。它允许重新平衡和重构团队，从而响应市场。随着组织的增长，分布式团队带来的益处可能也很重要。一些组织在无法获取人才的时候则通过外包开发来扩展和签约。Scrum@Scale展示了如何扩展这种情况，同时避免过长的延迟时间、妥协的沟通以及低劣的质量，使得组织在规模上和地理分布上兼具线性扩展性。[^5]
 
 ![](VariableSoS-R2.png)
 
+5个SoS，分别包含2个、3个、4个、5个和5个团队
+3个SoSoS，分别包含10个、13个和15个团队
+CCPO 元Scrum
+EMS
+EAT
 
 ![](OrganizationalDiagram.png)
 
@@ -590,45 +613,45 @@ CCPO首席总产品负责人
 
 In this organizational diagram, the **Knowledge & Infrastructure Teams** represent virtual teams of specialists of which there are too few to staff each team. They coordinate with the Scrum teams as a group via service-level agreements where requests flow through a PO for each specialty who converts them into a transparent ordered backlog. An important note is that these teams are NOT silos of individuals who sit together (this is why they are represented as hollow pentagons); their team members sit on the actual Scrum teams, but they make up this virtual Scrum of their own for the purpose of backlog dissemination and process improvement.
 
-在这个组织图中，这个**知识和基础设施团队**对应了一个虚拟的专业团队因为他们对于其他团队来说拥有更少的人数。他们像一个组一样，遵照同样的服务水平协议，每个专员需要通过一个PO把需求翻译为透明的排序的待办事项。值得注意的是，这些团队并不是坐在一起的一群各自为政的个体(这是为什么他们被标记为中空的多边形）；这些团队成员坐在实际的Scrum团队一起，但是他们作为自己的虚拟Scrum是为了待办事项传播和过程改进的目的。
+在这个组织图中，**知识和基础设施团队**表示一些虚拟的专业团队，这些专家的数量太少，难以保证在每个团队中都配备。他们作为一个组与多个Scrum团队进行整合，遵照服务水平协议，每个专业方面请求都流经同一个PO，他将那些请求转换为透明的已排序的待办清单。值得注意的是，这些团队并不是坐在一起的一群各自为政的个体(这是为什么他们被标记为中空多边形)；这些团队成员都坐在实际的Scrum团队当中，但是他们组成这个虚拟Scrum是为了传播待办清单和过程改进。
 
 **Customer Relations, Legal / Compliance, and People Operations** are included here since they are necessary parts of organizations and will exist as independent Scrum teams on their own which all of the others may rely upon.
 
-**客户关系，法务/合规和人力组织**也在这里，是因为他们是组织中必要的部分，并且独立于Scrum团队存在，且其他部门依赖于他们。
+**客户关系，法务/合规和人力组织**也包含在这里，因为他们是组织中必要的部分，他们将独立于Scrum团队而存在，其他人将依赖于他们。
 
 A final note on the representation of the EAT & EMS: in this diagram, they are shown as overlapping since 2 members sit on both of the teams. In very small organizations or implementations, the EAT & EMS may consist entirely of the same team members.
 
-关于EAT和EMS的最后的注意事项：在这个图中，他们由于两个人都在这个团队中，看起来是重叠了。在非常小的组织或者实现中，EAT和EMS可以始终是同一组人。
+关于EAT和EMS的最后一点：在这个图中，由于有2个成员同时存在于这两个团队中，所以两者看起来是重叠了。在非常小的组织或者实施中，EAT和EMS可以由同一批人组成。
 
 ## End Note
 ## 结束语
 
 Scrum@Scale is designed to scale productivity, to get the entire organization doing twice the work in half the time with higher quality and in a significantly improved work environment. Large organizations that properly implement the framework can cut the cost of their products and services while improving quality and innovation.
 
-Scrum@Scale是为了扩展生产性而设计的，为了获得整个组织能够事半功倍且高质量的，并且在一个显著改善的工作环境中。在大型组织中适当的应用本框架可以削减产品和服务的成本且带来质量和创新的提升。
+Scrum@Scale是为了扩展生产力而设计的，使得整个组织在一个显著改善的工作环境中能够高质量地做到事半功倍。在大型组织中适当的应用本框架可以削减产品和服务的成本，并且提升质量和创新。
 
 Scrum@Scale is designed to saturate an organization with Scrum. All teams, including Leadership, Human Resources, Legal, Consulting & Training, and product & service teams, implement the same style of Scrum while streamlining and enhancing an organization.
 
-Scrum@Scale是为了让Scrum浸透组织而设计的，包含了领导力，人力资源，法务，咨询和培训，以及产品和服务团队。是在精简和提升组织的时候采用统一种风格的Scrum。
+Scrum@Scale是为了让Scrum浸透组织而设计的。所有团队，包括了领导力、人力资源、法务、咨询和培训，以及产品和服务团队，他们在精简和提升组织的时候都采用同一种Scrum风格。
 
 Well implemented Scrum can run an entire organization.
 
-很好的实施的Scrum可以在整个组织中流淌。
+良好实施的Scrum可以运作起整个组织。
 
 ## Acknowledgements
 ## 致谢
 
 We acknowledge IDX for the creation of the Scrum of Scrums which first allowed Scrum to scale to hundreds of teams,[^6] PatientKeeper for the creation of the MetaScrum,[^7] which enabled rapid deployment of innovative product, and OpenView Venture Partners for scaling Scrum to the entire organization.[^8] We value input from Intel with over 25,000 people doing Scrum who taught us “nothing scales” except a scale-free architecture, and SAP with the largest Scrum team product organization who taught us management involvement in the MetaScrum is essential to get 2,000 Scrum teams to work together.
 
-我们感谢IDX创建了Scrum of Scrums，它把Scrum规模化到上百个团队，[^6]PatientKeeper创建了元Scrum，[^7]它带来的创新产品的快速发布，以及OpenView Venture Partners带来的扩展Scrum到整个组织。[^8] 我们珍视从英特尔超过二万五千人做Scrum的输入中教会我们的“无物扩展”，除了扩展本身——灵活的架构，还有SAP大规模Scrum团队产品组织教会我们的把管理者引入到元Scrum是超过2000个Scrum团队一起工作的基础。
+我们感谢IDX创建了Scrum of Scrums，它允许Scrum扩展到上百个团队，[^6]感谢PatientKeeper创建了元Scrum，[^7]它使得创新产品能否快速部署，感谢OpenView Venture Partners将Scrum扩展到整个组织。[^8] 我们珍视来自英特尔的二万五千多人实施Scrum的输入，教会了我们——“没有什么事物能扩展”——除了一个灵活扩展的架构，还要感谢具有最大的Scrum团队的SAP产品组织，教会了我们让2000多个Scrum团队一起工作的必要因素就是让管理层参与到元Scrum中。
 
 The agile coaches and trainers implementing these concepts at Amazon, GE, 3M, Toyota, Spotify, and many other companies working with Jeff Sutherland have been helpful in testing these concepts across a wide range of companies in different domains.
 
-敏捷教练和培训师在亚马逊，GE，3M，丰田，Spotify和很多其他公司实现了自己的概念。和Jeff Sutherland一起工作过的经验对于在更广范围的不同领域的公司验证这些概念是非常有帮助的。
+敏捷教练和培训师们和Jeff Sutherland一起工作，在亚马逊，GE，3M，丰田，Spotify和很多其他公司实施了这些概念，这对于在更广范围的不同领域的公司中验证那些概念是非常有帮助的。
 
 And finally, Avi Schneier and Alex Sutherland have been invaluable in formulating and editing this document.
 
-最后，Avi Schneier和Alex Sutherland在系统化和编辑本文中是价值无量的。
+最后，Avi Schneier和Alex Sutherland制定和编辑本文的工作是价值无量的。
 
 
 [^1]: Marquet, L David, Turn the Ship Around!: How to Create Leadership at Every Level, Greenleaf Book Group, 2012
