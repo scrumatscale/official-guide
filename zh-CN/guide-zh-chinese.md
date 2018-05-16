@@ -287,23 +287,29 @@ SoSoS of 25 Teams
 
 The Scrum of Scrums for the entire agile organization is called the Executive Action Team (EAT). The EAT is the final stop for impediments that cannot be removed by the SoS’s that feed it. Therefore, it must be comprised of individuals who are empowered, politically and financially, to remove them. The function of the EAT is to coordinate multiple SoS’s (or SoSoS’s). As with any Scrum team, it needs a PO and SM. It would be best if the EAT met daily as a Scrum team. They must meet at least once per Sprint and have a transparent backlog.
 
-在整个敏捷组织中的Scrum of Scrums被称为高管措施小组（EAT）。EAT是SoS不能移除的障碍的终点站。所以它必须由在政策上的和财务上的经过赋能的个人组成，来移除这些障碍。EAT的功能是协作多个SoS（或者SoSoS）。和任何Scrum团队一样，它也需要PO和SM。最好是像Scrum团队也一样EAT可以每天在一起。至少在一个冲刺中他们见一次，并且有一个透明的待办事项。
+针对整个敏捷组织的Scrum of Scrums被称为高管措施小组（EAT）。EAT是SoS不能移除的那些障碍的终点站。所以，它必须由在政治和财务上得到充分授权的人们组成，去移除那些障碍。EAT的职能是协调多个SoS（或者SoSoS）。和任何Scrum团队一样，它也需要具备一个PO和SM。EAT最好也像Scrum团队一样可以每天见面。每个Sprint他们必须至少见一次面，并且具备一个透明的待办清单。
 
 Sample Diagram showing an EAT coordinating 5 groupings of 25 teams
-例图展示了EAT协调25个团队为5个组。
+例图展示了1个EAT，正在协调分布在5个群组中的25个团队
 
 ![](SoS-EAT.png)
+
+EAT
+SoSoS
+
+高管措施小组
+SoSoS
 
 ## The EAT’s Backlog & Responsibilities
 ## EAT的待办清单及责任
 
 Scrum is an agile operating system that is different from traditional project management. The entire SM organization reports into the EAT, which is responsible for implementing this agile operating system by establishing, maintaining, and enhancing the implementation in the organization. The EAT’s role is to create an Organizational Transformation Backlog (a prioritized list of the agile initiatives that need to be accomplished) and see that it is carried out. For example, if there is a traditional Product Development Life Cycle in the old organization, a new agile Product Development Life Cycle needs to be created, implemented, and supported. It will typically support quality and compliance issues better than the old method but be implemented in a different way with different rules and guidelines. There are many other aspects of organizational development and governance that may need retuning.
 
-Scrum是一个区别于传统项目管理的敏捷组织系统。整个SM组织汇报给负责在组织内建立，维护和提升其打造的敏捷操作系统的EAT。EAT的角色是创建组织转型待办事项（一个经过排序的待完成的敏捷举措）和确保它成功。例如，如果在一个旧组织中有一个传统的产品开发生命周期，一个新的敏捷产品开发生命周期需要被创建、实现和支持。它会比旧组织典型的更好地支持质量和合规事项，但是需要一套不同的规则和指南。组织发展和治理也有很多不同的层面需要调优。
+Scrum是一个区别于传统项目管理的敏捷操作系统。整个SM组织汇报给EAT，后者负责在组织内建立、维护和提升其打造的敏捷操作系统。EAT的角色是创建组织转型待办清单（一份经过排序的列表，包含待完成的敏捷举措）并确保落地执行。例如，如果在一个旧组织中存在一个传统的产品开发生命周期，那么一个新的敏捷产品开发生命周期需要被创建、实现和支持。通常它会比旧方法的更好地支持质量和合规事项，但是需要采纳一套不同的规则和指南来实施。另外，组织发展和治理的很多方面也需要调优。
 
 The EAT is accountable for the quality of Scrum within the organization. Its responsibilities include but are not limited to:
 
-EAT对于整个组织的Scrum质量负责。它的职责包括但不仅限于：
+EAT对于整个组织的Scrum质量负责。它的职责包括但不仅于：
 
 * creating an agile operating system for the Reference Model as it scales through the organization, including corporate operational rules, procedures, and guidelines to enable agility.
 * measuring and improving the quality of Scrum in the organization.
@@ -311,35 +317,35 @@ EAT对于整个组织的Scrum质量负责。它的职责包括但不仅限于：
 * creating a center for continuous learning for Scrum professionals.
 * supporting the exploration of new ways of working.
 
-* 创建敏捷操作系统的参考模型以扩展到整个组织，包括企业操作规则，过程和指南以使能敏捷性。
+* 为参考模型创建敏捷操作系统，以扩展到整个组织，包括提升敏捷性的企业运营规则，过程和指南。
 * 度量和改进组织内的Scrum质量
-* 构建组织内商业敏捷性的能力
-* 创建为Scrum专业性的持续学习中心
-* 支持探索新的工作方法
+* 构建组织内业务敏捷的能力
+* 创建一个针对Scrum专业的持续学习中心
+* 支持去探索新型工作方法
 
 Finally, the EAT must set up and support a corresponding Product Owner organization through associations of PO’s that mirror the SoS’s and scale their PO functions. These teams of PO’s and key stakeholders are known as **MetaScrums**.
 
-最终，EAT必须通过PO的联合建立和支持对应的的PO组织以反映出SoS和扩展PO的功能。这些团队的PO和关键干系人被称为**元Scrum**
+最后，EAT必须比照SoS，聚集PO群体来建立和支持相应的的产品负责人组织，从而扩展PO职能。这些PO和关键干系人的团队被称为**元Scrum**。
 
 ## Outputs/Outcomes of the Scrum Master Organization
 ## Scrum Master组织的输出/效果
 
 The SM organization (SoS, SoSoS, and EAT) work as a whole to complete the other components of the Scrum Master Cycle: **Continuous Improvement and Impediment Removal, Cross-Team Coordination, and Deployment.**
 
-SM组织（SoS，SoSoS和EAT）作为一个整体来完成他们的Scrum Master 循环的组件：
-**持续改进和障碍移除，跨团队协调，和发布**
+SM组织（SoS、SoSoS和EAT）作为一个整体来完成Scrum Master循环的组件：
+**持续改进和移除障碍，跨团队协调，和部署**
 
 The goals of Continuous Improvement and Impediment Removal are to:
 
-持续改进和障碍移除的目标是：
+持续改进和移除障碍的目标是：
 
 * identify impediments and reframe them as opportunities.
 * maintain a safe and structured environment for prioritizing and removing impediments, and then verifying the resulting improvements.
 * ensure visibility in the organization to effect change.
 
-* 标识障碍并转化为机遇
-* 维护一个安全的和结构化的环境以排序和移除障碍，并验证和落实改进
-* 确保组织内的可见性以产生改变
+* 识别障碍并转化为机遇。
+* 维护一个安全的和结构化的环境以排序和移除障碍，并验证和落实改进。
+* 确保组织内的可见性以促成变革。
 
 The goals of Cross-Team Coordination are to:
 
@@ -349,20 +355,20 @@ The goals of Cross-Team Coordination are to:
 * manage cross-team dependencies to ensure they don’t become impediments.
 * maintain alignment of team norms and guidelines for consistent output.
 
-* 协调多个相关团队的类似流程。
-* 管理跨团队依赖以确保不变成障碍。
-* 为确保持续的输出维护团队标准和指南的一致性。
+* 协调多个关联团队间的相似流程。
+* 管理跨团队依赖以确保它们不会变成障碍。
+* 使团队规范和指南的保持对齐，以确保持续的输出。
 
 Since the goal of the SoS is to function as a release team, the deployment of product falls under their scope, while what is contained in any release falls under the scope of the Product Owners. Therefore, the goals of the Deployment are to:
 
-由于SoS的目标是像一个发布团队一样工作，产品的发布瀑布也其范围，其包含在任何一个PO的范围内的发布瀑布。因此，发布的目标是：
+SoS的目标是像个发布团队一样工作，因此产品部署也是其分内事，而决定发布内容则是PO的分内事。因此，部署的目标是：
 
 * deliver a consistent flow of valuable finished product to customers.
 * integrate the work of different teams into one seamless product.
 * ensure high quality of the customer experience.
 
-* 交付持续流动的有价值的完成产品给客户。
-* 将不同组的工作集成到一个无缝的产品。
+* 持续流动式地向客户交付有价值的完成产品。
+* 将不同团队的工作集成到一个无缝的产品。
 * 确保用户体验的高质量。
 
 # Product Owner Cycle
