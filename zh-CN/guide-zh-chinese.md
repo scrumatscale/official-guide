@@ -12,7 +12,7 @@ This guide is released under Creative Commons 4.0 Attribution-Sharealike License
 
 Scrum@Scale是Scrum Inc.的注册商标。本指南基于"署名-相同方式共享许可协议4.0"发布。(CC BY-SA 4.0)
 
-简体中文版原创翻译团队：申健Jacky Shen, CST, CTC, Agile Coach; 王洪亮Stephen Wang, CSP, Agile Coach; 李国彪Bill Li, CST, Agile Coach;
+简体中文版原创翻译团队：申健 Jacky Shen (CST, CTC, Agile Coach); 王洪亮 Stephen Wang (CSP, Agile Coach); 李国彪 Bill Li (CST, Agile Coach);
 
 简体中文版授权译文链接：<http://www.uperform.cn/scrum-at-scale-guide-chinese/>，欢迎转载，请保留所有版权信息并遵循共享许可协议进行演绎。
 
@@ -123,7 +123,7 @@ Scrum Master回路
 度量与透明性
 团队级过程
 产品负责人回路
-高管的Meta Scrum
+高管MetaScrum
 战略愿景
 待办清单排序
 待办清单分解和梳理
@@ -604,7 +604,7 @@ EAT
 
 客户关系
 法务/合规
-人力组织 (敏捷HR)
+人力资源及运作(敏捷HR)
 知识团队
 基础设施团队
 CCPO
