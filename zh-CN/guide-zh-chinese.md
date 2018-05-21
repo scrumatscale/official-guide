@@ -1,4 +1,6 @@
-Scrum At Scale® 指南
+![](Scrum@Scale Guide 1.0 Cover-zh-CN.jpg)
+
+Scrum At Scale® 指南g
 -------------------
 
 
@@ -209,7 +211,7 @@ SoS的目标是像个发布团队一样工作，因此产品部署也是其分�
 * 监控客户对产品的反馈并相应地调整待办清单。
 
 
-## 扩展MetaScrum？
+## 扩展MetaScrum
 
 如同SoS可以增长到SoSoS，MetaScrum也可以用同样的机制进行扩展。没有专门的术语对应这些扩展单元，他们的CPO们也没有专门的扩展头衔。我们鼓励每个组织发展自己的方式。下图中，我们选择了再增加一个“总”以突出那些PO。
 
