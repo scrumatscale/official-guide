@@ -1,6 +1,6 @@
 ![](Scrum@Scale Guide 1.0 Cover-zh-CN.jpg)
 
-Scrum At Scale® 指南g
+Scrum At Scale® 指南
 -------------------
 
 
