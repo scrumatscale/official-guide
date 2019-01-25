@@ -1,6 +1,7 @@
 \documentclass[12pt,a4paper,parskip=full]{scrartcl}
 
 \usepackage{bbding}
+\usepackage[utf8]{inputenc}
 \usepackage{pifont}
 \usepackage{wasysym}
 \usepackage[margin=1in]{geometry}
@@ -43,8 +44,7 @@
 \title{\Huge{\color{red}\textbf{Der Scrum@Scale
 \textsuperscript{\copyright}
 Guide}}}
-\subtitle{\color{gray}Der gültige Leitfaden zu to Scrum@Scale:\\ Skalierung,
-die funktioniert}
+\subtitle{\color{gray}Der gültige Leitfaden für Scrum@Scale:\\ Skalierung, die funktioniert}
 % \author{}
 \date{}
 
@@ -54,504 +54,513 @@ die funktioniert}
 %\tableofcontents
 %\newpage
 
-\section{Ziel des Scrum@Scale Guides}
-Scrum, wie ursprünglich im Scrum Guide beschrieben, ist ein
-Rahmenwerk, um komplexe Produkte mit Hilfe eines einzelnen Teams
-zu entwickeln, auszuliefern und zu erhalten. Seit seiner Einführung
-hat sich die Anwendung auf die Erstellung von Produkten, Prozessen,
-Services und Systemen erweitert, die der Zusammenarbeit mehrerer Teams
-bedürfen. Scrum@Scale wurde entwickelt, um dieses Ökosystem von Teams
-effektiv zu koordinieren, so dass es die gesamte Strategie der Organisation
-optimiert. Es erreicht dieses Ziel, indem es mit einer skalierungsfreien
-Architektur eine "minimal überlebensnotwendige Bürokratie" aufbaut. Diese
-weitet die Arbeitsweise eines einzelnen Scrum Teams organisch auf die
-Organisation aus.
+\section{Zweck des Scrum@Scale Guides}
+Scrum, wie ursprünglich im Scrum Guide beschrieben, ist ein Rahmenwerk,
+um komplexe Produkte mit Hilfe eines einzelnen Teams zu entwickeln,
+auszuliefern und zu erhalten. Seit seiner Einführung hat sich die Anwendung
+auf die Erstellung von Produkten, Prozessen, Services und Systemen erweitert,
+die der Zusammenarbeit mehrerer Teams bedürfen. Scrum@Scale wurde entwickelt,
+um dieses Ökosystem von Teams effektiv zu koordinieren, so dass es die gesamte
+Strategie der Organisation optimiert. Es erreicht dieses Ziel, indem es mit
+einer skalierungsfreien Architektur eine "minimal überlebensnotwendige
+Bürokratie" aufbaut. Diese weitet die Arbeitsweise eines einzelnen Scrum Teams
+organisch auf die Organisation aus.
 
-Dieser Guide enthält die Definitionen der Komponenten, die das Scrum@Scale
-Rahmenwerk ausmachen, inklusive der skalierten Rollen, skalierten Events
-und Unternehmensartefakte, sowie der Regeln, die sie zusammenhalten.
+Dieser Leitfaden enthält die Definitionen der Komponenten, aus denen das
+Scrum@Scale Rahmenwerk besteht, einschließlich seiner skalierten Rollen,
+skalierten Events, Unternehmensartefakte, sowie den Regeln, die diese
+zusammenhalten.
 
-Dr. Jeff Sutherland entwickelte Scrum@Scale basierend auf den fundamentalen
-Prinzipien von Scrum, der Theorie komplexer adaptiver Systeme, der Spieltheorie 
-und objektorientierter Methoden. Dieser Guide wurde in Zusammenarbeit mit vielen
-erfahrenen Scrum Anwendern entwickelt und basiert auf den Ergebnissen ihrer Arbeit
-vor Ort.
-Dieser Guide soll den Leser in die Lage versetzen Scrum@Scale selbst zu implementieren.
+Dr. Jeff Sutherland entwickelte Scrum@Scale auf Basis der fundamentalen
+Prinzipien hinter Scrum, der Complex Adaptive Systems Theorie, Spieltheorie und
+objektorientierter Technologie. Dieser Guide wurde mit Hilfe des Inputs vieler
+erfahrener Scrum Anwender auf Basis ihrer Praxiserfahrungen entwickelt. Ziel
+dieses Guides ist, dass Leser Scrum@Scale selbstständig implementieren können.
 
-\subsection{Why Scrum@Scale?}
-Scrum was designed for a single team to be able to work at its optimal
-capacity while maintaining a sustainable pace. In the field, it was found
-that as the number of Scrum teams within an organization grew, the
-output (working product) and velocity of those teams began to fall (due to
-issues like cross-team dependencies and duplication of work). It became
-obvious that a framework for effectively coordinating those teams was
-needed in order to achieve linear scalability. Scrum@Scale is designed to
-accomplish this goal via its scale-free architecture.
+\subsection{Warum Scrum@Scale?}
+Scrum wurde dafür entwickelt, ein einzelnes Team dazu zu befähigen, in
+nachhaltiger Geschwindigkeit mit seiner optimalen Leistungsfähigkeit zu
+arbeiten. In der Anwendung hat sich ergeben, dass mit zunehmender Anzahl der
+Scrum Teams in der Organisation der Output (funktionierendes Produkt) und die
+Velocity sanken (aufgrund von Abhängigkeiten zwischen Teams und Doppelarbeiten).
+Es wurde deutlich, dass ein Rahmenwerk zur effektiven Koordination dieser Teams
+benötigt wurde, um lineare Skalierbarkeit zu erreichen. Scrum@Scale ist designt,
+um dieses Ziel mit Hilfe seiner skalierungsfreien Architektur zu erreichen.
 
-By utilizing a scale-free architecture, the organization is not constrained
-to grow in a particular way determined by a set of arbitrary rules; rather
-it can grow organically based on its unique needs and at a sustainable pace
-of change that can be accepted by the groups of individuals that make up
-the organization. The simplicity of the Scrum@Scale model is essential to a scale-free architecture and carefully avoids introducing extra complexity that will cause productivity per team to decrease as more teams are created.
 
-Scrum@Scale is designed to scale across the organization as a whole: all
-departments, products and services. It can be applied across multiple
-domains in all types of organizations in industry, government, or academia.
+Bei der Verwendung einer skalierungsfreien Architektur ist die Organisation
+nicht darauf beschränkt, sich in eine Richtung zu entwickeln, die durch eine
+Reihe von zufälligen Regeln bestimmt wird; stattdessen kann sie organisch nach
+ihren eigenen Bedürfnissen und mit nachhaltiger Veränderungsgeschwindigkeit
+wachsen, was den Gruppen von Individuen, die die Organisation ausmachen,
+entgegenkommt. Die Einfachheit des Scrum@Scale-Modells ist essenziell für eine
+skalierungsfreie Architektur. Diese Einfachheit vermeidet die Einführung von
+zusätzlicher Komplexität, die die Teamproduktivität senkt, wenn weitere Teams
+entstehen.
 
-\subsection{Definition of Scrum@Scale}
-Scrum: A framework within which people can address complex adaptive
-problems, while productively and creatively delivering viable products of the
-highest possible value.
+Scrum@Scale ist designt, durch die Organisation als Ganzes zu skalieren: durch
+alle Abteilungen, Produkte und Services. Es kann über mehrere Domänen hinweg
+und in allen Arten von Organisationen in Industrie, Verwaltung und Lehre
+angewendet werden.
 
-The Scrum Guide is the minimal feature set that allows inspection and
-adaptability via radical transparency to drive innovation, customer satisfaction, performance, and
-team happiness.
+\subsection{Definition von Scrum@Scale}
+Scrum(n): Ein Rahmenwerk, innerhalb dessen Menschen komplexe adaptive
+Aufgabenstellungen angehen können, und durch das sie in die Lage versetzt
+werden, produktiv und kreativ Produkte mit höchstmöglichem Wert auszuliefern.
 
-Scrum@Scale: A framework within which networks of Scrum teams operating
-consistently with the Scrum Guide can address complex adaptive problems,
-while creatively delivering products of the highest possible value.
+Der Scrum Guide ist das minimale Feature Set. Es ermöglicht Inspektion und
+Anpassungsfähigkeit durch radikale Transparenz, um Innovation,
+Kundenzufriedenheit, Leistungsfähigkeit und Teamzufriedenheit zu steigern.
 
-\textbf{NOTE:} These ``products'' may be hardware, software, complex
-integrated systems, processes, services, etc., depending upon the domain of
-the Scrum teams.
+Scrum@Scale: Ein Rahmenwerk, innerhalb dessen Netzwerke von Scrum Teams, die
+konsequent nach dem Scrum Guide arbeiten, komplexe adaptive Aufgabenstellungen
+angehen können, und durch das sie in die Lage versetzt werden, produktiv und
+kreativ Produkte mit höchstmöglichem Wert auszuliefern.
 
-Scrum@Scale is:
+\textbf{ANMERKUNG:} Diese ``Produkte'' können Hardware, Software, komplexe
+integrierte Systeme, Prozesse, Services etc. sein, abhängig von der Domäne,
+in der die Scrum Teams arbeiten.
+
+Scrum@Scale ist:
 \begin{itemize}
-\item Lightweight - the minimum viable bureaucracy
-\item Simple to understand - consists of only Scrum teams
-\item Difficult to master - requires implementing a new operating model
+\item Leichtgewichtig – die minimal überlebensnotwendige Bürokratie
+\item Einfach zu verstehen – besteht ausschließlich aus Scrum Teams
+\item Schwierig zu meistern – benötigt die Implementierung eines neuen Betriebsmodells
 \end{itemize}
 
 
-Scrum@Scale is a framework for scaling Scrum. It radically simplifies
-scaling by using Scrum to scale Scrum.
+Scrum@Scale ist ein Rahmenwerk für die Skalierung von Scrum. Es vereinfacht Skalierung radikal, indem es Scrum für die Skalierung von Scrum einsetzt.
 
-In Scrum, care is taken to separate accountability of the ``what'' from the
-``how''. The same care is taken in Scrum@Scale so that jurisdiction and
-accountability are expressly understood in order to eliminate wasteful
-organizational conflict that keep teams from achieving their optimal
-productivity.
+In Scrum wird die Verantwortung über das ``Was'' von der Verantwortung über das
+``Wie'' getrennt. Genauso verhält es sich bei Scrum@Scale, damit
+Verantwortlichkeit und Zuständigkeit explizit vereinbart werden. Ziel ist es,
+unnötige organisatorische Konflikte zu vermeiden, die Teams davon abhalten,
+ihre optimale Produktivität zu erreichen.
 
-Scrum@Scale consists of components that allow an organization to
-customize their transformational strategy and implementation. It gives them
-the ability to target their incrementally prioritized change efforts in the area(s) they deem
-most valuable or most in need of change and then progress on to others.
+Scrum@Scale besteht aus Komponenten, die es einer Organisation erlauben, ihre
+Transformationsstrategie und Umsetzung auf ihre Bedürfnisse anzupassen. Sie gibt
+ihnen die Möglichkeit, die Transformation auf Bereiche zu konzentrieren, in
+denen Veränderung am wertvollsten oder am nötigsten ist, um sich anschließend
+weiteren Bereichen zuzuwenden.
 
-In separating these two jurisdictions, Scrum@Scale contains two cycles: the
-Scrum Master Cycle (the ``how'') and the Product Owner Cycle (the
-``what''), each touching the other at two points. Taken together, these
-cycles produce a powerful framework for coordinating the efforts of
-multiple teams along a single path.
+Durch die Trennung der Zuständigkeiten enthält Scrum@Scale zwei Zyklen: den
+Scrum Master Zyklus (das ``Wie'') und den Product Owner Zyklus (das ``Was'').
+Jeder dieser beiden berührt den anderen an zwei Stellen. Zusammengenommen
+erschaffen diese Zyklen ein mächtiges Rahmenwerk, um den Einsatz mehrerer Teams
+entlang eines gemeinsamen Pfades zu koordinieren.
 
-\subsection{The Components of the Scrum@Scale\textregistered ~Framework}
+\subsection{Die Komponenten des Scrum@Scale\textregistered ~Rahmenwerkes}
 
 \includegraphics[width=1.0\linewidth]{SMPO-Cycle.png}
 
-\subsection{Values-Driven Culture}
-Besides separating accountability of the ``what'' and the ``how,''
-Scrum@Scale further aims to build healthy organizations by creating a
-values-driven culture in an empirical setting. The Scrum values are:
-Openness, Courage, Focus, Respect, and Commitment. These values drive
-empirical decision making, which depend on the three pillars of
-transparency, inspection, and adaptation.
+\subsection{Wertebasierte Kultur}
+Neben der Trennung der Verantwortung über das ``Was'' und das ``Wie'', zielt
+Scrum@Scale darauf ab, gesunde Organisationen mit einer Kultur zu schaffen, die
+wertebasiert und empirisch arbeitet. Die Scrum Werte sind:
+Offenheit, Mut, Fokus, Respekt und Selbstverpflichtung. Diese Werte fördern
+empirische Entscheidungsfindung, die auf den drei Säulen
+Transparenz, Inspektion und Adaption ruht.
 
-Openness supports transparency into all of the work and processes, without
-which there is no ability to inspect them honestly and attempt to adapt
-them for the better. Courage refers to taking the bold leaps required to
-deliver value quicker in innovative ways.
+Offenheit bringt Transparenz in alle Tätigkeiten und Prozesse. Ohne Transparenz
+gibt es keine Möglichkeit, diese aufrichtig zu überprüfen (Inspektion) und zu
+versuchen, sie zu verbessern (Adaption). Es bedarf Mut, um beherzte Sprünge zu
+tun, die nötig sind, um Wert schneller innovativ zu liefern.
 
-Focus and Commitment refer to the way we handle our work obligations,
-putting customer value delivery as the highest priority. Lastly, all of
-this must occur in an environment based on respect for the individuals
-doing the work, without whom nothing can be created.
+Fokus und Selbstverpflichtung beziehen sich darauf, wie wir unseren
+Arbeitsverpflichtungen nachkommen und setzen die Lieferung von Wert an den
+Kunden an erste Stelle. Letztendlich muss alles dies in einer Umgebung
+geschehen, die auf Respekt für die Individuen basiert, ohne die nichts
+geschaffen werden kann.
 
-Scrum@Scale helps organizations thrive by supporting a
-transformational leadership model which fosters a positive environment for
-working at a sustainable pace and putting commitment to deliver
-customer-facing value at the forefront of our efforts.
+Scrum@Scale hilft Organisationen dabei, zu gedeihen, indem es ein
+transformationales Führungsmodell unterstützt. Dies fördert ein positives
+Umfeld für nachhaltige Arbeitsgeschwindigkeit und unsere Verpflichtung,
+Kundenwert in den Fokus unserer Bemühungen zu setzen.
 
-\subsection{Getting Started with Scrum@Scale}
-When implementing large networks of teams, it is critical to develop a
-scalable \textbf{Reference Model} for a small set of teams. Any
-deficiencies in a Scrum implementation will be magnified when multiple
-teams are deployed. Many of the initial scaling problems will be organizational
-policies and procedures or development practices that block high performance and frustrate
-teams.
+\subsection{Mit Scrum@Scale starten}
+Um große Netzwerke von Teams aufzubauen, ist es entscheidend, zuerst ein
+skalierbares \textbf{Referenzmodell} mit einem kleinen Set von Teams zu
+entwickeln. Jegliche Defizite der Scrum-Einführung summieren sich auf, sobald
+mehrere Teams eingesetzt werden. Viele der anfänglichen Skalierungs-
+schwierigkeiten werden organisatorische Richtlinien und Vorgehensweisen oder
+Entwicklungspraktiken sein, die die Teams blockieren und frustrieren.
 
-Therefore, the first challenge is to create a small set of teams that
-implements Scrum well.  This is best accomplished by the creation of an
-\textbf{Executive Action Team (EAT)}, which is accountable for the development and
-execution of the transformation strategy.  The EAT must be comprised of individuals
-who are empowered, politically and financially to ensure the existence of the
-Reference Model.  This set of teams works through organizational
-issues that block agility and creates a Reference Model for Scrum that is
-known to work in the organization and can be used as a pattern for scaling
-Scrum across the organization.
+Deswegen besteht die erste Herausforderung darin, ein kleines Set von Teams
+zu kreieren, die gutes Scrum implementieren. Das wird am besten durch die
+Schaffung eines \textbf{Executive Action Team (EAT)} erreicht, das für die
+Entwicklung und Ausführung der Transformationsstrategie verantwortlich ist.
+Das EAT muss aus Personen bestehen, die politisch und finanziell ermächtigt
+sind, die Existenz des Referenzmodells zu gewährleisten. Dieses Set von Teams
+arbeitet organisatorische Hindernisse ab, die Agilität blockieren. Es setzt
+ein arbeitsfähiges Referenzmodell für die Organisation um, das als Muster
+ verwendet werden, um Scrum unternehmensweit zu skalieren.
 
-As the Reference Model of teams accelerates, impediments and bottlenecks
-that delay delivery, produce waste, or impede business agility become
-apparent. The most effective way to eliminate these problems is to spread
-Scrum across the organization so that the entire value stream is optimized.
+Sobald das Referenzmodell von Teams schneller wird, werden Hindernisse und
+Flaschenhälse sichtbar, die Auslieferung verzögern, Verschwendung produzieren
+oder die Business Agility der Organisation behindern. Der effektivste Weg, um
+diese Probleme zu beseitigen, ist Scrum über die gesamte Organisation
+auszubreiten, so dass der gesamte Wertstrom optimiert wird.
 
-Scrum@Scale achieves linear scaling in productivity by saturating the
-organization with Scrum and distributing velocity and quality organically,
-consistent with the organization's specific strategy, product, and services.
+Scrum@Scale schafft lineare Skalierbarkeit der Produktivität durch die
+Sättigung der Organisation mit Scrum und die organische Verteilung von Velocity
+und Qualität, konsistent mit der unternehmensspezifischen Strategie, den
+Produkten und Services.
 
-\section{Scrum Master Cycle}
-\subsection{Team-Level Process}
-The \textbf{Team-Level Process} constitutes the first touch point between the Scrum Master and Product Owner Cycles, and is laid out clearly in the Scrum Guide. It
-is composed of three artifacts, five events, and three roles. The goals of
-the team level process are to:
+\section{Scrum Master Zyklus}
+\subsection{Team Level Prozess}
+Der \textbf{Team Level Prozess} cDer Team-Level Prozess stellt den ersten Berührungspunkt
+zwischen Scrum Master und Product Owner Zyklus dar und ist klar im Scrum Guide beschrieben.
+Er ist besteht aus drei Artefakten, fünf Events und drei Rollen.
+Die Ziele des Team Level Prozesses sind:
 \begin{itemize}
-\item maximize the flow of completed and quality tested work.
-\item increase performance of the team over time.
-\item operate in a way that is sustainable and enriching for the team.
-\item accelerate the customer feedback loop.
+\item den Fluss an fertiger und qualitätsgeprüfter Arbeit zu maximieren
+\item die Leistungsfähigkeit des Teams mit der Zeit zu erhöhen.
+\item so zu arbeiten, dass es nachhaltig und bereichernd für das Team ist.
+\item ie Feedbackschleife zum Kunden zu beschleunigen.
 \end{itemize}
 
-\subsection{Coordinating the ``How'' - The Scrum of Scrums}
-A set of the teams that need to coordinate in order to deliver value to customers comprise a \textbf{``Scrum of Scrums'' (SoS)}. This team is itelf a Scrum Team, which is responsible for a fully integrated set of potentially shippable increments of product at the end of every Sprint from all participating teams. A SoS functions as a Release Team and must be able to directly deliver value to customers. To do so effectively, it needs to be consistent with the Scrum Guide; that is, have its own roles, artifacts, and events:
+\subsection{Das ``Wie'' koordinieren – Das Scrum of Scrums}
+Ein Set von Teams, das sich koordinieren muss um Wert an einen Kunden zu liefern, bildet ein \textbf{``„Scrum of Scrums'' (SoS)}. Dieses Team ist selbst ein Scrum Team. Es ist für ein vollständig integriertes Set von potenziell auslieferfähigen Inkrementen am Ende jedes Sprints von allen teilnehmenden Teams verantwortlich. Ein SoS funktioniert als ein Releaseteam, und muss in der Lage sein, seinen Kunden direkt Wert zu liefern. Um das effektiv leisten zu können, muss es konsistent mit dem Scrum Guide sein, also seine eigenen Rollen, Artefakte und Events haben:
 
-Roles:
+Rollen:
 
-The SoS needs to have all of the skills necessary to deliver a fully integrated potentially shippable Product Increment at the end of every Sprint. (It may need experienced architects, QA Leaders, and other operational skill sets.) It has Product Owner representation to resolve prioritization issues.
-The Scrum Master of the Scrum of Scrums is called the \textbf{Scrum of Scrums Master (SoSM)}.
+Das SoS braucht alle Fähigkeiten, die notwendig sind, um ein vollständig integriertes, potenziell auslieferbares Inkrement am Ende jedes Sprints zu liefern. (Es könnte erfahrene Architekten, Führungspersonen aus der Qualitätssicherung, Mitglieder des Product Owner Teams und andere operativen Fähigkeiten benötigen.) Der Scrum Master des Scrum of Scrums heißt \textbf{Scrum of Scrums Master (SoSM)}.
 
 Events:
 
-The SoSM should facilitate a Backlog Refinement event wherein impediments are identified as ``ready'' to be removed, and the team determines how best to remove them and how they will know when they are ``done.''
-Particular attention should be paid to the SoS Retrospective in which the teams' representatives share any learnings or process improvements that their individual teams have succeeded with, in order to standardize those practices across the teams within the SoS.  Since the SoS needs to be responsive in real-time to impediments raised by participating teams, at least one representative (usually the team's Scrum Master) of each of the participating teams need to attend a \textbf{Scaled Daily Scrum (SDS)}. The SDS event mirrors the Daily Scrum in that it optimizes the collaboration and performance of the network of teams. Any person or number of people from participating teams may attend as needed.
+Der SoSM sollte ein Backlog Refinement Event ermöglichen, in dem entschieden wird, welche Hindernisse ``ready'' sind, um beseitigt zu werden, wie sie am besten gelöst werden können und woran das Team erkennt, dass etwas ``done'' ist. Diese Product Backlog Einträge / Artefakte zur Beseitigung von Hindernissen werden für die Teams im gleichen und einzigen Backlog priorisiert, das durch das MetaScrum erstellt wird.
+Besondere Aufmerksamkeit sollte die SoS Retrospektive erhalten, in der die Teamvertreter alle Lernerfahrungen oder Prozessverbesserungen teilen, mit denen ein individuelles Team Erfolg hatte, um diese bestmöglichen Praktiken innerhalb der Teams des SoS zu teilen.
+Da das SoS in Echtzeit auf die von den beteiligten Teams gemeldeten Hindernisse reagieren können muss, muss mindestens ein Teamvertreter (normalerweise der Team Scrum Master) von jedem teilnehmenden Team an einem \textbf{Scaled Daily Scrum (SDS)} teilnehmen. Das SDS Event spiegelt das Daily Scrum insofern, dass es die Zusammenarbeit und Leistungsfähigkeit des Netzwerkes von Teams optimiert. Je nach Bedarf kann jede Person und jegliche Anzahl von Personen teilnehmen.
 
-Additionally, the SDS:
+Zusätzlich ist das SDS:
 
 \begin{itemize}
-\item is time-boxed to 15 minutes or less.
-\item must be attended by a representative of each team including the Product Owner team.
-\item is a forum where team representatives discuss what is going well, what is getting done, and how teams can work together more effectively. Some examples of what might be discussed are:
+\item time-boxed auf 15 Minuten oder weniger
+\item von einem Vertreter jedes Teams, inklusive des Product Owner Teams, besucht
+\item ein Forum, in dem die Vertreter besprechen was gut läuft, was fertiggestellt wird und wie die Teams effektiver zusammenarbeiten können. Beispielsweise kann besprochen werden:
 \begin{itemize}
-\item What impediments does my team have that will prevent them from
-accomplishing their Sprint Goal (or impact the upcoming release)?
-\item Is my team doing anything that will prevent another team from
-accomplishing their Sprint Goal (or impact their upcoming release)?
-\item Have we discovered any new dependencies between the teams or
-discovered a way to resolve an existing dependency?
-\item What improvements have we discovered that can be leveraged across teams?
+\item Welche Hindernisse hat mein Team, die es davon abhalten, das Sprintziel zu erreichen (oder die das kommende Release beeinflussen)?
+\item Tut mein Team irgendetwas, das ein anderes Team davon abhält, sein Sprintziel zu erreichen (oder was das kommende Release beeinflusst)?
+\item Haben wir neue Abhängigkeiten zwischen Teams entdeckt, oder bekannte Abhängigkeiten auflösen können?
+\item Welche Verbesserungen haben wir entdeckt, die teamübergreifend genutzt werden können?
 \end{itemize}
 \end{itemize}
 
-\subsection{The Scrum of Scrums Master (SoSM)}
-The Scrum of Scrums Master (SoSM) is accountable for the release of the
-joint teams' effort and must:
+\subsection{Der Scrum of Scrums Master (SoSM)}
+Der Scrum of Scrums Scrum Master (SoSM) ist für die Auslieferung der gemeinsamen Teamleistungen verantwortlich und muss:
 \begin{itemize}
-\item make progress visible.
-\item make an impediment backlog visible to the organization.
-\item remove impediments that the teams cannot address themselves.
-\item facilitate prioritization of impediments, with particular attention to cross-team
-dependencies and the distribution of backlog.
-\item improve the efficacy of the Scrum of Scrums.
-\item work closely with the Product Owners to deploy a potentially
-releasable Product Increment at least every Sprint.
-\item coordinate the teams' deployment with the Product Owner's Release
-Plans.
+\item Fortschritt sichtbar machen
+\item ein Impediment Backlog für die Organisation sichtbar machen.
+\item Hindernisse beseitigen, die die Teams nicht selbst beseitigen können.
+\item Die Priorisierung von Hindernissen mit besonderer Aufmerksamkeit auf Abhängigkeiten zwischen Teams und die Verteilung von Product Backlog Einträgen ermöglichen
+\item die Effektivität des Scrum of Scrums verbessern.
+\item eng mit den Product Ownern zusammenarbeiten, um ein potenziell auslieferbares Produktinkrement mindestens am Ende jedes Sprints bereitzustellen.
+\item die Lieferungen der Teams mit den Releaseplänen des Product Owners koordinieren.
 \end{itemize}
 
-\subsection{Scaling the SoS}
-Depending upon the size of the organization or implementation, more than
-one SoS may be needed to deliver a very complex product. In those cases, a
-\textbf{Scrum of Scrum of Scrums (SoSoS)} can be created out of multiple
-Scrums of Scrums. The SoSoS is an organic pattern of Scrum teams which is
-infinitely scalable. Each SoSoS should have SoSoSM's and scaled versions of
-each artifact \& event.
+\subsection{Das SoS skalieren}
+Abhängig von der Größe der Organisation oder Implementierung, kann mehr als ein
+SoS benötigt werden, um ein sehr komplexes Produkt liefern zu können. In diesen
+Fällen kann ein textbf\{Scrum of Scrum of Scrums (SoSoS)} aus mehreren Scrum of Scrums
+gebildet werden. Das SoSoS ist ein organisches Muster von Scrum Teams, das
+unendlich skalierbar ist. Jedes SoSoS sollte SoSoSMaster und skalierte Versionen
+jedes Artefakts \& Events haben.
 
-Scaling the SoS reduces the number of communication pathways within the
-organization so that complexity is encapsulated. The SoSoS interfaces with
-a SoS in the exact same manner that a SoS interfaces with a single Scrum
-team which allows for linear scalability.
+Die Skalierung des SoS reduziert die Anzahl der Kommunikationswege innerhalb
+der Organisation, so dass Komplexität gekapselt ist. Das SoSoS verbindet sich
+mit dem SoS genauso, wie ein SoS sich mit einem einzelnen Team verbindet. Das
+ermöglicht lineare Skalierbarkeit.
 
 \pagebreak
-Sample Diagrams:
+Beispieldiagramme:
 
 \includegraphics[width=1.0\linewidth]{Sos-R2.png}
 
-\textbf{\textsc{note:}} While the Scrum Guide defines the optimal team size as being
-3 to 9 people, Harvard research determined that optimal team size is 4.6
-people.\footnote{Hackman, J Richard, Leading teams: Setting the stage for
-great performances, Harvard Business Press, 2002} Experiments with high
-performing Scrum teams have repeatedly shown that 4 or 5 people doing the
-work is the optimal size. It is essential to linear scalability that this
-pattern be the same for the number of teams in a SoS. Therefore, in the
-above and following diagrams, pentagons were chosen to represent a team of
-5. These diagrams are meant to be examples only, your organizational
-diagram may differ greatly.
+\textbf{\textsc{Anmerkung:}} Während der Scrum Guide die optimale Teamgröße als
+drei bis neun Personen definiert, haben Harvard-Untersuchungen festgestellt,
+dass die optimale Teamgröße 4.6 Personen beträgt. (Fußnote 1). Experimente mit
+hochperformanten Scrum Teams haben wiederholt gezeigt, dass vier oder fünf
+Personen die optimale Größe ist. Für eine lineare Skalierbarkeit ist es
+wesentlich, dass dieses Muster für die Gesamtzahl von Teams in einem SoS
+beibehalten wird. Deswegen wurden in diesem wie in den folgenden Diagrammen
+Fünfecke ausgewählt, um ein fünfköpfiges Team darzustellen. Diese Diagramme
+sollen nur als Beispiele dienen, Ihr eigenes Organisationsdiagramm kann stark
+hiervon abweichen.
 
-\subsection{The Executive Action Team}
-The Scrum of Scrums for the entire agile organization is called the
-\textbf{Executive Action Team (EAT)}. The leadership team creates an agile bubble
-in the organization where the Reference Model operates with
-its own guidelines and procedures that integrates effectively
-with any part of the organization that is not agile. It owns the agile ecosystem,
-implements the Scrum values, and assures that
-Scrum roles are created and supported.
+\subsection{Das Executive Action Team}
+Das Scrum of Scrums für die gesamte agile Organisation ist das
+\textbf{Executive Action Team (EAT)}. Dieses Führungsteam kreiert eine agile
+Blase in der Organisation, in der das Referenzmodell mit seinen eigenen
+Richtlinien und Vorgehensweisen arbeitet. Diese Blase schließt sich effektiv
+an alle Teile der Organisation an, die nicht agil sind. Dem EAT gehört das
+agile Ökosystem, es implementiert die Scrum Werte und stellt sicher, dass die
+Scrum Rollen geschaffen und unterstützt werden.
 
-The EAT is the final stop for
-impediments that cannot be removed by the SoS's that feed it. Therefore, it
-must be comprised of individuals who are empowered, politically and
-financially, to remove them.
-The function of the EAT is to coordinate
-multiple SoS's (or SoSoS's) and to interface with any non-agile parts
-of the organization. As with any Scrum team, it needs a PO and SM.
-It would be best if the EAT met daily as a Scrum team. They must meet at
-least once per Sprint and have a transparent backlog.
+Das EAT ist die letzte Station für Hindernisse, die von dem SoSs gemeldet und
+nicht von ihnen selbst beseitigt werden können. Daher muss das EAT aus Personen
+bestehen, die politisch und finanziell bevollmächtigt sind, diese Hindernisse
+zu beseitigen. Das EAT koordiniert mehrere SoSs (oder SoSoSs) und sorgt für die
+Anschlüsse an die nicht-agile Organisationsteile. Wie jedes Scrum Team benötigt
+das EAT einen Product Owner und einen Scrum Master und trifft sich täglich.
+Genauso muss es ein transparentes Backlog haben
+
 
 %\pagebreak
-Sample Diagram showing an EAT coordinating 5 groupings of 25 teams:
+Beispieldiagramm zeigt ein EAT, das 5 Gruppierungen mit 25 Teams koordiniert:
 
 \includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{SoS-EAT.png}
 
-\subsection{The EAT's Backlog \& Responsibilities}
-Scrum is an agile operating system that is different from traditional
-project management. The entire SM organization reports into the EAT, which
-is responsible for implementing this agile operating system by
-establishing, maintaining, and enhancing the implementation in the
-organization.
-The EAT's role is to create an Organizational Transformation Backlog (a
-prioritized list of the agile initiatives that need to be accomplished) and
-see that it is carried out. For example, if there is a traditional Product
-Development Life Cycle in the old organization, a new agile Product
-Development Life Cycle needs to be created, implemented, and supported. It
-will typically support quality and compliance issues better than the old
-method but be implemented in a different way with different rules and
-guidelines. The EAT ensures that a Product Owner organization is created and funded
-and that this organization is represented on the EAT to support these efforts.
+\subsection{EAT Backlog \& Aufgaben}
+Scrum ist ein agiles Betriebssystem, das sich von traditionellem Projektmanagement
+unterscheidet. Die gesamte Scrum Master Organisation berichtet an das EAT, das
+dafür verantwortlich ist, dieses agile Betriebssystem in der Organisation zu
+etablieren, aufrecht zu erhalten und die Implementierung in der Organisation zu
+verbessern.
+Die Rolle des EAT besteht darin, ein Organisations-Transformations Backlog zu
+erstellen – eine priorisierte Liste aller agilen Initiativen, die umgesetzt
+werden müssen - und deren Umsetzung sicherzustellen. Gibt es z.B. in der
+bisherigen Organisation einen traditionellen Produktentwicklungsprozess, muss
+ein neuer, agiler Produktentwicklungsprozess entwickelt, umgesetzt und
+unterstützt werden. Compliance und Qualität werden dann typischerweise besser
+unterstützt, müssen aber anders, mit anderen Regeln und Richtlinien, entwickelt
+werden. Das EAT stellt sicher, dass eine Product Owner Organisation gegründet
+und finanziert wird und dass diese Organisation im EAT vertreten ist, um
+dessen Bemühungen zu unterstützen.
 
-The EAT is accountable for the quality of Scrum within the organization.
-Its responsibilities include but are not limited to:
+Das EAT ist für die Qualität von Scrum innerhalb der Organisation verantwortlich.
+Es ist u.a. zuständig für:
 \begin{itemize}
-\item creating an agile operating system for the Reference Model as it
-scales through the organization, including corporate operational rules,
-procedures, and guidelines to enable agility.
-\item measuring and improving the quality of Scrum in the organization.
-\item building capability within the organization for business agility.
-\item creating a center for continuous learning for Scrum professionals.
-\item supporting the exploration of new ways of working.
+\item die Schaffung eines agilen Betriebssystems für ein in der Organisation
+skalierbares Referenzmodell, einschließlich betrieblicher Regeln, Prozesse und
+Richtlinien, um Agilität zu ermöglichen.
+\item Messung und Verbesserung der Qualität von Scrum in der Organisation.
+\item den Aufbau von Kompetenzen innerhalb der Organisation, um Business Agility zu ermöglichen.
+\item den Aufbau eines Centers für kontinuierliches Lernen für Scrum Professionals.
+\item das Ausprobieren neuer Arbeitsweisen zu unterstützen.
 \end{itemize}
-Finally, the EAT must set up and support a corresponding Product Owner
-organization through associations of PO's that mirror the SoS's and scale
-their PO functions. These teams of PO's and key stakeholders are known as
-\textbf{MetaScrums}.
+Schließlich muss das EAT eine korrespondierende Product Owner Organisation
+aufbauen und unterstützen. Sie besteht aus verbundenen Product Ownern, die die
+SoS spiegeln und ihre PO Funktionen skalieren.
 
-\subsection{Outputs/Outcomes of the Scrum Master Cycle}
-The SM organization (SoS, SoSoS, and EAT) work as a whole to complete the
-other components of the Scrum Master Cycle: \textbf{Continuous Improvement
-and Impediment Removal, Cross-Team Coordination, and Deployment}.
+\subsection{Outputs/Outcomes des Scrum Master Zyklus}
+Die Scrum Master Organisation (SoS, SoSoS, EAT) arbeitet als Ganzes, um die
+übrigen Komponenten des Scrum Master Zyklus auszuführen: \textbf{Kontinuierliche Verbesserung
+und Hindernisbeseitigung, Cross-Team Koordination und Auslieferung}.
 
-The goals of Continuous Improvement and Impediment Removal are to:
+Die Ziele von Kontinuierlicher Verbesserung und Hindernisbeseitigung sind:
 \begin{itemize}
-\item identify impediments and reframe them as opportunities.
-\item maintain a healthy and structured environment for prioritizing and
-removing impediments, and then verifying the resulting improvements.
-\item ensure visibility in the organization to effect change.
+\item Hindernisse zu identifizieren und sie als Chancen zu deuten.
+\item Eine gesunde und strukturierte Umgebung aufrecht zu erhalten, in der
+Hindernisse priorisiert und beseitigt werden und Verbesserungen überprüft
+und verifiziert werden.
+\item Sichtbarkeit in der Organisation sicherzustellen, um Veränderungen zu bewirken.
 \end{itemize}
-The goals of Cross-Team Coordination are to:
+Die Ziele von Cross-Team Koordination sind:
 \begin{itemize}
-\item coordinate similar processes across multiple related teams.
-\item mitigate cross-team dependencies to ensure they don't become
-impediments.
-\item maintain alignment of team norms and guidelines for consistent output.
-\end{itemize}
-
-Since the goal of the SoS is to function as a release team, the deployment
-of product falls under their scope, while what is contained in any release
-falls under the scope of the Product Owners. Therefore, the goals of the
-Deployment are to:
-\begin{itemize}
-\item deliver a consistent flow of valuable finished product to customers.
-\item integrate the work of different teams into one seamless product.
-\item ensure high quality of the customer experience.
+\item ähnliche Prozessen über mehrere zusammenhängende Teams zu koordinieren.
+\item Abhängigkeiten zwischen Teams zu mildern, damit sie nicht zu Hindernissen werden.
+\item die Abstimmung von Team Normen und Regeln aufrechtzuerhalten, um konsistente
+Ergebnisse zu gewährleisten.
 \end{itemize}
 
-\section{Product Owner Cycle}
-\subsection{Coordinating the ``What'' - The MetaScrum}
-A group of Product Owners who need to coordinate a shared backlog that
-feeds a network of teams are themselves a team called a \textbf{MetaScrum}.
-For each SoS there is an associated MetaScrum. A MetaScrum aligns the
-teams' priorities along a single path so that they can coordinate their
-team backlogs and build alignment with stakeholders to support the backlog.
-A team's product owner is accountable for the composition and prioritization
-of the team backlog and may pull backlog from the shared metascrum backlog
-into the team backlog or generate independent backlog at his or her discretion.
+Das SoS ist ein Releaseteam, daher fällt die Auslieferung des Produktes unter
+seine Verantwortung, während die Product Owner über die Inhalte des Releases
+entscheiden. Die Ziele der Komponente Auslieferung sind daher:
 
-MetaScrums hold a scaled version of Backlog Refinement, the \textbf{Scaled Backlog Refinement Meeting}
 \begin{itemize}
-\item Each team PO (or proxy) must attend
-\item This event is the forum for Leadership, Stakeholders, or other
-Customers to express their preferences
-\end{itemize}
-This event occurs as often as needed, at least once per Sprint, to ensure a
-Ready backlog.
-
-The main functions of the MetaScrum are to:
-\begin{itemize}
-\item create an overarching vision for the product \& make it visible to
-the organization.
-\item build alignment with key stakeholders to secure support for backlog
-implementation.
-\item generate a single, prioritized backlog; ensuring that duplication of
-work is avoided.
-\item create a minimally uniform ``Definition of Done'' that applies to all teams in
-the SoS.
-\item eliminate dependencies raised by the SoS.
-\item generate a coordinated Release Plan.
-\item decide upon and monitor metrics that give insight into the product.
-\end{itemize}
-MetaScrums, just like SoS's, function as Scrum teams on their own. As such,
-they need to have someone who acts as a SM and keeps the team on track in
-discussions. They also need a single person who is responsible for coordinating the
-generation of a single Product Backlog for all of the teams covered by the
-MetaScrum. This person is designated as the \textbf{Chief Product Owner}.
-
-\subsection{The Chief Product Owner (CPO)}
-Through the MetaScrums, Chief Product Owners coordinate priorities among
-Product Owners who work with individual teams. They align backlog
-priorities with Stakeholder and Customer needs. Just like a SoSM, they may
-be an individual team PO who chooses to play this role as well, or they may
-be a person specifically dedicated to this role. Their main
-responsibilities are the same as a regular PO's, but at scale:
-\begin{itemize}
-\item Setting a strategic vision for the whole product.
-\item Creating a single, prioritized backlog of value to be delivered by
-all of the teams.
-\begin{itemize}
-\item these items would be larger Product Backlog Items than that for a team PO.
-\end{itemize}
-\item Working closely with their associated SoSM so that the Release Plan
-that the MetaScrum team generates can be deployed efficiently.
-\item Monitoring customer product feedback and adjusting the backlog
-accordingly.
+\item Auslieferung eines konsistenten Flusses von wertvollen, fertiggestellten Produkten an Kunden.
+\item Integration der Arbeitsergebnisse verschiedener Teams zu einem nahtlosen Produkt.
+\item qualitativ hochwertige Customer Experience sicherzustellen.
 \end{itemize}
 
-\subsection{Scaling the MetaScrum}
-Just as SoS's can grow into SoSoS's, MetaScrums can also expand by the same
-mechanism. There is no specific term associated with these expanded units,
-nor do the CPO's of them have specific expanded titles. We encourage each
-organization to develop their own. For the following diagrams, we have
-chosen to add an additional ``Chief'' to the title of those PO's as they
-magnify out.
+\section{Der Product Owner Zyklus}
+\subsection{Das ``Was'' koordinieren – Das Product Owner Team}
+Eine Gruppe von Product Ownern, die ein gemeinsames Backlog für ein Netzwerk
+von Teams koordinieren müssen, sind selbst ein Team, das \textbf{Product Owner Team}
+genannt wird. Für jedes SoS gibt es ein zugehöriges Product Owner Team, das die
+Prioritäten der Teams entlang eines gemeinsamen Pfades ausrichtet. So können die
+Backlogs ihrer Teams koordiniert, mit den Stakeholdern abgestimmt und von
+ihnen unterstützt werden.
+
+Der Product Owner eines Teams ist verantwortlich für die Erstellung und
+Priorisierung des Team Backlogs und kann Backlog Einträge aus dem gemeinsamen
+MetaScrum Backlog in das Team Backlog ziehen oder nach eigenem Ermessen
+unabhängige Backlog Einträge erstellen.
+
+Product Owner Teams halten eine skalierte Version des Backlog Refinement ab, das \textbf{MetaScrum}:
+\begin{itemize}
+\item Jeder Team PO (oder sein/ihr Vertreter) muss am MetaScrum teilnehmen, in dem Stakeholder das Backlog des Product Owner Teams begutachten und Strategie-, Ressourcen- und Zeitthemen adressieren.
+\item Dieses Event ist Forum für Führung, Stakeholder oder weitere
+Kunden, um ihre Präferenzen auszudrücken
+\end{itemize}
+Dieses Event findet so oft wie nötig statt, jedoch mindestens einmal pro Sprint,
+um ein Ready Backlog auf Product Owner Team Ebene sicherzustellen.
+
+Die wesentlichen Funktionen des Product Owner Teams sind:
+\begin{itemize}
+\item eine übergreifende Produktvision zu gestalten \& sie in der Organisation sichtbar zu machen.
+\item Einverständnis mit den wesentlichen Stakeholdern zu schaffen, um die
+Unterstützung für die Verwirklichung des Backlogs sicherzustellen
+\item Erstellung eines einheitlichen, priorisierten Backlogs; sicherstellen, dass
+Doppelarbeiten ausgeschlossen sind
+\item Sicherstellen, dass Hindernisse und Themen zu technischen Schulden im Backlog richtig priorisiert werden.
+\item Festlegung einer minimalen einheitlichen ``Definition of Done'', die für alle Teams im SoS gilt
+\item Beseitigung von Abhängigkeiten, die von den Teams gemeldet werden.
+\item Erstellung einer koordinierten Roadmap und eines koordinierten Releaseplanes.
+\item Entscheidung für und Beobachtung von Metriken, die Erkenntnisse über das Produkt und den Markt liefern.
+\end{itemize}
+Product Owner Teams funktionieren, genauso wie SoSs, wie Scrum Teams. Als solche
+benötigen sie einen Scrum Master, der das Team während Diskussionen fokussiert
+hält. Außerdem benötigen sie eine einzelne Person, die dafür verantwortlich ist,
+die Erstellung eines einzelnen Product Backlogs für alle Teams im Scrum of Scrums
+zu koordinieren. Diese Person wird bezeichnet als \textbf{Chief Product Owner}.
+
+\subsection{Der Chief Product Owner (CPO)}
+Die Chief Product Owner koordinieren die Prioritäten unter den Product Ownern,
+die mit einzelnen Teams arbeiten. Sie richten Backlog Prioritäten entlang der
+Bedürfnisse der Stakeholder und Kunden aus. Genau wie ein SoSM kann der CPO ein
+PO eines individuellen Teams sein, der sich dazu entschließt, diese Rolle
+ebenfalls auszufüllen, oder es kann eine Person sein, die besonders dafür
+benannt wurde. Die wesentlichen Aufgaben sind dieselben, wie die eines
+regulären PO, nur skaliert:
+\begin{itemize}
+\item Eine Strategische Vision für das gesamte Produkt zu bestimmen.
+\item Ein einziges, priorisiertes Backlog zu erstellen, dessen Wert von
+allen Teams geliefert wird
+\begin{itemize}
+\item diese Einträge wären größere Product Backlog Einträge als die eines Team PO.
+\end{itemize}
+\item Eng mit dem zugehörigen SoSM zusammenzuarbeiten, so dass der Releaseplan, den das Product Owner Team generiert, effizient umgesetzt werden kann.
+\item Kundenfeedback zum Produkt aufzunehmen und das Backlog entsprechend anzupassen.
+\item Das MetaScrum zu leiten, in dem das Product Backlog gezeigt und die Abstimmung mit Stakeholdern erzielt wird.
+\end{itemize}
+
+\subsection{Das Product Owner Team skalieren}
+Genau wie sich SoSs zu einem SoSoS ausdehnen können, können Product Owner
+Teams durch denselben Mechanismus erweitert werden. Es gibt weder einen
+besonderen Begriff für diese erweiterten Einheiten, noch haben deren CPOs
+besondere, erweiterte Titel. Wir ermutigen jede Organisation, ihre eigenen zu
+entwickeln. Für die folgenden Diagramme haben wir mit jeder jeweils höheren
+Skalierungsebene den Titel des Product Owners um ein zusätzliches ``Chief''
+ergänzt.
+
+Die Product Owner Teams treffen sich regelmäßig (mindestens einmal pro Sprint) mit wesentlichen Stakeholdern, um das Backlog für die gesamte Organisation auszurichten. Dieses Treffen heißt MetaScrum und wird vom Chief Product Owner geleitet. Hier können Prioritäten verhandelt, Budgets verändert und Teams neu ausgerichtet werden, um den Wert zu maximieren, der an den Markt ausgeliefert wird.
 
 %\pagebreak
-Some sample diagrams:
+Einige Beispieldiagramme::
 
 \includegraphics[width=1.0\linewidth]{MetaScrum-R2.png}
 
-\textbf{NOTE:} As mentioned above, these pentagons represent the ideal
-sized Scrum teams and ideal sized MetaScrums. These diagrams are meant to
-be examples only, your organizational diagram may differ greatly.
+\textbf{ANMERKUNG:} Wie oben erwähnt, repräsentieren diese Fünfecke Scrum Teams
+und Product Owner Teams mit der idealen Größe. Diese Diagramme sollen nur als
+Beispiele dienen, Ihr eigenes Organisationsdiagramm kann stark hiervon abweichen.
 
-\subsection{The Executive MetaScrum (EMS)}
-The MetaScrums enable a network design of Product Owners which is
-infinitely scalable alongside their associated SoS's. The MetaScrum for the
-entire agile organization is the \textbf{Executive MetaScrum}. The EMS owns
-the organizational vision and sets the strategic priorities for the whole
-company, aligning all the teams around common goals.
 
-Sample diagram showing an EMS coordinating 5 groups of 25 teams:
+\subsection{Das Executive MetaScrum (EMS)}
+Die Product Owner Teams ermöglichen ein Netzwerk Design von Product Ownern, das
+gemeinsam mit den dazugehörigen SoSs unendlich skaliert werden kann. Das
+Product Owner Team für die gesamte agile Organisation trifft sich mit
+wesentlichen Stakeholdern zum \textbf{Executive MetaScrum}. Dem EMS gehört
+die unternehmerische Vision und es bestimmt die strategischen Prioritäten.
+Das EMS richtet alle Teams an gemeinsamen Zielen aus.
+
+Beispieldiagramm eines EMS, das 5 Gruppen von 25 Teams koordiniert:
 
 \includegraphics[width=1.0\linewidth]{ExecMetaScrum.png}
 
-\subsection{Outputs/Outcomes of the Product Owner Organization}
-The PO organization (various MetaScrums, the CPO's, and the Executive
-MetaScrum) work as a whole to satisfy the components of the Product Owner
-Cycle: \textbf{Strategic Vision, Backlog Prioritization, Backlog
-Decomposition \& Refinement, and Release Planning}.
+\subsection{Outputs/Outcomes der Product Owner Organisation}
+Die PO Organisation (die Product Owner, die CPOs und das Executive MetaScrum)
+arbeitet als Ganzes, um die Komponenten des Product Owner Zyklus zu bedienen:
+\textbf{Strategische Vision, Backlog Priorisierung, Backlog Decomposition \& Refinement und Release Planung}.
 
-The goals of setting a Strategic Vision are to:
+Die Ziele bei der Bestimmung einer Strategischen Vision sind:
 \begin{itemize}
-\item clearly align the entire organization along a shared path forward.
-\item compellingly articulate why the organization exists.
-\item describe what the organization will do to leverage key assets in
-support of its mission.
-\item respond to rapidly changing market conditions.
+\item die gesamte Organisation eindeutig entlang eines gemeinsamen Pfades vorwärts auszurichten.
+\item überzeugend zu formulieren, warum die Organisation existiert.
+\item zu beschreiben, wie die Organisation wesentliche Faktoren nutzt, um ihre Mission zu unterstützen.
+\item sich ständig anzupassen, um auf sich schnell ändernde Marktbedingungen reagieren zu können.
 \end{itemize}
-The goals of Backlog Prioritization are to:
+Die Ziele der Backlog Priorisierung sind:
 \begin{itemize}
-\item identify a clear ordering for products, features, and services to be
-delivered.
-\item reflect value creation, risk mitigation and internal dependencies in
-ordering of the backlog.
-\item prioritize the high-level initiatives across the entire agile
-organization prior to Backlog Decomposition and Refinement.
+\item eine klare Reihenfolge zu identifizieren für Produkte, Features und
+Services, die geliefert werden sollen
+\item die Wertschöpfung, die Risikominderung und interne Abhängigkeiten bei der
+Priorisierung des Backlogs zu berücksichtigen.
+\item übergeordnete Initiativen für die gesamte Organisation noch vor Backlog Decomposition & Refinement zu priorisieren.
 \end{itemize}
-The goals of Backlog Decomposition \& Refinement are to:
+Die Ziele von Backlog Decomposition \& Refinement sind:
 \begin{itemize}
-\item break complex products and projects into independent functional
-elements that can be completed by one team in one Sprint.
-\item capture and distill emerging requirements and customer feedback.
-\item ensure all backlog items are truly ``Ready'' so that they can be
-pulled by the individual teams.
+\item komplexe Projekte und Produkte in funktional unabhängige Elemente
+herunterzubrechen, die von einem Team innerhalb eines Sprints fertiggestellt
+werden können
+\item Emergente Anforderungen und Kundenfeedback zu sammeln und auszuwerten.
+\item Sicherzustellen, dass alle Backlogeinträge tatsächlich ``ready'' sind,
+sodass sie von den Teams in den Sprint gezogen werden können.
 \end{itemize}
-The goals of Release Planning are to:
+Die Ziele der Release Planung sind:
 \begin{itemize}
-\item forecast delivery of key features and capabilities.
-\item communicate delivery expectations to stakeholders.
-\item update prioritization, as needed.
+\item die Lieferung von Kernfeatures und Leistungsfähigkeiten vorherzusagen.
+\item Lieferungserwartungen gegenüber Stakeholdern zu kommunizieren.
+\item die Priorisierung nach Bedarf zu aktualisieren.
 \end{itemize}
 
-\section{Connecting the PO/SM Cycles}
+\section{Die PO/SM Zyklen verbinden}
 
-\subsection{Understanding Feedback}
-The \textbf{Feedback} component is the second point where the PO \& SM
-Cycles touch. Product feedback drives continuous improvement through
-adjusting the Product Backlog while Release feedback drives continuous
-improvement through adjusting the Deployment mechanisms. The goals of
-obtaining and analyzing Feedback are to:
+\subsection{Feedback verstehen}
+Die Komponente \textbf{Feedback} ist der zweite Punkt, an dem sich der PO-Zyklus
+und der SM-Zyklus berühren. Während Feedback zum Produkt kontinuierliche
+Verbesserung vorantreibt, indem es das Product Backlog anpasst, treibt Feedback
+zum Release kontinuierliche Verbesserung voran, indem es Auslieferungsmechanismen
+anpasst. Die Ziele bei der Gewinnung und Analyse von Feedback sind:
 \begin{itemize}
-\item validate our assumptions.
-\item understand how customers use and interact with the product.
-\item capture ideas for new features and functionality.
-\item define improvements to existing functionality.
-\item update progress towards product/project completion to refine release
-planning and stakeholder alignment.
-\item identify improvements to deployment methods and mechanisms.
+\item unsere Annahmen zu validieren.
+\item zu verstehen, wie Kunden das Produkt benutzen und mit ihm interagieren.
+\item Ideen für neue Features und Funktionalitäten zu erfassen.
+\item Verbesserungen zu bestehender Funktionalität zu definieren.
+\item den Fortschritt hinsichtlich Projekt- / Produktfertigstellung zu aktualisieren, um die Releaseplanung und Abstimmung mit den Stakeholdern zu verbessern.
+\item Verbesserungen für Auslieferungsmethoden und -mechanismen zu identifizieren.
 \end{itemize}
 
-\subsection{Metrics \& Transparency}
-Radical transparency is essential for Scrum to function optimally, but it
-is only possible in an organization that has embraced the Scrum values. It
-gives the organization the ability to honestly assess its progress and to
-inspect and adapt its products and processes. This is the foundation of the
-empirical nature of Scrum as laid out in the Scrum Guide.
+\subsection{Metriken \& Transparenz}
+Radikale Transparenz essenziell, damit Scrum optimal funktioniert. Das ist aber
+nur in einer Organisation möglich, die die Scrum Werte beherzigt. Radikale
+Transparenz gibt der Organisation die Möglichkeit, ihre Fortschritte reell zu
+beurteilen und die Produkte und Prozesse zu überprüfen und anzupassen. Dies ist
+die Grundlage der empirischen Natur von Scrum, wie sie im Scrum Guide erklärt ist.
 
-Both the SM \& PO Cycles require metrics that will be decided upon by the
-separate SM and PO organizations. Metrics may be unique to both specific
-organizations as well as to specific functions within those organizations.
-Scrum@Scale does not require any specific set of metrics, but it does
-suggest that at a bare minimum, the organization should measure:
+SM- \& PO-Zyklus benötigen Metriken, die von den jeweiligen SM- und
+PO-Organisationen festgelegt werden. Metriken können sowohl für beide jeweiligen
+Organisationen, als auch für einzelne Funktionen innerhalb dieser Organisationen
+unterschiedlich sein. Scrum@Scale setzt kein spezifisches Set an Metriken voraus.
+Aber es legt nahe, dass die Organisation mindestens:
 \begin{itemize}
-\item Productivity - e.g. change in amount of Working Product delivered per
-Sprint
-\item Value Delivery - e.g. business value per unit of team effort
-\item Quality - e.g. defect rate or service downtime
-\item Sustainability - e.g. team happiness
+\item Produktivität – z. B. Veränderung der Menge an verwendbaren Arbeitsergebnissen,
+die pro Sprint geliefert werden
+\item Wertauslieferung – z. B. Geschäftswert pro Einheit des Teamaufwandes
+\item Qualität – z. B. Fehlerrate oder Serviceausfallzeiten
+\item Nachhaltigkeit – z. B. Teamzufriedenheit
 \end{itemize}
-The goals of having Metrics and Transparency are to:
+misst.
+Die Ziele von Metriken und Transparenz sind:
 \begin{itemize}
-  \item provide all decision makers, including team members, with
-appropriate context to make good decisions.
-\item shorten feedback cycles as much as possible to avoid over-correction.
-\item require minimal additional effort by teams, stakeholders or
-leadership.
- \end{itemize}
+\item alle Entscheider, inklusive der Teammitglieder, mit ausreichend Kontext zu
+versorgen, um gute Entscheidungen treffen zu können.
+\item Feedbackzyklen so weit wie möglich zu verkürzen um Überkorrektur zu vermeiden.
+\item rminimalen zusätzlichen Aufwand durch Teams, Stakeholder und Führung zu
+benötigen.
+\end{itemize}
 
-\subsection{Some notes on Organizational Design}
-The scale-free nature of Scrum@Scale allows the design of the organization
-to be component-based, just like the framework itself. This permits for
-rebalancing or refactoring of teams in response to the market. As an
-organization grows, capturing the benefits of distributed teams may be
-important. Some organizations reach talent otherwise unavailable and are
-able to expand and contract as needed through outsourced development.
-Scrum@Scale shows how to do this while avoiding long lag times, compromised
-communications, and inferior quality, enabling linear scalability both in
-size and global distribution.\footnote{Sutherland, Jeff and Schoonheim,
+\subsection{Einige Anmerkungen zu Organisationsdesign}
+Die „skalierungsfreie“ Natur von Scrum@Scale erlaubt eine Organisationsstruktur,
+die komponentenbasiert ist, genau wie das Rahmenwerk selbst. Dies erlaubt
+Neugewichtungen oder Umgestaltungen von Teams als Antwort auf den Markt.
+Wenn eine Organisation wächst, kann es sehr wichtig sein, die Vorteile verteilter
+Teams zu nutzen. Einige Unternehmen gewinnen Talente, die anderweitig nicht
+verfügbar sind und sind in der Lage durch outgesourcte Entwicklung nach Bedarf
+zu wachsen zu schrumpfen. Scrum@Scale zeigt, wie das ohne lange
+Verzögerungszeiten, eingeschränkte Kommunikation und mindere Qualität gelingen
+kann und ermöglicht lineare Skalierbarkeit sowohl in Größe als auch in globaler
+Verteilung. \footnote{Sutherland, Jeff and Schoonheim,
 Guido and Rustenburg, Eelco and Rijk, Maurits, ``Fully distributed scrum:
 The secret sauce for hyperproductive offshored development teams'',
 AGILE'08. Conference, IEEE: 339-344, 2008}
@@ -559,70 +568,73 @@ AGILE'08. Conference, IEEE: 339-344, 2008}
 \includegraphics[width=1.0\linewidth]{VariableSoS-R2.png}
 \includegraphics[width=1.0\linewidth]{OrganizationalDiagram.png}
 
-In this organizational diagram, the \textbf{Knowledge \& Infrastructure
-Teams} represent virtual teams of specialists of which there are too few to
-staff each team. They coordinate with the Scrum teams as a group via
-service-level agreements where requests flow through a PO for each
-specialty who converts them into a transparent ordered backlog. An
-important note is that these teams are NOT silos of individuals who sit
-together (this is why they are represented as hollow pentagons); their team
-members sit on the actual Scrum teams, but they make up this virtual Scrum
-of their own for the purpose of backlog dissemination and process
-improvement.
+In diesem Organisationsdiagramm sind die \textbf{Wissens- und Infrastrukturteams}
+als virtuelle Spezialistenteams dargestellt. Von diesen Spezialisten gibt es zu
+wenige für jedes einzelne Team. Sie koordinieren sich als Gruppe mit den Scrum
+Teams über Service-Level Agreements. Ein PO nimmt die Anfragen entgegen und
+erstellt daraus für jedes Spezialgebiet ein transparentes, priorisiertes Backlog.
+Wichtiger Hinweis: Diese Teams sind NICHT Silos von Individuen, die
+zusammensitzen (deswegen sind sie in diesem Diagramm als leere Fünfecke
+dargestellt); ihre Teammitglieder sitzen in den eigentlichen Scrum Teams.
+Sie bilden aber dieses eigene virtuelle Scrum zwecks Backlogverteilung und
+Prozessverbesserung.
 
-\textbf{Customer Relations, Legal / Compliance, and People Operations} are
-included here since they are necessary parts of organizations and will
-exist as independent Scrum teams on their own, which all of the others may
-rely upon.
+\textbf{Customer Relations, Rechtsabteilung & Compliance und People Operations}
+sind hier ebenfalls als notwendige Teile der Organisation inbegriffen. Sie
+existieren als eigene, unabhängige Scrum Teams, von denen alle anderen abhängen
+können.
 
-A final note on the representation of the EAT \& EMS: in this diagram, they
-are shown as overlapping since some members sit on both of the teams. In very
-small organizations or implementations, the EAT \& EMS may consist entirely
-of the same team members.
+Eine letzte Anmerkung zur Darstellung des EAT \& EMS: In diesem Diagramm werden
+sie als sich überschneidend dargestellt, da einige ihrer Mitglieder beiden
+Teams angehören. In sehr kleinen Organisationen oder Implementierungen können
+EAT \& EMS vollständig aus denselben Teammitgliedern bestehen.
 
-\section{End Note}
-Scrum@Scale is designed to scale productivity, to get the entire
-organization doing twice the work in half the time with higher quality and
-in a significantly improved work environment. Large organizations that
-properly implement the framework can cut the cost of their products and
-services while improving quality and innovation.
+\section{Schlussbemerkung}
+Scrum@Scale wurde dafür entwickelt, um Produktivität zu skalieren, sodass die
+gesamte Organisation den doppelten Wert in der Hälfte der Zeit schafft, mit
+besserer Qualität und signifikant besseren Arbeitsbedingungen. Große
+Organisationen, die dieses Rahmenwerk richtig implementieren, können die Kosten
+für ihre Produkte und Services senken und gleichzeitig Qualität verbessern und
+Innovation vorantreiben.
 
-Scrum@Scale is designed to saturate an organization with Scrum. All teams,
-including Leadership, Human Resources, Legal, Consulting \& Training, and
-product \& service teams, implement the same style of Scrum while
-streamlining and enhancing an organization.
+Scrum@Scale ist dafür entwickelt, eine Organisation mit Scrum zu sättigen. Alle Teams
+einschließlich Führung, HR, Rechtsabteilung, Beratung \& Training und Produkt-
+und Serviceteams wenden Scrum in gleichem Stil an und straffen und verbessern damit die Organisation.
 
-Well implemented Scrum can run an entire organization.
+Gut implementiertes Scrum kann eine gesamte Organisation steuern.
 
-\section{Acknowledgements}
-We acknowledge IDX for the creation of the Scrum of Scrums which first
-allowed Scrum to scale to hundreds of teams,\footnote{Sutherland, Jeff,
+\section{Danksagungen}
+Wir bedanken uns bei IDX für die Einrichtung der Scrum of Scrums, die zum ersten
+Mal eine Skalierung von hunderten Teams ermöglichten,\footnote{Sutherland, Jeff,
 ``Inventing and Reinventing SCRUM in five Companies'', Sur le site officiel
-de l'alliance agile, 2001} PatientKeeper for the creation of the
-MetaScrum,\footnote{Sutherland, Jeff, ``Future of scrum: Parallel pipelining
-of sprints in complex projects'', Proceedings of the Agile Development
-Conference,  IEEE Computer Society 90-102,  2005.} which enabled rapid
-deployment of innovative product, and OpenView Venture Partners for scaling
-Scrum to the entire organization.\footnote{Sutherland, Jeff and Altman,
+de l'alliance agile, 2001} PatientKeeper für die Einrichtung des
+MetaScrum,\footnote{Sutherland, Jeff, ``Future of scrum: Parallel pipelining of
+sprints in complex projects'', Proceedings of the Agile Development Conference,
+IEEE Computer Society 90-102,  2005.} das schnelle Auslieferung von innovativen
+Produkten ermöglichte, und OpenView Venture Partners dafür, dass sie Scrum über
+die gesamte Organisation skaliert haben.\footnote{Sutherland, Jeff and Altman,
 Igor, ``Take no prisoners: How a venture capital group does scrum'', Agile
-Conference, 2009. AGILE'09, IEEE 350-355.  2009} We value input from Intel
-with over 25,000 people doing Scrum who taught us ``nothing scales'' except
-a scale-free architecture, and SAP with the largest Scrum team product
-organization who taught us management involvement in the MetaScrum is
-essential to get 2,000 Scrum teams to work together.
+Conference, 2009. AGILE'09, IEEE 350-355.  2009} Wir schätzen den Input von Intel
+mit über 25000 Menschen, die Scrum anwenden und uns gelehrt haben, dass
+``nichts skaliert'', außer einer skalierungsfreien Architektur und SAP mit der
+größten Scrum Team Produktorganisation, die uns gelehrt hat, dass die
+Beteiligung von Management im MetaScrum essenziell ist, um 2000 Scrum Teams
+zusammen arbeiten zu lassen.
 
-The agile coaches and trainers implementing these concepts at Amazon, GE,
-3M, Toyota, Spotify, Maersk, Comcast, AT\&T and many other companies working with Jeff Sutherland
-have been helpful in testing these concepts across a wide range of
-companies in different domains.
 
-And finally, Avi Schneier and Alex Sutherland have been invaluable in
-formulating and editing this document.
+Die agilen Coaches und Trainer, die diese Konzepte bei Amazon, GE, 3M, Toyota,
+Spotify, Maersk, Comcast, AT&T implementiert haben, und viele andere Unternehmen,
+die mit Jeff Sutherland zusammengearbeitet haben, waren hilfreich dabei, diese
+Konzepte in zahlreichen Unternehmen in verschiedenen Domänen zu testen.
+
+Zuletzt waren Avi Schneier und Alex Sutherland unersetzlich bei der Formulierung
+und Überarbeitung dieses Dokuments.
 
 \pagebreak
 
 \printbibliography
 
-
-
+\section{Übersetzung}
+Diesen Guide haben Alisa Stolze und Peter Fischbach im Januar 2018 übersetzt.
+Letzte Bearbeitung am 20.01.2019. 
 \end{document}
