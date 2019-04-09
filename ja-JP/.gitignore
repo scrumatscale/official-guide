@@ -1,0 +1,7 @@
+*.run.xml
+*.aux
+*.bcf
+*.log
+*.out
+*.synctex.gz
+*.tmp*
