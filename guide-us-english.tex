@@ -11,6 +11,7 @@
 \usepackage{sectsty}
 \sectionfont{\color{red}}
 \subsectionfont{\color{red}}
+\subsubsectionfont{\color{red}}
 \usepackage{graphicx}
 \usepackage{hyperref}
 \usepackage{amssymb}
@@ -87,7 +88,7 @@ Scrum@Scale is:
 
 Scrum@Scale is a framework for scaling Scrum. It radically simplifies scaling by using Scrum to scale Scrum. 
 
-In Scrum, care is taken to separate accountability of the ``what'' from the ``how''. The same care is taken in Scrum@Scale so that jurisdiction and accountability are expressly understood in order to eliminate wasteful organizational conflict that keep teams from achieving their optimal productivity.
+In Scrum, care is taken to separate accountability of the ``what'' from the ``how.'' The same care is taken in Scrum@Scale so that jurisdiction and accountability are expressly understood in order to eliminate wasteful organizational conflict that keep teams from achieving their optimal productivity.
 
 Scrum@Scale consists of components that allow an organization to customize their transformational strategy and implementation. It gives them the ability to target their incrementally prioritized change efforts in the area(s) they deem most valuable or most in need of change and then progress on to others.
 
@@ -118,46 +119,48 @@ A Scrum of Scrums is a Scrum Team with the normal Scrum roles, events and artifa
 
 The SoS needs to have all of the skills necessary to deliver a fully integrated potentially shippable Product Increment at the end of every Sprint and to facilitate cross-team coordination where necessary. (It may need experienced architects, QA Leaders, members of the Product Ownership Team, and other operational skill sets.) 
 
-\subsubsection{Product Owner Team (POT)}
+\subsubsection{Product Owner Team}
 
-A group of Product Owners who coordinate a shared backlog that feeds a network of teams are themselves a Scrum Team called a \textbf{Product Owner Team}. For each SoS there is an associated Product Owner Team which aligns the teams' priorities along a single path so that they can coordinate their team backlogs and build alignment with stakeholders to support the backlog.
+A group of Product Owners who coordinate a shared backlog that feeds a network of teams are themselves a Scrum Team called a \textbf{Product Owner Team}. For each SoS, there is an associated Product Owner Team which aligns the teams' priorities along a single path so that they can coordinate their team backlogs and build alignment with stakeholders to support the backlog.
 
 A team's Product Owner is responsible for the composition and prioritization of the team backlog and may pull backlog items from the shared SoS backlog into the team backlog or generate independent backlog items at their discretion.
-
-\subsubsection{Chief Product Owner (CPO)}
-
-The \textbf{Chief Product Owner} coordinates priorities among Product Owners who work with individual teams. They align backlog
-priorities with Stakeholder and Customer needs. They may be an individual team PO who plays this role as well, or they may be a person specifically dedicated to this role. Their main responsibilities are the same as a regular PO's, but at scale:
-
-\begin{itemize}
-	\item Setting a strategic vision for the whole product.
-	\item Creating a single, prioritized backlog of value to be delivered by all of the teams.
-	\begin{itemize}
-		\item these items would be larger Product Backlog Items than that for a team PO.
-	\end{itemize}
-	\item Working closely with their associated SoSM so that the Release Plan that the Product Owner team generates can be deployed efficiently.
-	\item Monitoring customer product feedback and adjusting the backlog accordingly.
-	\item At the executive/meta level lead the MetaScrum where the overall Product Backlog is presented and alignment is achieved with stakeholders.
-\end{itemize}
 
 The main functions of the Product Owner Team are to:
 
 \begin{itemize}
 	\item create an overarching vision for the product \& make it visible to the organization.
 	\item build alignment with key stakeholders to secure support for backlog implementation.
-	\item generate a single, prioritized backlog; ensuring that duplication of work is avoided.
-	\item assure impediment and technical debt issues are properly prioritized in the backlog.
-	\item create a minimally uniform ``Definition of Done'' that applies to all teams.
+	\item generate a single, prioritized backlog, ensuring that duplication of work is avoided.
+	\item assure impediments and technical debt issues are properly prioritized in the backlog.
+	\item create a minimal, uniform ``Definition of Done'' that applies to all teams.
 	\item resolve dependencies raised by the teams.
 	\item generate a coordinated Release Plan and forecast beyond the current Release Plan (often called a roadmap).
 	\item decide upon and monitor metrics that give insight into the product and the market.
 \end{itemize}
 
-Product Owner Teams, just like SoS's, function as Scrum teams on their own. As such, they need to have a SM and keeps the team on track in discussions. They also need a single person who is responsible for coordinating the generation of a single Product Backlog for all teams within the Scrum of Scrums. This person is designated as the \textbf{Chief Product Owner}.
+Product Owner Teams, just like SoSs, function as Scrum Teams on their own. As such, they need to have someone acting as the Scrum Master and keeping the team on track in discussions. They also need a single person who is responsible for coordinating the generation of a single Product Backlog for all teams within the Scrum of Scrums. This person is designated as the \textbf{Chief Product Owner}.
+
+\subsubsection{Chief Product Owner (CPO)}
+
+The \textbf{Chief Product Owner} (CPO) coordinates priorities among Product Owners who work with individual teams. They align backlog
+priorities with Stakeholder and Customer needs. It may be an individual team PO who plays this role as well, or there may be a person specifically dedicated to this role. The responsibilities of the CPO are the same as that of a team PO, but at scale, the CPO is responsible for:
+
+\begin{itemize}
+	\item Setting a strategic vision for the whole SoSs.
+	\item Creating a single, prioritized backlog of value to be delivered by all of the teams.
+	\begin{itemize}
+		\item Note: these items are typically larger Product Backlog Items that will need further refinement \& decomposition by the team POs.
+	\end{itemize}
+	\item Working closely with their associated Scrum of Scrums Master (below) so that the Release Plan that the Product Owner team generates can be deployed efficiently.
+	\item Monitoring customer product feedback, as well as product feedback from the SoSs, and adjusting the backlog accordingly.
+	\item At the executive/meta level, lead the MetaScrum where the overall Product Backlog is presented and alignment with stakeholders is achieved.
+\end{itemize}
+
+
 
 \subsubsection{Scrum of Scrums Master (SoSM)}
 
-The Scrum Master of the Scrum of Scrums is called the \textbf{Scrum of Scrums Master (SoSM)}. Next to the regular Scrum Master responsibilities the SoSM is also accountable for the release of the joint teams' effort and must:
+The Scrum Master of the Scrum of Scrums is called the \textbf{Scrum of Scrums Master (SoSM)}. The SoSM is accountable for the release of the joint teams' effort and must:
 
 \begin{itemize}
 	\item make progress visible.
@@ -165,7 +168,7 @@ The Scrum Master of the Scrum of Scrums is called the \textbf{Scrum of Scrums Ma
 	\item remove impediments that the teams cannot address themselves.
 	\item facilitate prioritization of impediments, with particular attention to cross-team dependencies and the distribution of backlog.
 	\item improve the efficacy of the Scrum of Scrums.
-	\item work closely with the Product Owners to deploy a potentially releasable Product Increment at least every Sprint.
+	\item work closely with the Product Owner Team to deploy a potentially releasable Product Increment at least every Sprint.
 	\item coordinate the teams' deployment with the Product Owner's Release Plans.
 \end{itemize}
 
@@ -173,17 +176,17 @@ The Scrum Master of the Scrum of Scrums is called the \textbf{Scrum of Scrums Ma
 
 \subsubsection{Dealing with Impediments at SoS level}
 
-The SoSM should facilitate a Backlog Refinement event wherein impediments are identified as ``ready'' to be removed, and the team determines how best to remove them and how they will know when they are ``done.'' These impediment removal backlog items/ artifacts are prioritized for the teams on the same backlog produced by the SoS Product Owner Team.
+The SoSM should facilitate a Backlog Refinement event wherein impediments are identified as ``ready'' to be removed, and the team determines how best to remove them and how they will know when they are ``done.'' These impediment removal backlog items are prioritized for the teams on the same backlog produced by the SoS CPO \& Product Owner Team.
 
 Particular attention should be paid to the SoS Retrospective in which the teams' representatives share any learnings or process improvements that their individual teams have succeeded with, in order to share best practices across the teams within the SoS.  
 
 \subsubsection{Scaled Daily Scrum (SDS)}
 
-Since the SoS needs to be responsive in real-time to impediments raised by participating teams, at least one representative (usually the team's Scrum Master) of each of the participating teams need to attend a \textbf{Scaled Daily Scrum (SDS)}. The SDS event mirrors the Daily Scrum in that it optimizes the collaboration and performance of the network of teams. Any person or number of people from participating teams may attend as needed. Additionally, the SDS:
+Since the SoS needs to be responsive in real-time to impediments raised by participating teams, at least one representative (usually the team's Scrum Master) of each of the participating teams needs to attend a \textbf{Scaled Daily Scrum (SDS)}. The SDS event mirrors the Daily Scrum in that it optimizes the collaboration and performance of the network of teams. Any person or number of people from participating teams may attend as needed. Additionally, the SDS:
 
 \begin{itemize}
 	\item is time-boxed to 15 minutes or less.
-	\item must be attended by a representative of each team including the Product Owner team.
+	\item must be attended by a representative of each team including the Product Owner Team.
 	\item is a forum where team representatives discuss what is going well, what is getting done, and how teams can work together more effectively. 
 \end{itemize}
 	
@@ -231,10 +234,10 @@ Sample diagram showing an EMS coordinating 5 groups of 25 teams:
 
 \includegraphics[width=1.0\linewidth]{ExecMetaScrum.png}
 
-The Executive MetaScrum Team holds a stakeholder alignment meeting, the \textbf{MetaScrum Event}, on a regular cadence, at least once a sprint.
+The Executive MetaScrum Team holds a stakeholder alignment meeting, the \textbf{MetaScrum Event}, on a regular cadence, at least once per Sprint.
 
 \begin{itemize}
-	\item Members of the Executive MetaScrum team (or proxy) attend the MetaScrum Event where the Chief Product Owner presents the product backlog to business owners who control funding, personnel, and customer committments. They address any changes needed to strategy, funding, resource allocation, and deployments, and collaborate with the Chief Product Owner's to build an agreement on a Product Backlog that they will support until the next MetaScrum.
+	\item Members of the Executive MetaScrum Team (or proxy) attend the MetaScrum Event where the Chief Product Owner presents the product backlog to business owners who control funding, personnel, and customer committments. They address any changes needed to strategy, funding, resource allocation, and deployments, and collaborate with the Chief Product Owners to build an agreement on a Product Backlog that they will support until the next MetaScrum Event.
 	\item This event is the forum for Leadership, Stakeholders, and Business Owners to express their preferences or sometimes urgent demands that may cause the Chief Product Owner's backlog to be restructured.
 \end{itemize}
 
@@ -242,9 +245,9 @@ The Executive MetaScrum Team holds a stakeholder alignment meeting, the \textbf{
 
 \subsection{Scaling the SoS}
 
-Depending upon the size of the organization or implementation, more than one SoS may be needed to deliver a very complex product. In those cases, a \textbf{Scrum of Scrum of Scrums (SoSoS)} can be created out of multiple Scrums of Scrums. The SoSoS is an organic pattern of Scrum teams which is infinitely scalable. Each SoSoS should have SoSoSM's and scaled versions of each artifact \& event.
+Depending upon the size of the organization or implementation, more than one SoS may be needed to deliver a very complex product. In those cases, a \textbf{Scrum of Scrum of Scrums (SoSoS)} can be created out of multiple Scrums of Scrums. The SoSoS is an organic pattern of Scrum Teams which is infinitely scalable. Each SoSoS should have SoSoSM's and scaled versions of each artifact \& event.
 
-Scaling the SoS reduces the number of communication pathways within the organization so that complexity is encapsulated. The SoSoS interfaces with a SoS in the exact same manner that a SoS interfaces with a single Scrum team which allows for linear scalability.
+Scaling the SoS reduces the number of communication pathways within the organization so that complexity is encapsulated. The SoSoS interfaces with a SoS in the exact same manner that a SoS interfaces with a single Scrum Team which allows for linear scalability.
 
 Sample Diagrams:
 
@@ -342,7 +345,7 @@ The goals of Release Planning are to:
 	\item update prioritization, as needed.
 \end{itemize}
 
-Note that Release Planning may encompass one or many releases of the product to a customer. It is a higher level planning horizon than a single Sprint, usually covering a period of 1 to 6 months.
+Note that Release Planning may encompass one or many releases of the product to a customer. It is a higher-level planning horizon than a single Sprint, usually covering a period of 1 to 6 months.
 
 \section{Connecting the PO/SM Cycles}
 
@@ -433,7 +436,7 @@ We acknowledge IDX for the creation of the Scrum of Scrums which first allowed S
 
 The agile coaches and trainers implementing these concepts at Amazon, GE, 3M, Toyota, Spotify, Maersk, Comcast, AT\&T and many other companies working with Jeff Sutherland have been helpful in testing these concepts across a wide range of companies in different domains.
 
-And finally, Avi Schneier and Alex Sutherland have been invaluable in formulating and editing this document.
+And finally, Avi Schneier, Alex Sutherland and Jessica Larsen have been invaluable in formulating and editing this document.
 
 \pagebreak
 
