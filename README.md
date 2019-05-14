@@ -28,7 +28,7 @@ In the short term, we will be evaluating and pulling in changes on a monthly cyc
 The Scrum@Scale guide is in Latex format, which is a standard for academic papers and journals world-wide.  There are a wide range of free and open Latex editors, for a complete list see here: https://en.wikipedia.org/wiki/Comparison_of_TeX_editors.
 
 ## Guide translations
-If you would like to translate the guide into another language please do so and submit a pull request with your translated version using a file name like guide-language.tex.  If you are not comformtable working in Latex, feel free to submit a translation in HTML, Word or .txt format and the community can coordinate with you to port that translation into Latex.
+If you would like to translate the guide into another language please do so and submit a pull request with your translated version using a file name like guide-language.tex.  If you are not comformtable working in Latex, feel free to submit a translation in HTML, Word or .txt format and the community can coordinate with you to port that translation into Latex. You may also translate the Word version of the cover and add it to a pdf. NOTE: Please help the community recognize your contribution by adding "Translated by: NAME(s)" under the version number on the cover.  
 
 ## License  
 Scrum@Scale is a registered trademark of Scrum Inc.  This guide and all of the associated materials in this repository are released under Creative Commons 4.0 Attribution-Sharealike License as described here: https://creativecommons.org/licenses/by-sa/4.0/.
