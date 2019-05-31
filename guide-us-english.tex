@@ -59,7 +59,7 @@ Scrum, as originally outlined in the Scrum Guide, is a framework for developing,
 
 This guide contains the definitions of the components that make up the Scrum@Scale framework, including its scaled roles, scaled events, and enterprise artifacts, as well as the rules that bind them together.
 
-Dr. Jeff Sutherland developed Scrum@Scale based on the fundamental principles behind Scrum, Complex Adaptive Systems theory, game theory, and object-oriented technology. This guide was developed with the input of many experienced Scrum practitioners based on the results of their field work. The goal of this guide is for the reader to be able to implement Scrum@Scale on their own.
+Dr. Jeff Sutherland developed Scrum@Scale based on the fundamental principles behind Scrum, Complex Adaptive Systems theory, game theory, and object-oriented technology. This guide was developed with the input of many experienced Scrum practitioners based on the results of their field work. 
 
 \subsection{Why Scrum@Scale?}
 
@@ -113,7 +113,7 @@ working at a sustainable pace and putting commitment to deliver customer-facing 
 
 A set of Scrum Teams that need to coordinate in order to deliver value to customers comprise a \textbf{Scrum of Scrums (SoS)}. This team is responsible for a fully integrated set of potentially shippable increments of product at the end of every Sprint from all participating teams. A SoS functions as a Release Team and must be able to directly deliver value to customers.
 
-A Scrum of Scrums is a Scrum Team with the normal Scrum roles, events and artifacts consistent with the Scrum Guide. However, given the scaled nature of the SoS there are some extra considerations.
+A Scrum of Scrums operates as a Scrum Team with scaled versions of the Scrum roles, events and artifacts. Given the scaled nature of the SoS there are some extra considerations.
 
 \subsection{SoS Roles}
 
@@ -121,7 +121,7 @@ The SoS needs to have all of the skills necessary to deliver a fully integrated 
 
 \subsubsection{Product Owner Team}
 
-A group of Product Owners who coordinate a shared backlog that feeds a network of teams are themselves a Scrum Team called a \textbf{Product Owner Team}. For each SoS, there is an associated Product Owner Team which aligns the teams' priorities along a single path so that they can coordinate their team backlogs and build alignment with stakeholders to support the backlog.
+For each SoS, there is an associated group of Product Owners called a \textbf{Product Owner Team} which aligns the teams' priorities along a single enterprise backlog so that they can coordinate their Scrum Team's backlogs and build alignment with stakeholders.
 
 A team's Product Owner is responsible for the composition and prioritization of the team backlog and may pull backlog items from the shared SoS backlog into the team backlog or generate independent backlog items at their discretion.
 
@@ -174,19 +174,13 @@ The Scrum Master of the Scrum of Scrums is called the \textbf{Scrum of Scrums Ma
 
 \subsection{SoS Events}
 
-\subsubsection{Dealing with Impediments at SoS level}
-
-The SoSM should facilitate a Backlog Refinement event wherein impediments are identified as ``ready'' to be removed, and the team determines how best to remove them and how they will know when they are ``done.'' These impediment removal backlog items are prioritized for the teams on the same backlog produced by the SoS CPO \& Product Owner Team.
-
-Particular attention should be paid to the SoS Retrospective in which the teams' representatives share any learnings or process improvements that their individual teams have succeeded with, in order to share best practices across the teams within the SoS.  
-
 \subsubsection{Scaled Daily Scrum (SDS)}
 
-Since the SoS needs to be responsive in real-time to impediments raised by participating teams, at least one representative (usually the team's Scrum Master) of each of the participating teams needs to attend a \textbf{Scaled Daily Scrum (SDS)}. The SDS event mirrors the Daily Scrum in that it optimizes the collaboration and performance of the network of teams. Any person or number of people from participating teams may attend as needed. Additionally, the SDS:
+Since the SoS needs to be responsive in real-time to impediments raised by participating teams, at least one representative (usually the team's Scrum Master or whoever best understands the teams' impediment) of each of the participating teams needs to attend a \textbf{Scaled Daily Scrum (SDS)}. The SDS event mirrors the Daily Scrum in that it optimizes the collaboration and performance of the network of teams. Any person or number of people from participating teams may attend as needed. Additionally, the SDS:
 
 \begin{itemize}
 	\item is time-boxed to 15 minutes or less.
-	\item must be attended by a representative of each team including the Product Owner Team.
+	\item must be attended by a representative of each team, including the Product Owner Team.
 	\item is a forum where team representatives discuss what is going well, what is getting done, and how teams can work together more effectively. 
 \end{itemize}
 	
@@ -198,13 +192,20 @@ Some examples of what might be discussed are:
 	\item What improvements have we discovered that can be leveraged across teams?
 \end{itemize}
 
-\section{Executive/Meta Level}
+\subsubsection{Dealing with Impediments in a SoS}
+
+The SoSM should facilitate the refinement of an impediment backlog wherein impediments are identified as ``ready'' and prioritized to be removed. The teans then determine how best to remove them and how they will know when they are ``done.'' In some cases, impediment resolution may require product development, in which case, involvement from the SoS CPO \& Product Owner Team will be necessary.
+
+Particular attention should be paid to the SoS Retrospective in which the teams' representatives share any learnings or process improvements that their individual teams have succeeded with, in order to share best practices across the teams within the SoS.  
+
+
+\section{Leadership Teams}
 
 \subsection{Executive Action Team (EAT)}
 
-The Scrum Master role that is part of the Scrum of Scrums for the entire agile organization is called the \textbf{Executive Action Team (EAT)}. The leadership team creates an agile bubble in the organization where the Reference Model operates with its own guidelines and procedures that integrates effectively with any part of the organization that is not agile. It owns the agile ecosystem, implements the Scrum values, and assures that Scrum roles are created and supported.
+The \textbf{Executive Action Team (EAT)} fulfills the Scrum Master role for the entire agile organization. This leadership team creates an agile bubble in the organization where the Reference Model operates with its own guidelines and procedures that integrates effectively with any part of the organization that is not agile. It owns the agile ecosystem, implements the Scrum values, and assures that Scrum roles are created and supported.
 
-The EAT is the final stop for impediments that cannot be removed by the SoS's that feed it. Therefore, it must be comprised of individuals who are empowered, politically and financially, to remove them. The function of the EAT is to coordinate multiple SoS's and to interface with any non-agile parts of the organization. As with any Scrum team, it needs a PO and SM and to meet daily. They must have a transparent backlog as well.
+The EAT is the final stop for impediments that cannot be removed by the SoSs that feed it. Therefore, it must be comprised of individuals who are empowered, politically and financially, to remove them. The function of the EAT is to coordinate multiple SoSs and to interface with any non-agile parts of the organization. As with any Scrum Team, it needs a PO, a SM and a transparent backlog.
 
 Sample Diagram showing an EAT coordinating 5 groupings of 25 teams:
 
@@ -212,11 +213,11 @@ Sample Diagram showing an EAT coordinating 5 groupings of 25 teams:
 
 \subsubsection{EAT Backlog \& Responsibilities}
 
-Scrum is an agile operating system that is different from traditional project management. The entire SM organization reports into the EAT, which is responsible for implementing this agile operating system by establishing, maintaining, and enhancing the implementation in the organization.
+The EAT is accountable for the quality of Scrum within the organization. As such, the entire SM organization reports into the EAT.
 
-The EAT's role is to create an Organizational Transformation Backlog (a prioritized list of the agile initiatives that need to be accomplished) and see that it is carried out. For example, if there is a traditional Product Development Life Cycle in the old organization, a new agile Product Development Life Cycle needs to be created, implemented, and supported. It will typically support quality and compliance issues better than the old method but be implemented in a different way with different rules and guidelines. The EAT ensures that a Product Owner organization is created and funded and that this organization is represented on the EAT to support these efforts.
+The EAT's role is to create an Organizational Transformation Backlog (a prioritized list of the agile initiatives that need to be accomplished) and see that it is carried out. The EAT ensures that a Product Owner organization is created and funded and that this organization is represented on the EAT to support these efforts. 
 
-The EAT is accountable for the quality of Scrum within the organization. Its responsibilities include but are not limited to:
+The EAT's responsibilities include but are not limited to:
 
 \begin{itemize}
 	\item creating an agile operating system for the Reference Model as it scales through the organization, including corporate operational rules, procedures, and guidelines to enable agility.
@@ -226,9 +227,9 @@ The EAT is accountable for the quality of Scrum within the organization. Its res
 	\item supporting the exploration of new ways of working.
 \end{itemize}
 
-\subsection{Executive MetaScrum (EMS)}
+\subsection{Executive MetaScrum Team (EMS)}
 
-The Product Owner Teams enable a network design of Product Owners which is infinitely scalable alongside their associated SoS's. The Product Owner Team for the entire agile organization meets with key stakeholders as the \textbf{Executive MetaScrum}. The EMS owns the organizational vision and sets the strategic priorities, aligning all the teams around common goals.
+The Product Owner Teams enable a network design of Product Owners which is infinitely scalable with their associated SoSs. The Product Owner Team for the entire agile organization meets with key stakeholders at the \textbf{Executive MetaScrum}. The EMS owns the organizational vision and sets the strategic priorities, aligning all the teams around common goals.
 
 Sample diagram showing an EMS coordinating 5 groups of 25 teams:
 
