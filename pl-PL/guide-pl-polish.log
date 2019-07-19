@@ -1,0 +1,967 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.13)  9 JUN 2019 20:17
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**guide-pl-polish.tex
+(./guide-pl-polish.tex
+LaTeX2e <2018-12-01>
+(/usr/local/texlive/2019/texmf-dist/tex/latex/koma-script/scrartcl.cls
+Document Class: scrartcl 2019/02/01 v3.26b KOMA-Script document class (article)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/koma-script/scrkbase.sty
+Package: scrkbase 2019/02/01 v3.26b KOMA-Script package (KOMA-Script-dependent 
+basics and keyval usage)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/koma-script/scrbase.sty
+Package: scrbase 2019/02/01 v3.26b KOMA-Script package (KOMA-Script-independent
+ basics and keyval usage)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2019/02/01 v3.26b KOMA-Script package (loading files)
+)))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/koma-script/tocbasic.sty
+Package: tocbasic 2019/02/01 v3.26b KOMA-Script package (handling toc-files)
+\scr@dte@tocline@numberwidth=\skip41
+\scr@dte@tocline@numbox=\box27
+)
+Package tocbasic Info: omitting babel extension for `toc'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `toc' on input line 134.
+Package scrartcl Info: You've used standard option `12pt'.
+(scrartcl)             This is correct!
+(scrartcl)             Internally I'm using `fontsize=12pt'.
+(scrartcl)             If you'd like to set the option with \KOMAoptions,
+(scrartcl)             you'd have to use `fontsize=12pt' there
+(scrartcl)             instead of `12pt', too.
+Class scrartcl Info: File `scrsize12pt.clo' used to setup font sizes on input l
+ine 2162.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/koma-script/scrsize12pt.clo
+File: scrsize12pt.clo 2019/02/01 v3.26b KOMA-Script font size class option (12p
+t)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/koma-script/typearea.sty
+Package: typearea 2019/02/01 v3.26b KOMA-Script package (type area)
+\ta@bcor=\skip42
+\ta@div=\count80
+Package typearea Info: You've used standard option `a4paper'.
+(typearea)             This is correct!
+(typearea)             Internally I'm using `paper=a4'.
+(typearea)             If you'd like to set the option with \KOMAoptions,
+(typearea)             you'd have to use `paper=a4' there
+(typearea)             instead of `a4paper', too.
+\ta@hblk=\skip43
+\ta@vblk=\skip44
+\ta@temp=\skip45
+\footheight=\skip46
+Package typearea Info: These are the values describing the layout:
+(typearea)             DIV  = 12
+(typearea)             BCOR = 0.0pt
+(typearea)             \paperwidth      = 597.50793pt
+(typearea)              \textwidth      = 448.13095pt
+(typearea)              DIV departure   = -6%
+(typearea)              \evensidemargin = 2.4185pt
+(typearea)              \oddsidemargin  = 2.4185pt
+(typearea)             \paperheight     = 845.04694pt
+(typearea)              \textheight     = 635.5pt
+(typearea)              \topmargin      = -41.72441pt
+(typearea)              \headheight     = 18.125pt
+(typearea)              \headsep        = 21.75pt
+(typearea)              \topskip        = 12.0pt
+(typearea)              \footskip       = 50.75pt
+(typearea)              \baselineskip   = 14.5pt
+(typearea)              on input line 1715.
+)
+\c@part=\count81
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@subparagraph=\count86
+\scr@dte@section@maxnumwidth=\skip47
+Class scrartcl Info: using compatibility default `runin=bysign'
+(scrartcl)           for `\section on input line 4489.
+Class scrartcl Info: using compatibility default `afterindent=bysign'
+(scrartcl)           for `\section on input line 4489.
+\scr@dte@part@maxnumwidth=\skip48
+Class scrartcl Info: using compatibility default `afterindent=false'
+(scrartcl)           for `\part on input line 4497.
+\scr@dte@subsection@maxnumwidth=\skip49
+Class scrartcl Info: using compatibility default `runin=bysign'
+(scrartcl)           for `\subsection on input line 4507.
+Class scrartcl Info: using compatibility default `afterindent=bysign'
+(scrartcl)           for `\subsection on input line 4507.
+\scr@dte@subsubsection@maxnumwidth=\skip50
+Class scrartcl Info: using compatibility default `runin=bysign'
+(scrartcl)           for `\subsubsection on input line 4517.
+Class scrartcl Info: using compatibility default `afterindent=bysign'
+(scrartcl)           for `\subsubsection on input line 4517.
+\scr@dte@paragraph@maxnumwidth=\skip51
+Class scrartcl Info: using compatibility default `runin=bysign'
+(scrartcl)           for `\paragraph on input line 4527.
+Class scrartcl Info: using compatibility default `afterindent=bysign'
+(scrartcl)           for `\paragraph on input line 4527.
+\scr@dte@subparagraph@maxnumwidth=\skip52
+Class scrartcl Info: using compatibility default `runin=bysign'
+(scrartcl)           for `\subparagraph on input line 4537.
+Class scrartcl Info: using compatibility default `afterindent=bysign'
+(scrartcl)           for `\subparagraph on input line 4537.
+\abovecaptionskip=\skip53
+\belowcaptionskip=\skip54
+\c@pti@nb@sid@b@x=\box28
+Package tocbasic Info: omitting babel extension for `lof'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lof' on input line 5781.
+\scr@dte@figure@maxnumwidth=\skip55
+\c@figure=\count87
+Package tocbasic Info: omitting babel extension for `lot'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lot' on input line 5793.
+\scr@dte@table@maxnumwidth=\skip56
+\c@table=\count88
+Class scrartcl Info: Redefining `\numberline' on input line 5957.
+\bibindent=\dimen102
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/bbding/bbding.sty
+Package: bbding 1999/04/15 v1.01 Dingbats symbols
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/pifont.sty
+Package: pifont 2005/04/12 PSNFSS-v9.2a Pi font support (SPQR) 
+LaTeX Font Info:    Try loading font information for U+pzd on input line 63.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/upzd.fd
+File: upzd.fd 2001/06/04 font definitions for U/pzd.
+)
+LaTeX Font Info:    Try loading font information for U+psy on input line 64.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/upsy.fd
+File: upsy.fd 2001/06/04 font definitions for U/psy.
+))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/wasysym/wasysym.sty
+Package: wasysym 2003/10/30 v2.0 Wasy-2 symbol support package
+\symwasy=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `wasy' in version `bold'
+(Font)                  U/wasy/m/n --> U/wasy/b/n on input line 90.
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2018/04/16 v5.8 Page Geometry
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count89
+\Gm@cntv=\count90
+\c@Gm@tempcnt=\count91
+\Gm@bindingoffset=\dimen103
+\Gm@wd@mp=\dimen104
+\Gm@odd@mp=\dimen105
+\Gm@even@mp=\dimen106
+\Gm@layoutwidth=\dimen107
+\Gm@layoutheight=\dimen108
+\Gm@layouthoffset=\dimen109
+\Gm@layoutvoffset=\dimen110
+\Gm@dimlist=\toks15
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/sectsty/sectsty.sty
+Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading sty
+les
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+)
+\Gin@req@height=\dimen111
+\Gin@req@width=\dimen112
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2018/11/30 v6.88e Hypertext links for LaTeX
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen113
+\Hy@linkcounter=\count92
+\Hy@pagecounter=\count93
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2018/11/30 v6.88e Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+\Hy@SavedSpaceFactor=\count94
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4519.
+Package hyperref Info: Link nesting OFF on input line 4524.
+Package hyperref Info: Hyper index ON on input line 4527.
+Package hyperref Info: Plain pages OFF on input line 4534.
+Package hyperref Info: Backreferencing OFF on input line 4539.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4772.
+\c@Hy@tempcnt=\count95
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5125.
+\XeTeXLinkMargin=\dimen114
+\Fld@menulength=\count96
+\Field@Width=\dimen115
+\Fld@charsize=\dimen116
+Package hyperref Info: Hyper figures OFF on input line 6380.
+Package hyperref Info: Link nesting OFF on input line 6385.
+Package hyperref Info: Hyper index ON on input line 6388.
+Package hyperref Info: backreferencing OFF on input line 6395.
+Package hyperref Info: Link coloring OFF on input line 6400.
+Package hyperref Info: Link coloring with OCG OFF on input line 6405.
+Package hyperref Info: PDF/A mode OFF on input line 6410.
+LaTeX Info: Redefining \ref on input line 6450.
+LaTeX Info: Redefining \pageref on input line 6454.
+\Hy@abspage=\count97
+\c@Item=\count98
+\c@Hfootnote=\count99
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2018/11/30 v6.88e Hyperref driver for pdfTeX
+\Fld@listcount=\count100
+\c@bookmark@seq@number=\count101
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip57
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks16
+\symAMSa=\mathgroup5
+\symAMSb=\mathgroup6
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2018/11/02 v3.12 programmable bibliographies (PK/MW)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count102
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count103
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@tabx@nest=\count104
+\c@listtotal=\count105
+\c@listcount=\count106
+\c@liststart=\count107
+\c@liststop=\count108
+\c@citecount=\count109
+\c@citetotal=\count110
+\c@multicitecount=\count111
+\c@multicitetotal=\count112
+\c@instcount=\count113
+\c@maxnames=\count114
+\c@minnames=\count115
+\c@maxitems=\count116
+\c@minitems=\count117
+\c@citecounter=\count118
+\c@maxcitecounter=\count119
+\c@savedcitecounter=\count120
+\c@uniquelist=\count121
+\c@uniquename=\count122
+\c@refsection=\count123
+\c@refsegment=\count124
+\c@maxextratitle=\count125
+\c@maxextratitleyear=\count126
+\c@maxextraname=\count127
+\c@maxextradate=\count128
+\c@maxextraalpha=\count129
+\c@abbrvpenalty=\count130
+\c@highnamepenalty=\count131
+\c@lownamepenalty=\count132
+\c@maxparens=\count133
+\c@parenlevel=\count134
+\blx@tempcnta=\count135
+\blx@tempcntb=\count136
+\blx@tempcntc=\count137
+\blx@maxsection=\count138
+\blx@maxsegment@0=\count139
+\blx@notetype=\count140
+\blx@parenlevel@text=\count141
+\blx@parenlevel@foot=\count142
+\blx@sectionciteorder@0=\count143
+\blx@entrysetcounter=\count144
+\labelnumberwidth=\skip58
+\labelalphawidth=\skip59
+\biblabelsep=\skip60
+\bibitemsep=\skip61
+\bibnamesep=\skip62
+\bibinitsep=\skip63
+\bibparsep=\skip64
+\bibhang=\skip65
+\blx@bcfin=\read1
+\blx@bcfout=\write3
+\c@mincomprange=\count145
+\c@maxcomprange=\count146
+\c@mincompwidth=\count147
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/biblatex/blx-dm.def
+File: blx-dm.def 2018/11/02 v3.12 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'footnote-dw.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count148
+\c@savedafterword=\count149
+\c@annotator=\count150
+\c@savedannotator=\count151
+\c@author=\count152
+\c@savedauthor=\count153
+\c@bookauthor=\count154
+\c@savedbookauthor=\count155
+\c@commentator=\count156
+\c@savedcommentator=\count157
+\c@editor=\count158
+\c@savededitor=\count159
+\c@editora=\count160
+\c@savededitora=\count161
+\c@editorb=\count162
+\c@savededitorb=\count163
+\c@editorc=\count164
+\c@savededitorc=\count165
+\c@foreword=\count166
+\c@savedforeword=\count167
+\c@holder=\count168
+\c@savedholder=\count169
+\c@introduction=\count170
+\c@savedintroduction=\count171
+\c@namea=\count172
+\c@savednamea=\count173
+\c@nameb=\count174
+\c@savednameb=\count175
+\c@namec=\count176
+\c@savednamec=\count177
+\c@translator=\count178
+\c@savedtranslator=\count179
+\c@shortauthor=\count180
+\c@savedshortauthor=\count181
+\c@shorteditor=\count182
+\c@savedshorteditor=\count183
+\c@labelname=\count184
+\c@savedlabelname=\count185
+\c@institution=\count186
+\c@savedinstitution=\count187
+\c@lista=\count188
+\c@savedlista=\count189
+\c@listb=\count190
+\c@savedlistb=\count191
+\c@listc=\count192
+\c@savedlistc=\count193
+\c@listd=\count194
+\c@savedlistd=\count195
+\c@liste=\count196
+\c@savedliste=\count197
+\c@listf=\count198
+\c@savedlistf=\count199
+\c@location=\count266
+\c@savedlocation=\count267
+\c@organization=\count268
+\c@savedorganization=\count269
+\c@origlocation=\count270
+\c@savedoriglocation=\count271
+\c@origpublisher=\count272
+\c@savedorigpublisher=\count273
+\c@publisher=\count274
+\c@savedpublisher=\count275
+\c@language=\count276
+\c@savedlanguage=\count277
+\c@origlanguage=\count278
+\c@savedoriglanguage=\count279
+\c@pageref=\count280
+\c@savedpageref=\count281
+\shorthandwidth=\skip66
+\shortjournalwidth=\skip67
+\shortserieswidth=\skip68
+\shorttitlewidth=\skip69
+\shortauthorwidth=\skip70
+\shorteditorwidth=\skip71
+\locallabelnumberwidth=\skip72
+\locallabelalphawidth=\skip73
+\localshorthandwidth=\skip74
+\localshortjournalwidth=\skip75
+\localshortserieswidth=\skip76
+\localshorttitlewidth=\skip77
+\localshortauthorwidth=\skip78
+\localshorteditorwidth=\skip79
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2018/11/02 v3.12 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2018/11/02 v3.12 biblatex compatibility (PK/MW)
+\c@textcitecount=\count282
+\c@textcitetotal=\count283
+\c@textcitemaxnames=\count284
+\c@biburlnumpenalty=\count285
+\c@biburlucpenalty=\count286
+\c@biburllcpenalty=\count287
+\c@smartand=\count288
+)
+Package biblatex Info: Trying to load bibliography style 'footnote-dw'...
+Package biblatex Info: ... file 'footnote-dw.bbx' found.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/biblatex-dw/bbx/footnote-dw.bbx
+File: footnote-dw.bbx 2016/12/06 v1.7 biblatex bibliography style
+Package biblatex Info: Trying to load bibliography style 'authortitle-dw'...
+Package biblatex Info: ... file 'authortitle-dw.bbx' found.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/biblatex-dw/bbx/authortitle-dw.bb
+x
+File: authortitle-dw.bbx 2016/12/06 v1.7 biblatex bibliography style
+Package biblatex Info: Trying to load bibliography style 'standard-dw'...
+Package biblatex Info: ... file 'standard-dw.bbx' found.
+ (/usr/local/texlive/2019/texmf-dist/tex/latex/biblatex-dw/bbx/standard-dw.bbx
+File: standard-dw.bbx 2016/12/06 v1.7 biblatex bibliography style
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+(/usr/local/texlive/2019/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2018/11/02 v3.12 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count289
+\c@bbx:relatedtotal=\count290
+)
+\bbx@shorthandwidth=\skip80
+\shorthandsep=\skip81
+)))
+Package biblatex Info: Trying to load citation style 'footnote-dw'...
+Package biblatex Info: ... file 'footnote-dw.cbx' found.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/biblatex-dw/cbx/footnote-dw.cbx
+File: footnote-dw.cbx 2016/12/06 v1.7 biblatex citation style
+Package biblatex Info: Trying to load citation style 'standard-dw'...
+Package biblatex Info: ... file 'standard-dw.cbx' found.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/biblatex-dw/cbx/standard-dw.cbx
+File: standard-dw.cbx 2016/12/06 v1.7 biblatex citation style
+)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\fullcite'.
+Package biblatex Info: Redefining '\footfullcite'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\footcites'.
+Package biblatex Info: Redefining '\textcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+(/usr/local/texlive/2019/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/02/04 v3.8 Customized lists
+\labelindent=\skip82
+\enit@outerparindent=\dimen117
+\enit@toks=\toks17
+\enit@inbox=\box29
+\enit@count@id=\count291
+\enitdp@description=\count292
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2018/08/11 v2.0j Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/koma-script/scrlayer-scrpage.sty
+Package: scrlayer-scrpage 2019/02/01 v3.26b KOMA-Script package (end user inter
+face for scrlayer)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/koma-script/scrlayer.sty
+Package: scrlayer 2019/02/01 v3.26b KOMA-Script package (defining layers and pa
+ge styles)
+Package scrlayer Info: Using already defined \footheight
+(scrlayer)             hoping, that this is a length and
+(scrlayer)             not only a macro on input line 109.
+Package scrlayer Info: patching LaTeX kernel macro \pagestyle on input line 208
+3.
+)
+Package scrlayer-scrpage Info: Makeing stand-alone element `pagehead' from
+(scrlayer-scrpage)             alias to `pageheadfoot' on input line 1241.
+Package scrlayer-scrpage Info: deactivating warning for font element
+(scrlayer-scrpage)             `pagefoot' on input line 1268.
+)
+Package scrlayer-scrpage Info: auto-selection of `pagestyleset=KOMA-Script'.
+Package biblatex Info: Trying to load language 'english' -> 'english-dw'...
+Package biblatex Info: ... file 'english-dw.lbx' found.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/biblatex-dw/lbx/english-dw.lbx
+File: english-dw.lbx 2016/12/06 v1.7 biblatex localization file
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2018/11/02 v3.12 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2018/11/02 v3.12 biblatex localization (PK/MW)
+))
+\@quotelevel=\count293
+\@quotereset=\count294
+
+(./guide-pl-polish.aux)
+\openout1 = `guide-pl-polish.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 452.9679pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 700.50687pt, 72.26999pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=452.9679pt
+* \textheight=700.50687pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-39.875pt
+* \headheight=18.125pt
+* \headsep=21.75pt
+* \topskip=12.0pt
+* \footskip=50.75pt
+* \marginparwidth=49.79233pt
+* \marginparsep=12.8401pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/usr/local/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count295
+\scratchdimen=\dimen118
+\scratchbox=\box30
+\nofMPsegments=\count296
+\nofMParguments=\count297
+\everyMPshowfont=\toks18
+\MPscratchCnt=\count298
+\MPscratchDim=\dimen119
+\MPnumerator=\count299
+\makeMPintoPDFobject=\count300
+\everyMPtoPDFconversion=\toks19
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\AtBeginShipoutBox=\box31
+Package hyperref Info: Link coloring OFF on input line 51.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count301
+)
+LaTeX Info: Redefining \ref on input line 51.
+LaTeX Info: Redefining \pageref on input line 51.
+LaTeX Info: Redefining \nameref on input line 51.
+
+(./guide-pl-polish.out) (./guide-pl-polish.out)
+\@outlinefile=\write4
+\openout4 = `guide-pl-polish.out'.
+
+Class scrartcl Info: loading recommended package `bookmark'.
+(scrartcl)           Using `bookmark' together with `hyperref' is recommended,
+(scrartcl)           because of handling of possible bookmark level gaps.
+(scrartcl)           You can avoid loading `bookmark' with KOMA-Script option
+(scrartcl)           `bookmarkpackage=false' before \begin{document} and
+(scrartcl)           you can avoid this message with `\usepackage{bookmark}'
+(scrartcl)           before \begin{document} on input line 51.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/bookmark.sty
+Package: bookmark 2016/05/17 v1.26 PDF bookmarks (HO)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/bkm-pdftex.def
+File: bkm-pdftex.def 2016/05/17 v1.26 bookmark driver for pdfTeX (HO)
+Package auxhook Info: \AddLineBeginMainAux comes a little late,
+(auxhook)             because the main .aux file is already opened on input lin
+e 164.
+\BKM@id=\count302
+))
+Package biblatex Info: Redefining '\citeauthor' on input line 51.
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout3 = `guide-pl-polish.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'guide-pl-polish.bbl' found.
+
+(./guide-pl-polish.bbl)
+Package biblatex Info: Reference section=0 on input line 51.
+Package biblatex Info: Reference segment=0 on input line 51.
+LaTeX Font Info:    Try loading font information for T1+cmss on input line 56.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/t1cmss.fd
+File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Try loading font information for U+wasy on input line 72.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/wasysym/uwasy.fd
+File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 72.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 72.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [1
+
+{/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+Overfull \hbox (18.75919pt too wide) in paragraph at lines 80--81
+[]\T1/cmr/bx/n/12 UWAGA\T1/cmr/m/n/12 : Te "pro-dukty" mog¡ by¢ sprz¦tem, opro-
+gramowaniem, zªo»onymi zin-te-growanymi
+ []
+
+[2]
+Overfull \hbox (1.38489pt too wide) in paragraph at lines 105--106
+[]\T1/cmr/m/n/12 Scrum@Scale po-maga or-ga-ni-za-cjom pros-per-owa¢ poprzez wsp
+ieranie mod-elu przy-wództwa
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+cmss on input line 107
+.
+LaTeX Font Info:    No file OMScmss.fd. on input line 107.
+
+LaTeX Font Warning: Font shape `OMS/cmss/bx/n' undefined
+(Font)              using `OMS/cmsy/m/n' instead on input line 107.
+
+<SMPO-Cycle.png, id=21, 1402.5198pt x 866.2764pt>
+File: SMPO-Cycle.png Graphic file (type png)
+<use SMPO-Cycle.png>
+Package pdftex.def Info: SMPO-Cycle.png  used on input line 109.
+(pdftex.def)             Requested size: 452.9679pt x 279.77846pt.
+
+Overfull \hbox (11.74713pt too wide) in paragraph at lines 109--110
+[] 
+ []
+
+[3 <./SMPO-Cycle.png (PNG copy)>]
+Overfull \hbox (1.31555pt too wide) in paragraph at lines 119--120
+\T1/cmr/m/n/12 growanego, po-tenc-jal-nie nada-j¡cego si¦ do wyda-nia Przy-rost
+u Pro-duktu na koniec ka»dego
+ []
+
+[4]
+Overfull \hbox (0.46982pt too wide) in paragraph at lines 154--155
+[]\T1/cmr/m/n/12 na poziomie ex-ec-u-tive/meta, prowadzi¢ MetaScrum, gdzie nadr
+z¦dny Prod-uct Back-
+ []
+
+[5]
+Overfull \hbox (6.72668pt too wide) in paragraph at lines 177--178
+\T1/cmr/m/n/12 SoSM powinien sfa-cyl-i-towa¢ wydarze-nie Piel¦g-nacji Back-logu
+ gdzie przeszkody s¡ okre±lone
+ []
+
+[6]
+<SoS-EAT.png, id=50, 392.667pt x 378.6948pt>
+File: SoS-EAT.png Graphic file (type png)
+<use SoS-EAT.png>
+Package pdftex.def Info: SoS-EAT.png  used on input line 209.
+(pdftex.def)             Requested size: 452.97757pt x 436.85933pt.
+
+Overfull \hbox (11.7568pt too wide) in paragraph at lines 209--210
+[][] 
+ []
+
+[7] [8 <./SoS-EAT.png>]
+Overfull \hbox (18.68954pt too wide) in paragraph at lines 229--232
+\T1/cmr/m/n/12 dla caªej or-ga-ni-za-cji spo-tyka si¦ z kluc-zowymi in-tere-sar
+-iuszami jako \T1/cmr/bx/n/12 Ex-ec-u-tive MetaScrum\T1/cmr/m/n/12 .
+ []
+
+<ExecMetaScrum.png, id=65, 383.9946pt x 330.5148pt>
+File: ExecMetaScrum.png Graphic file (type png)
+<use ExecMetaScrum.png>
+Package pdftex.def Info: ExecMetaScrum.png  used on input line 233.
+(pdftex.def)             Requested size: 452.9679pt x 389.9032pt.
+
+Overfull \hbox (11.74713pt too wide) in paragraph at lines 233--234
+[][] 
+ []
+
+[9] [10 <./ExecMetaScrum.png>]
+<Sos-R2.png, id=76, 482.55281pt x 274.77657pt>
+File: Sos-R2.png Graphic file (type png)
+<use Sos-R2.png>
+Package pdftex.def Info: Sos-R2.png  used on input line 252.
+(pdftex.def)             Requested size: 452.9679pt x 257.9378pt.
+
+Overfull \hbox (11.74713pt too wide) in paragraph at lines 252--253
+[][] 
+ []
+
+[11 <./Sos-R2.png>]
+<MetaScrum-R2.png, id=90, 572.1375pt x 297.11pt>
+File: MetaScrum-R2.png Graphic file (type png)
+<use MetaScrum-R2.png>
+Package pdftex.def Info: MetaScrum-R2.png  used on input line 262.
+(pdftex.def)             Requested size: 452.9679pt x 235.22661pt.
+
+Overfull \hbox (11.74713pt too wide) in paragraph at lines 262--263
+[][] 
+ []
+
+
+Overfull \hbox (34.02963pt too wide) in paragraph at lines 268--271
+\T1/cmr/bx/n/12 Ulep-szanie i Usuwanie Przeszkód, Mi¦dzyze-spoªowa Ko-or-dy-nac
+ja oraz Wdra»anie\T1/cmr/m/n/12 . 
+ []
+
+[12 <./MetaScrum-R2.png>] [13]
+Overfull \hbox (17.64188pt too wide) in paragraph at lines 324--325
+[]\T1/cmr/m/n/12 odzwierciedli¢ tworze-nie warto±ci, mi-ty-gacj¦ ryzyka i wewn¦
+trzne za-le»no±ci w porz¡dku
+ []
+
+[14] [15] [16]
+<VariableSoS-R2.png, id=130, 649.42625pt x 318.18875pt>
+File: VariableSoS-R2.png Graphic file (type png)
+<use VariableSoS-R2.png>
+Package pdftex.def Info: VariableSoS-R2.png  used on input line 414.
+(pdftex.def)             Requested size: 452.9679pt x 221.9392pt.
+<OrganizationalDiagram.png, id=131, 829.0975pt x 456.70625pt>
+File: OrganizationalDiagram.png Graphic file (type png)
+<use OrganizationalDiagram.png>
+Package pdftex.def Info: OrganizationalDiagram.png  used on input line 415.
+(pdftex.def)             Requested size: 452.9679pt x 249.5167pt.
+
+Overfull \hbox (11.74713pt too wide) in paragraph at lines 414--416
+[] 
+ []
+
+[17 <./VariableSoS-R2.png> <./OrganizationalDiagram.png>]
+Overfull \hbox (10.6859pt too wide) in paragraph at lines 421--422
+\T1/cmr/m/n/12 spoªach. W bardzo maªych or-ga-ni-za-c-jach lub im-ple-men-tac-j
+ach, EAT i EMS mog¡ caªkowicie
+ []
+
+
+Overfull \hbox (3.10051pt too wide) in paragraph at lines 433--434
+\T1/cmr/m/n/12 Dzi¦kujemy IDX ze stworze-nie Scrum of Scrums, który po raz pier
+-wszy poz-woliª zeskalowa¢
+ []
+
+
+Overfull \hbox (3.26714pt too wide) in paragraph at lines 433--434
+\T1/cmr/m/n/12 ªyskaw-iczne wdo»e-nie in-nowa-cyjnego pro-duktu i Open-View Ven
+-ture Part-ners za skalowanie
+ []
+
+[18] [19]
+
+LaTeX Warning: Empty bibliography on input line 441.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 443.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 443.
+(./guide-pl-polish.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 443.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 443.
+Package rerunfilecheck Info: File `guide-pl-polish.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+Package logreq Info: Writing requests to 'guide-pl-polish.run.xml'.
+\openout1 = `guide-pl-polish.run.xml'.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 443.
+ ) 
+Here is how much of TeX's memory you used:
+ 18065 strings out of 492616
+ 337889 string characters out of 6129481
+ 938828 words of memory out of 5000000
+ 21716 multiletter control sequences out of 15000+600000
+ 26735 words of font info for 72 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 52i,20n,80p,9094b,2261s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
+</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
+/usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></u
+sr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr
+/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/l
+ocal/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/loc
+al/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local
+/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/t
+exlive/2019/texmf-dist/fonts/type1/public/cm-super/sfsx1000.pfb></usr/local/tex
+live/2019/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb></usr/local/texli
+ve/2019/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb></usr/local/texlive
+/2019/texmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb></usr/local/texlive/2
+019/texmf-dist/fonts/type1/public/cm-super/sfxc1200.pfb>
+Output written on guide-pl-polish.pdf (19 pages, 2395718 bytes).
+PDF statistics:
+ 326 PDF objects out of 1000 (max. 8388607)
+ 277 compressed objects within 3 object streams
+ 62 named destinations out of 1000 (max. 500000)
+ 332 words of extra memory for PDF output out of 10000 (max. 10000000)
+
