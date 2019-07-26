@@ -41,12 +41,11 @@
 
 \setlength\parindent{0pt}{}
 
-\title{\Huge{\color{red}\textbf{The Scrum@Scale 
-\textsuperscript{\copyright} 
-Guide}}}
+\title{\Huge{\color{red}\textbf{Przewodnik po Scrum@Scale\textsuperscript{\copyright}}}}
 \subtitle{\color{gray}Ostateczny Przewodnik po Scrum@Scale:\\ Skalowanie, które działa}
 \author{Krystian Kaczor}
-\date{20190601}
+\date{20190609}
+
 
 \begin{document}
 
@@ -63,21 +62,21 @@ Dr. Jeff Sutherland zbudował Scrum@Scale w oparciu o fundamentalne zasady stoj�
 
 \subsection{Dlaczego Scrum@Scale?}
 
-Scrum został zaprojektowany dla pojedynczego zespołu, żeby mógł pracować w jego optymalnych możliwościach równocześnie zachowując utrzymywalne tempo. W praktyce, okazało się, że liczba Zespołów Scrumowych w organizacji wzrosła, wydajność (działający produkt) i prędkość tych zespołów zaczęła spadać ze względu na problemy takie, jak zależności międzyzespołowe i and duplikowanie pracy. Stało się oczywiste, że potrzebny był framework do efektywnej koordynacji tych zespołów, żeby osiągnąć linerną skalowalność. Scrum@Scale jest zaprojektowany, żeby osiągnąć ten cel przez bezskalową architekturę.
+Scrum został zaprojektowany dla pojedynczego zespołu, żeby mógł pracować w jego optymalnych możliwościach równocześnie zachowując utrzymywalne tempo. W praktyce, okazało się, że gdy liczba Zespołów Scrumowych w organizacji rosła, wydajność (działający produkt) i prędkość tych zespołów zaczęła spadać ze względu na problemy takie, jak zależności międzyzespołowe i duplikowanie pracy. Stało się oczywiste, że potrzebny był framework do efektywnej koordynacji tych zespołów, żeby osiągnąć linową skalowalność. Scrum@Scale jest zaprojektowany, żeby osiągnąć ten cel przez bezskalową architekturę.
 
-Bezskalową architekturę można powszechnie znaleźć w systemach biologicznych takich jak ludzkie ciało, czy w projektowaniu procesorów, które wymaga umieszczenia miliardów tranzystorów w procesorze. Internet jest zaprojektowany, żeby być bezskalowym w ten sposób, że każdy węzeł ma tą samą strukturę co inny węzeł. Dzięki wykorzystaniu bezskalowej architektury organizacja nie jest ograniczona we wzroście w określonym kierunku przez zestaw przypadkowych zasad; raczej może organicznie rosnąć w oparciu o jej unikalne potrzeby i w utrzymywalnym tempie zmiany, które może być zaakceptowane przez grupy osób tworzących organizację. Prostota modelu Scrum@Scale model jest niezbędna dla  bezskalowej architektury i ostrożnie unika wprowadzania dodatkowej złożoności, która spowoduje wzrost spadku wydajności per zespół w miarę jak tworzone jest więcej zespołów.
+Bezskalową architekturę można powszechnie znaleźć w systemach biologicznych takich jak ludzkie ciało, czy w projektowaniu procesorów, które wymaga umieszczenia miliardów tranzystorów w procesorze. Internet jest zaprojektowany, żeby być bezskalowym w ten sposób, że każdy węzeł ma tą samą strukturę co inny węzeł. Dzięki wykorzystaniu bezskalowej architektury organizacja nie jest ograniczona we wzroście w określonym kierunku przez zestaw arbitralnych zasad; raczej może organicznie rosnąć w oparciu o jej unikalne potrzeby i w utrzymywalnym tempie zmiany, które może być zaakceptowane przez grupy osób tworzących organizację. Prostota modelu Scrum@Scale model jest niezbędna dla  bezskalowej architektury i ostrożnie unika wprowadzania dodatkowej złożoności, która spowoduje spadek wydajności per zespół w miarę jak tworzone jest więcej zespołów.
 
-Scrum@Scale jest zaprojektowany do skalowania poprzez organizację jako całość: wszystkie działu, produkty i usługi. Może być zastosowana poprzez wiele domen we wszystkich typach organizacji w przemyśle, rządzie czy środowiskach akademickich.
+Scrum@Scale jest zaprojektowany do skalowania poprzez organizację jako całość: wszystkie działy, produkty i usługi. Może być zastosowana w wielu dziedzinach we wszystkich typach organizacji w przemyśle, rządzie czy środowiskach akademickich.
 
 \subsection{Definicja Scrum@Scale}
 
 \textbf{Scrum}: Framework w ramach, którego ludzie mogą rozwiązywać złożone adaptacyjne problemy, produktywnie i kreatywnie dostarczając użyteczne produkty o możliwie największej wartości.
 
-Przewodnik po Scrumie jest minimalnym zestawem funkcjonalności, który pozwala na inspekcję i adaptację poprzez radykalną transparencję, żeby prowadzić do innowacji, zadowolenia klienta, wydajności i szczęścia zespołu.
+Przewodnik po Scrumie jest minimalnym zestawem funkcjonalności, który pozwala na inspekcję i adaptację poprzez radykalną transparencję, żeby prowadzić do innowacji, zadowolenia klienta, wydajności i zadowolenia zespołu.
 
-\textbf{Scrum@Scale}: Framework w ramach, którego sieci Zespołów Scrumowych działające spójnie z Przewodnikiem po Scrumie mogą rozwiązywać złożone adaptacyjne problemy, kreatywnie dostarczając  produkty o możliwie największej wartości.
+\textbf{Scrum@Scale}: Framework w ramach, którego sieci Zespołów Scrumowych działające zgodnie z Przewodnikiem po Scrumie mogą rozwiązywać złożone adaptacyjne problemy, kreatywnie dostarczając  produkty o możliwie największej wartości.
 
-\textbf{UWAGA}: Te "produkty" mogą być sprzętem, oprogramowaniem, złożonymi zintegrowanymi systemami, procesami, usługami, itd. w zależności od domeny Zespołów Scrumowych.
+\textbf{UWAGA}: Te "produkty" mogą być sprzętem, oprogramowaniem, złożonymi zintegrowanymi systemami, procesami, usługami, itd. w zależności od dziedziny Zespołów Scrumowych.
 
 Scrum@Scale jest:
 \begin{itemize}
@@ -88,17 +87,17 @@ Scrum@Scale jest:
 
 Scrum@Scale jest frameworkiem do skalowania Scruma. Radykalnie upraszcza skalowanie poprzez wykorzystanie Scruma do skalowania Scruma.
 
-W Scrumie, zatroszczono się o to, żeby rozdzielić odpowiedzialność za "Co" od "Jak". Z taką samą troską w Scrum@Scale dba się, żeby władza i odpowiedzialność były wyraźnie zrozumiane w celu eliminacji bezproduktywnego konfliktu organizacyjnego, który powstrzymuje zespoły od osiągnięcia ich optymalnej produktywności.
+W Scrumie, zatroszczono się o to, żeby rozdzielić odpowiedzialność za "Co" od "Jak". Z taką samą troską w Scrum@Scale dba się, żeby jurysdykcja i odpowiedzialność były wyraźnie zrozumiane w celu eliminacji bezproduktywnego konfliktu organizacyjnego, który powstrzymuje zespoły od osiągnięcia ich optymalnej produktywności.
 
 Scrum@Scale składa się z komponentów, które pozwalają organizacji dopasować jej strategię transformacji i implementacji. To daje jej możliwość celować w jej przyrostowo priorytetyzowane wysiłki zmian w obszar(y), które uważa za najbardziej wartościowe albo najbardziej potrzebujące zmiany, a następnie zrobić postępy w innych.
 
-W ramach rozdzielenia władzy, Scrum@Scale zawiera dwa kręgi: Cykl Scrum Mastera ("Jak") i Cykl Product Ownera ("Co"), stykające się w dwóch punktach. Te kręgi wzięte razem dostarczają potężny framework do koordynacji wysiłków wielu zespołów wzdłuż pojedynczej ścieżki.
+W ramach rozdzielenia jurysdykcji, Scrum@Scale zawiera dwa cykle: Cykl Scrum Mastera ("Jak") i Cykl Product Ownera ("Co"), stykające się w dwóch punktach. Te kręgi wzięte razem dostarczają potężny framework do koordynacji wysiłków wielu zespołów wzdłuż pojedynczej ścieżki.
 
 \subsection{Kultura Oparta Na Wartościach}
 
 Poza rozdzieleniem odpowiedzialności za "Co" i "Jak", dalszym celem Scrum@Scale jest zbudowanie zdrowych organizacji poprzez stworzenie kultury opartej na wartościach w empirycznym otoczeniu. Wartościami Scruma są: Otwartość, Odwaga, Skupienie, Szacunek, and Zaangażowanie. Te wartości kierują empirycznym podejmowaniem decyzji, które polegają na trzech filarach przejrzystości, inspekcji i adaptacji.
 
-Otwartość wspiera przejrzystość całej pracy i procesów, bez której nie możliwości uczciwego sprawdzenia ich i próby dostosowania ich ku lepszemu. Odwaga dotyczy podejmowania śmiałych kroków wymaganych do dostarczenia wartości szybciej na innowacyjne sposoby.
+Otwartość wspiera przejrzystość całej pracy i procesów, bez której nie ma możliwości uczciwego sprawdzenia ich i próby dostosowania ich ku lepszemu. Odwaga dotyczy podejmowania śmiałych kroków wymaganych do dostarczenia wartości szybciej na innowacyjne sposoby.
 
 Skupienie i Zaangażowanie odnoszą się do sposobu w jaki traktujemy nasze obowiązki wynikające z pracy, nadając najwyższy priorytet dostarczaniu wartości klientowi. Ostatecznie, to wszystko musi wydarzyć się w środowisku opartym o szacunek dla osób wykonujących pracę, bez których nic nie może być stworzone.
 
@@ -129,19 +128,19 @@ Głównymi zadaniami Product Owner Team są:
 \begin{itemize}
 	\item stworzyć nadrzędną wizję produktu i zapewnić, że jest widoczna w organizacji.
 	\item stworzyć uzgodnienie z interesariuszami, żeby zapewnić implementację backlogu.
-	\item stworzyć jeden, spriorytetyzowany backlog, zapewniajac, że unikane jest powielanie pracy.
+	\item stworzyć jeden, spriorytetyzowany backlog, zapewniając, że unikane jest powielanie pracy.
 	\item zapewnić, że przeszkody i dług techniczny są odpowiednio spriorytetyzowane w backlogu.
 	\item stworzyć minimalną, jednolitą "Definicję Ukończenia", która dotyczy wszystkich zespołów.
 	\item rozwiązywać zależności wskazane przez zespoły.
-	\item stworzyć skoordynowany Plan Wydań i prognozę poza aktualny Plan wydań (często zwane rodamapą).
+	\item stworzyć skoordynowany Plan Wydań i prognozę poza aktualny Plan wydań (często zwane roadmapą).
 	\item zdecydować jakie metryki dają wgląd w produkt i rynek i je monitorować.
 \end{itemize}
 
-Zespoły Product Owner Team, tak jak SoSy działają na własną rękę jak Zespoły Scrumowe. Jako takie, muszą mieć kogoś, kto działa jak Scrum Master i utrzymuje skupienie podczas dyskusji. Potrzebują też pojedynczej osoby, która jest odpowiedzialna za koordynowanie powstawanie pojedynczego Product Backlogu dla wszystkich zespołów w ramach Scrum of Scrums. Ta osoba jest This person określona jako \textbf{Chief Product Owner}.
+Zespoły Product Owner Team, tak jak SoSy działają na własną rękę jak Zespoły Scrumowe. Jako takie, muszą mieć kogoś, kto działa jak Scrum Master i utrzymuje skupienie podczas dyskusji. Potrzebują też pojedynczej osoby, która jest odpowiedzialna za koordynowanie powstawania pojedynczego Product Backlogu dla wszystkich zespołów w ramach Scrum of Scrums. Ta osoba jest określona jako \textbf{Chief Product Owner}.
 
 \subsubsection{Chief Product Owner (CPO)}
 
-\textbf{Chief Product Owner} (CPO) koordynuje priorytety pomiędzy Product Ownerami, którzy pracują z konkretnymi zespołami. Uzgadniają priorytety zgodnie z potrzebami Interesariuszy i Klientów. Może to być PO konkretnego zespołu pełniący tą rolę albo osoba konkretnie dedykowana do tej roli. Odpowiedzialość cPO jest taka sama jak Po zespołu, ale w stali CPO jest odpowiedzialny za:
+\textbf{Chief Product Owner} (CPO) koordynuje priorytety pomiędzy Product Ownerami, którzy pracują z konkretnymi zespołami. Uzgadniają priorytety zgodnie z potrzebami Interesariuszy i Klientów. Może to być PO konkretnego zespołu pełniący tą rolę albo osoba konkretnie dedykowana do tej roli. Odpowiedzialność CPO jest taka sama jak PO zespołu, ale w skali CPO jest odpowiedzialny za:
 
 \begin{itemize}
 	\item stworzyć strategiczna wizję dla całego SoS.
@@ -174,13 +173,13 @@ Scrum Master Scrum of Scrums jest nazwany \textbf{Scrum of Scrums Master (SoSM)}
 
 \subsubsection{Postępowanie z Przeszkodami na poziomie SoS}
 
-SoSM powinien sfacylitować wydarzenie Pielęgnacji Backlogu gdzie przeszkody są określone jako "gotowe" do usunięcia i zespół określa jak najlepiej usunąć je i po czym poznają, że są "ukończone". Elementy dotyczące usuwania przeszkód są priorytetyzowane dla zespołów w tym samym backlogu, który tworzy SoS CPO i Product Owner Team.
+SoSM powinien facylitować wydarzenie Pielęgnacji Backlogu gdzie przeszkody są określone jako "gotowe" do usunięcia i zespół określa jak najlepiej usunąć je i po czym poznają, że są "ukończone". Elementy dotyczące usuwania przeszkód są priorytetyzowane dla zespołów w tym samym backlogu, który tworzy SoS CPO i Product Owner Team.
 
 Szczególną uwagę należy zwrócić na Retrospekcją SoS, na której reprezentanci zespołów dzielą się tym, czego się nauczyli albo ulepszeniami procesu, które powiodły się w ich poszczególnych zespołach, w celu dzielenia się najlepszymi praktykami pomiędzy zespołami w ramach SoS.  %individual team - poszczególny zespół
 
 \subsubsection{Scaled Daily Scrum (SDS)}
 
-Ponieważ SoS musi na bieżąco odpowiadać na przeszkody zgłaszane przez uczestniczące w nim zespoły, przynajmniej jeden przedstawiciel (zwykle Scrum Master zespołu) każdego z uczestniczących zespół musi uczestniczyć w \textbf{Scaled Daily Scrum (SDS)}. Wydarzenie SDS odzwierciedla Daily Scrum w sensie optymalizacji współpracy i wydajności sieci zespołów. Dowolna osoba lub ilość osób z uczestniczących zespołów może uczestniczyć w miarę potrzeb. Dodatkowo SDS:
+Ponieważ SoS musi na bieżąco odpowiadać na przeszkody zgłaszane przez uczestniczące w nim zespoły, przynajmniej jeden przedstawiciel (zwykle Scrum Master zespołu) każdego z uczestniczących zespołów musi uczestniczyć w \textbf{Scaled Daily Scrum (SDS)}. Wydarzenie SDS odzwierciedla Daily Scrum w sensie optymalizacji współpracy i wydajności sieci zespołów. Dowolna osoba lub liczba osób z uczestniczących zespołów może uczestniczyć w miarę potrzeb. Dodatkowo SDS:
 
 \begin{itemize}
 	\item jest ograniczony czasowo do maksymalnie 15 minut.
@@ -202,7 +201,7 @@ Kilka przykładów, co może być omawiane:
 
 Rola Scrum Mastera, która jest częścią Scrum of Scrums z punktu widzenia całej zwinnej organizacji jest nazwana \textbf{Executive Action Team (EAT)}. Zespół liderów tworzy zwinną bańkę w organizacji, której Model Referencyjny działa z własnymi zasadami, procedurami, który efektywnie integruje się z dowolną częścią organizacji, która nie jest zwinna. Jest właścicielem zwinnego ekosystemu, implementuje wartości Scruma i zapewnia, ze role Scrum są stworzone i wspierane.
 %SoS's??
-EAT jest ostatnim przystankiem dla przeszkód, które nie mogą być usunięte przez SoSy, które je zgłosiły. Dlatego, żeby je usuwać, EAT musi składać się z osób, które mają umocowanie polityczne i finansowe, żeby je usuwać. Funkcją EAT jest skoordynowanie wielu SoSów i zbudowanie interfejsu z nie-zwinnymi częściami organizacji.Tak jak w przypadku każdego zespołu, potrzebuje PO i SM, żeby spotykać się codziennie. Muszą mieć również przejrzysty backlog.
+EAT jest ostatnim przystankiem dla przeszkód, które nie mogą być usunięte przez SoSy, które je zgłosiły. Dlatego, żeby je usuwać, EAT musi składać się z osób, które mają umocowanie polityczne i finansowe, żeby je usuwać. Funkcją EAT jest skoordynowanie wielu SoSów i zbudowanie interfejsu z nie-zwinnymi częściami organizacji.Tak jak w przypadku każdego zespołu, potrzebuje PO i SM, oraz żeby spotykać się codziennie. Muszą mieć również przejrzysty backlog.
 
 Przykładowy diagram pokazujący EAT koordynujący 5 grup of 25 zespołów:
 
@@ -212,21 +211,21 @@ Przykładowy diagram pokazujący EAT koordynujący 5 grup of 25 zespołów:
 
 Scrum jest zwinnym systemem operacyjnym, który rożni się od tradycyjnego zarządzania projektami. Cała organizacja SM raportuje to EAT, który jest odpowiedzialny za wprowadzenie w życie tego zwinnego modelu operacyjnego przez ustanowienie, utrzymanie i wzmacnianie implementacji w organizacji.
 
-Rolą EAT jest stworzyć Backlog Transformacji Organizacji (spriorytetyzowana lista zwinnych inicjatyw, zrealizowane) i zobaczyć jak to się odbywa. Na przykład, jeżeli jest tradycyjny Cykl Rozwoju Produktu w starej organizacji, nowy, musi być stworzony, zaimplementowany i wspierany zwinny Cykl Rozwoju Produktu. On zwykle lepiej wspiera zagadnienia jakości i zgodności niż stara metoda zaimplementowana w inny sposób z innymi zasadami i wytycznymi. EAT zapewnia, że organizacja Product Ownerów jest stworzona i finansowana oraz, że ta organizacja jest reprezentowana w EAT, żeby wspierać te wysiłki.
+Rolą EAT jest stworzyć Backlog Transformacji Organizacji (spriorytetyzowana lista zwinnych inicjatyw, zrealizowane) i zobaczyć jak to się odbywa. Na przykład, jeżeli istnieje tradycyjny Cykl Rozwoju Produktu w starej organizacji, nowy - zwinny Cykl Rozwoju Produktu, musi być stworzony, zaimplementowany i wspierany . Zwykle on lepiej wspiera zagadnienia jakości i zgodności niż stara metoda, ale zaimplementowana w inny sposób z innymi zasadami i wytycznymi. EAT zapewnia, że organizacja Product Ownerów jest stworzona i finansowana oraz, że ta organizacja jest reprezentowana w EAT, żeby wspierać te wysiłki.
 
-EAT jest odpowiedzialny za jakość Scrum w organizacji. W jego odpowiedzialności obejmują, ale nie są odgraniczone do:
+EAT jest odpowiedzialny za jakość Scruma w organizacji. Jego odpowiedzialności obejmują, ale nie są odgraniczone do:
 
 \begin{itemize}
 	\item stworzenie zwinnego systemu operacyjnego dla Modelu referencyjnego w miarę jak skaluje się przez organizację, włączając w to zasady działania operacyjnego organizacji, procedury i wytyczne, żeby umożliwić zwinność.
-	\item mierzenie i ulepszać jakość Scrum w organizacji.
-	\item zbudowanie zdolności do zwinności biznesu w ramach organizacji.
-	\item stworzenie centrum dla ciągłego uczenia się profesjonalistów Scrum.
+	\item mierzenie i ulepszanie jakości Scruma w organizacji.
+	\item zbudowanie zdolności do zwinności biznesowej w ramach organizacji.
+	\item stworzenie centrum dla ciągłego uczenia się profesjonalistów Scruma.
 	\item wspieranie poszukiwania nowych sposobów wykonywania pracy.
 \end{itemize}
 
 \subsection{Executive MetaScrum (EMS)}
 
-Zespoły Product Owner Team umożliwiają projektowanie sieci Product Ownerów, który jest nieskończenie skalowalny razem z ich powiązaniymi SoSami. Product Owner Team dla całej organizacji spotyka się z kluczowymi interesariuszami jako \textbf{Executive MetaScrum}. Do EMS należy wizja organizacji i on ustala strategiczne priorytety orientując zespoły wokół wspólnych celów.
+Zespoły Product Owner Team umożliwiają projektowanie sieci Product Ownerów, która jest nieskończenie skalowalna razem z ich powiązanymi SoSami. Product Owner Team dla całej organizacji spotyka się z kluczowymi interesariuszami jako \textbf{Executive MetaScrum}. Do EMS należy wizja organizacji i on ustala strategiczne priorytety orientując zespoły wokół wspólnych celów.
 %align?? orientować?
 Przykładowy diagram pokazujący EMS koordynujący 5 grup 25 zespołów:
 
@@ -235,8 +234,8 @@ Przykładowy diagram pokazujący EMS koordynujący 5 grup 25 zespołów:
 Executive MetaScrum Team przeprowadza spotkanie uzgadniające z interesariuszami, \textbf{MetaScrum Event}, w regularny rytmie przynajmniej raz na Sprint.
 
 \begin{itemize}
-	\item Członkowie Executive MetaScrum Team (albo proxy) uczestniczą w Wydarzeniu MetaScrum, gdzie Chief Product Owner prezentuje backlog produktu właścicielom biznesowym, którzy kontrolują finansowanie, personel, zobowiązania w stosunku do klientów. Wyrażają oni zmiany potrzebne w strategi, finansowaniu, przydzielaniu zasobów oraz wdrożeniach i współpracują z Chief Product Ownerami, żeby zbudować uzgodnioniony Backlog Produktu, który będą wspierać do następnego wydarzenia Meta Scrum.
-	\item To wydarzenie jest forum dla  liderów, Interesariuszy, i właścicieli biznesowych do wyrażania ich preferencji lub czasem pilnych żądań, które mogą spowodować, że backlog Chief Product Ownera zostanie zmieniony.
+	\item Członkowie Executive MetaScrum Team (albo proxy) uczestniczą w Wydarzeniu MetaScrum, gdzie Chief Product Owner prezentuje backlog produktu właścicielom biznesowym, którzy kontrolują finansowanie, personel, zobowiązania w stosunku do klientów. Wyrażają oni zmiany potrzebne w strategii, finansowaniu, przydzielaniu zasobów oraz wdrożeniach i współpracują z Chief Product Ownerami, żeby zbudować uzgodniony Backlog Produktu, który będą wspierać do następnego wydarzenia MetaScrum.
+	\item To wydarzenie jest forum dla  liderów, interesariuszy, i właścicieli biznesowych do wyrażania ich preferencji lub czasem pilnych żądań, które mogą spowodować, że backlog Chief Product Ownera zostanie zmieniony.
 \end{itemize}
 
 \section{Skalowanie}
@@ -251,7 +250,7 @@ Przykładowe diagramy:
 
 \includegraphics[width=1.0\linewidth]{Sos-R2.png}
 
-\textbf{\textsc{note:}} Podczas gdy Przewodnik po Scrumie definiuje optymalny rozmiar jako 3 do 9 osób, badanie Harvardu ustaliło optymalny rozmiar zespołu jako 4.6 osoby.\footnote{Hackman, J Richard, Leading teams: Setting the stage for great performances, Harvard Business Press, 2002} Eksperymenty z wysoce wydajnymi Zespołami Scrumowymi powtarzalnie pokazały, że 4 lub 5 osób wykonujących pracę jest optymalnym rozmiarem. Kluczowe dla liniowej skalowalności jest stosowanie tego wzorca w odniesieniu do liczby zespołów w SoS. Dlatego, w diagramach powyżej i poniżej pięcioboki zostały wybrane jako reprezentacja zespołu 5 osób. Te diagramy maja służyć wyłącznie jako przykład, a diagram twojej organizacji może znacznie się różnić.
+\textbf{\textsc{note:}} Podczas gdy Przewodnik po Scrumie definiuje optymalny rozmiar jako 3 do 9 osób, badanie Harvardu ustaliło optymalny rozmiar zespołu jako 4.6 osoby.\footnote{Hackman, J Richard, Leading teams: Setting the stage for great performances, Harvard Business Press, 2002} Eksperymenty z wysoce wydajnymi Zespołami Scrumowymi powtarzalnie pokazały, że 4 lub 5 osób wykonujących pracę jest optymalnym rozmiarem. Kluczowe dla liniowej skalowalności jest stosowanie tego wzorca w odniesieniu do liczby zespołów w SoS. Dlatego, w diagramach powyżej i poniżej pięciokąty zostały wybrane jako reprezentacja zespołu 5 osób. Te diagramy maja służyć wyłącznie jako przykład, a diagram twojej organizacji może znacznie się różnić.
 
 \subsection{Skalowanie Product Owner Team}
 
@@ -261,7 +260,7 @@ Przykładowe diagramy:
 
 \includegraphics[width=1.0\linewidth]{MetaScrum-R2.png}
 
-\textbf{UWAGA:} Jak wspomniano powyżej, pięcioboki reprezentują idealnej wielkości Zespoły Scrumowe i idealnej wielkości zespoły Product Owner Team.Te diagramy maja służyć wyłącznie jako przykład, a diagram twojej organizacji może znacznie się różnić.
+\textbf{UWAGA:} Jak wspomniano powyżej, pięciokąty reprezentują idealnej wielkości Zespoły Scrumowe i idealnej wielkości zespoły Product Owner Team.Te diagramy mają służyć wyłącznie jako przykład, a diagram twojej organizacji może znacznie się różnić.
 
 \section{Cykl Scrum Mastera Cycle - Koordynacja "Jak"}
 
@@ -302,7 +301,7 @@ Ponieważ celem SoS jest funkcjonować jako zespół wydaniowy, wdrażanie produ
 
 \section{Cykl Product Ownera - Koordynowanie "Co"}
 
-Organizacja PO (Product Owner, CPO, Executive MetaScrum) pracują jako całość, żeby uzupełnić komponenty Cyklu Product Ownera. Komponentami unikalnymi dla Cyklu Product Ownera są: \textbf{Strategiczna Wizja, Priorytetyzacja Backlogu, Dekompozycja Backlogu i Pielęgnacja oraz Planowanie Wydań}.
+Organizacja PO (Product Owner, CPO, Executive MetaScrum) pracują jako całość, żeby uzupełnić komponenty Cyklu Product Ownera. Komponentami unikalnymi dla Cyklu Product Ownera są: \textbf{Strategiczna Wizja, Priorytetyzacja Backlogu, Dekompozycja i Pielęgnacja Backlogu oraz Planowanie Wydań}.
 
 \subsection{Strategiczna Wizja}
 
@@ -325,9 +324,9 @@ Celami Priorytetyzacji Backlogu są:
 	\item spriorytetyzować wysokopoziomowe inicjatywy w całej zwinnej organizacji przed Dekompozycją Backlogu i Pielęgnacją.
 \end{itemize}
 
-\subsection{Dekompozycja Backlogu i Pielęgnacja}
+\subsection{Dekompozycja i Pielęgnacja Backlogu}
 
-Celami Dekompozycji Backlogu i Pielęgnacji są:
+Celami Dekompozycji i Pielęgnacji Backlogu są:
 
 \begin{itemize}
 	\item rozbić złożone produkty i projekty w niezależne, funkcjonalne elementy, które mogą być ukończone przez jeden zespół w jednym Sprincie.
@@ -349,11 +348,11 @@ Zauważ, że Planowanie Wydań może dotyczyć jednego lub wielu wydań produktu
 
 \section{Łączenie Cykli PO/SM}
 
-Cykle PO i SM Cycles mają dwa punkty styku: \textbf{Proces Poziomu Zespołu and Feedback dla Produktu i Wydania}. Oba cykle potrzebują need \textbf{Metryk i Przejrzystości}.
+Cykle PO i SM Cycles mają dwa punkty styku: \textbf{Proces Poziomu Zespołu and Feedback dla Produktu i Wydania}. Oba cykle potrzebują  \textbf{Metryk i Przejrzystości}.
 
 \subsection{Proces Poziomu Zespołu}
 
-\textbf{Proces Poziomu Zespołu} stanowi pierwszy punkt styku pomiędzy Cyklami Scrum Mastera i Product Ownera, i jest jasno wyłożony w Przewodniku po Scrumie. Składa się z trzech artefaktów, pięciu wydarzeń i trzech ról. Celami Procesu Poziomu Zespołu są:
+\textbf{Proces Poziomu Zespołu} stanowi pierwszy punkt styku pomiędzy Cyklami Scrum Mastera i Product Ownera i jest jasno wyłożony w Przewodniku po Scrumie. Składa się z trzech artefaktów, pięciu wydarzeń i trzech ról. Celami Procesu Poziomu Zespołu są:
 
 \begin{itemize}
 	\item zmaksymalizować przepływ ukończonej i przetestowanej pracy.
@@ -379,44 +378,44 @@ Komponent \textbf{Feedback dla Produktu i Wydania} jest drugim punktem, w który
 
 Radykalna przejrzystość jest kluczowa w Scrum do optymalnego funkcjonowania, ale jest możliwa jedynie wtedy, kiedy organizacja przyjęła wartości Scruma. To daje organizacji możliwość uczciwego określenia postępu oraz sprawdzania i dostosowywania jej produktów i procesów. To jest podstawa empirycznej natury Scruma jak to zostało wyłożone w Przewodniku po Scrumie.
 
-Oba Cykle SM i PO wymagają metryk, na podstawie których będą podejmowane decyzje w oddzielnych organizacjach SM i PO. Metryki mogą być unikalne dla obu unikalnych organizacji zarówno jak i dla poszczególnych funkcji w tych organizacjach. Scrum@Scale nie wymaga żadnego konkretnego zestwau metryk., ald sugeruje, że absolutne minimum tego, co organizacja powinna mierzyć:
+Oba Cykle SM i PO wymagają metryk, na podstawie których będą podejmowane decyzje w oddzielnych organizacjach SM i PO. Metryki mogą być unikalne dla każdej z organizacji jak i dla poszczególnych funkcji w tych organizacjach. Scrum@Scale nie wymaga żadnego konkretnego zestawu metryk, ale sugeruje, że absolutne minimum tego, co organizacja powinna mierzyć:
 
 \begin{itemize}
 	\item Produktywność - n.p. zmiana w ilości Działającego Produktu dostarczana na Sprint
 	\item Dostarczanie Wartości - n.p. wartość biznesowa na jednostkę wysiłku zespołu
 	\item Jakość - n.p. wskaźnik błędów lub przestój usługi
-	\item Utrzymywalność - n.p. szczęście zespołu
+	\item Utrzymywalność - n.p. zadowolenie zespołu
 \end{itemize}
 
 Celami posiadania Metryk i Przejrzystości są:
 
 \begin{itemize}
-	\item dostarczenie wszystkim osobom podejmującym decyzje, włączając w to członków zespołów, odpowiedni kontekst do podejmowania dobry decyzji.
+	\item dostarczenie wszystkim osobom podejmującym decyzje, włączając w to członków zespołów, odpowiedniego kontekstu do podejmowania dobry decyzji.
 	\item skrócenie cyklu feedbacku na ile to możliwe, żeby uniknąć nadmiernej korekty.
-	\item wymaganie minimalnego dodatkowego wysiłku ze strony liderów, interesariuszy lub liderów.
+	\item wymaganie minimalnego dodatkowego wysiłku ze strony zespołów, interesariuszy lub liderów.
 \end{itemize}
 
 \section{Jak zacząć ze Scrum@Scale}
 
 Podczas implementacji rozległej sieci zespołów, kluczowe jest zbudowanie skalowalnego \textbf{Modelu Referencyjnego} dla małego zestawu zespołów. 
-Jakiekolwiek niedociągnięcia w implementacji Scruma będą powiększone in a Scrum kiedy zostanie wdrożone wiele zespołów. Wiele z początkowych problemów skalowania będzie się politykami organizacji i procedurami lub praktykami deweloperskimi, które blokują wydajność i frustrują zespoły.
+Jakiekolwiek niedociągnięcia w implementacji Scruma będą powiększone, kiedy zostanie wdrożone wiele zespołów. Wiele z początkowych problemów skalowania będzie się zasadami organizacji i procedurami lub praktykami deweloperskimi, które blokują wydajność i frustrują zespoły.
 
 Dlatego, pierwszym wyzwaniem jest stworzyć mały zestaw zespołów, który dobrze implementuje Scruma. Najlepszym sposobem do osiągnięcia tego jest stworzenie \textbf{Executive Action Team (EAT)}, który jest odpowiedzialny za rozwój i wykonanie strategii transformacji. EAT musi składać się z osób, które są politycznie i finansowo umocowane do tego, żeby zapewnić istnienie Modelu Referencyjnego. Ten zbiór zespołów przepracowuje zagadnienia organizacyjne, które blokują zwinność i tworzy Model Referencyjny dla Scruma, który jest sprawdzony w organizacji i może być użyty jako wzorzec dla skalowania Scruma w całej organizacji.
 
-W miarę jak powiększa się Model Referencyjny, przeszkody i wąskie gardła, które opóźniają dostarczanie, produkują marnotrawstwo albo zagrażają zwinności biznesu stają się oczywiste. Najbardziej efektywnym sposobem na eliminowanie tych problemów jest rozszerzenie Scrum w organizacji tak, żeby cały strumień dostarczania wartości był zoptymalizowany.
+W miarę jak powiększa się Model Referencyjny, przeszkody i wąskie gardła, które opóźniają dostarczanie, produkują marnotrawstwo albo zagrażają zwinności biznesowej stają się oczywiste. Najbardziej efektywnym sposobem na eliminowanie tych problemów jest rozszerzenie Scruma w organizacji tak, żeby cały strumień dostarczania wartości był zoptymalizowany.
 
-Scrum@Scale osiąga linearna skalowalność w produktywności przez nasycenie organizacji Scrumem i organiczne dystrybuowanie prędkości i jakości w sposób spójny z unikalną strategią organizacji, produktu i usług.
+Scrum@Scale osiąga liniową skalowalność w produktywności przez nasycenie organizacji Scrumem i organiczne dystrybuowanie prędkości i jakości w sposób spójny z unikalną strategią, produktami i usługami organizacji.
 
 \section{Kilka Uwag o Projektowaniu Organizacji}
 
-Bezskalowa natura Scrum@Scale pozwala na oparcie projektu organizacji na komponentach tak jak framework sam w sobie. To pozwala na balansowanie i refaktoryzacja zespołów w odpowiedzi na rynek. W miarę jak organizacja rośnie, może okazać się ważne opanowanie korzyści płynących z rozproszonych zespołów. Niektóre organizacji sięgają po talenty nie dostępne w inny sposóļ i są zdolne do rozszerzania się i zatrudniania poprzez outsourcing. Scrum@Scale pokazuje jak to zrobić unikając długich czasów opóźnienia, problemów z komunikacją i podrzędnej jakości, umożliwiając liniowa skalowalność zarówno w rozmiarze jak i globalnym rozproszeniu.\footnote{Sutherland, Jeff and Schoonheim, Guido and Rustenburg, Eelco and Rijk, Maurits, "Fully distributed scrum: The secret sauce for hyperproductive offshored development teams", AGILE'08. Conference, IEEE: 339-344, 2008}
+Bezskalowa natura Scrum@Scale pozwala na oparcie projektu organizacji na komponentach tak jak framework sam w sobie. To pozwala na balansowanie i refaktoryzację zespołów w odpowiedzi na rynek. W miarę jak organizacja rośnie, może okazać się ważne opanowanie korzyści płynących z rozproszonych zespołów. Niektóre organizacje sięgają po talenty nie dostępne w inny sposób i są zdolne do rozszerzania się i kurczenia wedle potrze poprzez outsourcing. Scrum@Scale pokazuje jak to zrobić unikając długich czasów opóźnienia, problemów z komunikacją i podrzędnej jakości, umożliwiając liniową skalowalność zarówno w rozmiarze jak i globalnym rozproszeniu.\footnote{Sutherland, Jeff and Schoonheim, Guido and Rustenburg, Eelco and Rijk, Maurits, "Fully distributed scrum: The secret sauce for hyperproductive offshored development teams", AGILE'08. Conference, IEEE: 339-344, 2008}
 
 \includegraphics[width=1.0\linewidth]{VariableSoS-R2.png}
 \includegraphics[width=1.0\linewidth]{OrganizationalDiagram.png}
 
-	Na tym diagramie organizacyjnym \textbf{Zespoły Knowledge \& Infrastructure Team} reprezentują wirtualne zespoły specjalistów, których jest zbyt mało, żeby wchodzić w skład każdego zespołu. Koordynują się z Zespołami Scrumowymi jako grupa poprzez kontrakty na poziom usług gdzie zgłoszenia dla każdej specjalizacji przepływają przez PO, który zamienia je w przejrzysty, uporządkowany backlog. Ważna uwaga, te zespoły NIE są silosami osób, które siedzą razem (dlatego są oni reprezentowani jako wgłębione pięcioboki); ich członkowie zespołów znajdują się w konkretnych Zespołach Scrumowych, tworzą swój własny wirtualny Scrum w celu dystrybuowania backlogu i ulepszania procesu.
+	Na tym diagramie organizacyjnym \textbf{Zespoły Knowledge \& Infrastructure Team} reprezentują wirtualne zespoły specjalistów, których jest zbyt mało, żeby wchodzić w skład każdego zespołu. Koordynują się z Zespołami Scrumowymi jako grupa poprzez kontrakty poziomie usług gdzie zgłoszenia dla każdej specjalizacji przepływają przez PO, który zamienia je w przejrzysty, uporządkowany backlog. Ważna uwaga, te zespoły NIE są silosami osób, które siedzą razem (dlatego są oni reprezentowani jako niewypełnione pięciokąty); ich członkowie zespołów znajdują się w konkretnych Zespołach Scrumowych, tworzą swój własny wirtualny Scrum w celu dystrybuowania backlogu i ulepszania procesu.
 
-\textbf{Customer Relations, Legal / Compliance i People Operations} są tutaj ujęte ponieważ są niezbędnymi częściami organizacji i będą istniały jako samodzielne, niezależnie Zespoły Scrumowe, od których mogą zależeć wszystkie pozostałe. 
+\textbf{Customer Relations, Legal / Compliance i People Operations} są tutaj ujęte ponieważ są niezbędnymi częściami organizacji i będą istniały jako samodzielne, niezależne Zespoły Scrumowe, od których mogą zależeć wszystkie pozostałe. 
 
 Ostatnia uwaga na temat reprezentowania EAT i EMS: na tym diagramie są pokazane jako nachodzące na siebie, ponieważ niektórzy członkowie znajdują się w obu tych zespołach. W bardzo małych organizacjach lub implementacjach, EAT i EMS mogą całkowicie składać się z tych samych członków zespołu.
 
@@ -430,12 +429,21 @@ Dobrze zaimplementowany Scrum może zarządzać całą organizacją.
 
 \section{Podziękowania}
 
-Dziękujemy IDX ze stworzenie Scrum of Scrums, który po raz pierwszy pozwolił zeskalować Scrum na setki zespołów,\footnote{Sutherland, Jeff, "Inventing and Reinventing SCRUM in five Companies", Sur le site officiel de l'alliance agile, 2001} PatientKeeper za stworzenie MetaScrum,\footnote{Sutherland, Jeff, "Future of scrum: Parallel pipelining of sprints in complex projects", Proceedings of the Agile Development Conference,  IEEE Computer Society 90-102,  2005.} który umożliwił łyskawiczne wdożenie innowacyjnego produktu i OpenView Venture Partners za skalowanie Scruma do całej organizacji. \footnote{Sutherland, Jeff and Altman, Igor, "Take no prisoners: How a venture capital group does scrum", Agile Conference, 2009. AGILE'09, IEEE 350-355.  2009} Doceniamy wsad od Intel, gdzie ponad 25,000 ludzi robi Scrum, który nauczył nad, że "nic się nie skaluje" poza bezskalową architekturą i SAP z największą orgaanizacją produktową Zespołów Scrumowych, który nas nauczył, że zaangażowanie kierownictwa jest kluczowe, żeby 2000 Zespołów Scrumowych pracowało razem.
+Dziękujemy IDX ze stworzenie Scrum of Scrums, który po raz pierwszy pozwolił zeskalować Scrum na setki zespołów,\footnote{Sutherland, Jeff, "Inventing and Reinventing SCRUM in five Companies", Sur le site officiel de l'alliance agile, 2001} PatientKeeper za stworzenie MetaScrum,\footnote{Sutherland, Jeff, "Future of scrum: Parallel pipelining of sprints in complex projects", Proceedings of the Agile Development Conference,  IEEE Computer Society 90-102,  2005.} który umożliwił błyskawiczne wdrożenie innowacyjnego produktu i OpenView Venture Partners za skalowanie Scruma do całej organizacji. \footnote{Sutherland, Jeff and Altman, Igor, "Take no prisoners: How a venture capital group does scrum", Agile Conference, 2009. AGILE'09, IEEE 350-355.  2009} Doceniamy wsad od Intel, gdzie ponad 25,000 ludzi robi Scrum, który nauczył nas, że "nic się nie skaluje" poza bezskalową architekturą i SAP z największą organizacją produktową Zespołów Scrumowych, który nas nauczył, że zaangażowanie kierownictwa jest kluczowe, żeby 2000 Zespołów Scrumowych pracowało razem.
 
 Agile coache'e i trenerzy implementujący te koncepcje w Amazon, GE, 3M, Toyota, Spotify, Maersk, Comcast, AT\&T i wielu innych firmach pracując z Jeffem Sutherlandem byli pomocni w testowaniu tych koncepcji poprzez szeroki wachlarz firm i różnych domen.
 
 W końcu, Avi Schneier, Alex Sutherland i Jessica Larsen byli nieocenieni w formułowaniu i edytowaniu tego dokumentu.
 
+\section{Nota od tłumacza}
+
+Tłumacząc Scrum@Scale Guide kierowałem się głównie użytecznością tego dokumentu i łatwością zrozumienia zawartych w nim koncepcji. Dlatego nie wszystkie pojęcia są przetłumaczone na język polski. Na przykład moim zdaniem łatwiej jest zrozumieć i odnieść do przykładów na ilustracjach Executive Meta Scrum niż Wykonawczy Meta Scrum. Z tego samego powodu niektóre zdania nie są przetłumaczone wyraz po wyrazie, ale przełożone na język polski tak, żeby miały sens. 
+
+Dziękuję Markowi Hańskiemu za feedback i pracę edytorską w polskiej edycji dokumentu.
+
+Jeśli masz uwagi, możesz je zgłosić na GitHub lub napisać do mnie e-mail na adres krystian.kaczor@qagile.pl
+
+Miłego czytania i Scrum On!
 \pagebreak
 
 \printbibliography
