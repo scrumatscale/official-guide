@@ -3,6 +3,8 @@
 \usepackage{bbding}
 \usepackage{pifont}
 \usepackage{wasysym}
+\usepackage[default,oldstyle,scale=1]{opensans} 
+%\usepackage[T1]{fontenc}
 \usepackage[margin=1in]{geometry}
 \geometry{letterpaper}
 \usepackage{xcolor}
@@ -10,8 +12,9 @@
 \definecolor{gray}{HTML}{666666}
 \usepackage{sectsty}
 \sectionfont{\color{red}}
-\subsectionfont{\color{red}}
-\subsubsectionfont{\color{red}}
+\subsectionfont{\fontsize{25}{25}\color{red}}
+
+\subsubsectionfont{\fontsize{20}{20}\color{red}}
 \usepackage{graphicx}
 \usepackage{hyperref}
 \usepackage{amssymb}
@@ -19,6 +22,7 @@
 \bibliography{S@SGuideBib}
 \setlength\bibitemsep{0.5\baselineskip}
 \graphicspath{{./images/}}
+
 
 \usepackage{enumitem}
 \setitemize{noitemsep}
@@ -51,430 +55,941 @@ Guide}}}
 
 \begin{document}
 
-%\tableofcontents
-%\newpage
+\subsection{Preface to the Scrum@Scale
+Guide}\label{preface-to-the-ScrumatScale-guide}
 
-\section{Purpose of the Scrum@Scale Guide}
+Scrum, as originally outlined in the Scrum Guide, is designed for a
+\emph{single} team to be able to work at its optimal capacity while
+maintaining a sustainable pace. Since its inception, the usage of Scrum
+has extended to the creation of products, processes, and services that
+require the efforts of \emph{multiple} teams.
 
-Scrum, as originally outlined in the Scrum Guide, is a framework for developing, delivering, and sustaining complex products by a single team. Since its inception, its usage has extended to the creation of products, processes, services, and systems that require the efforts of multiple teams. Scrum@Scale was created to efficiently coordinate this new ecosystem of teams in a way that optimizes the overall strategy of the organization. It achieves this goal through setting up a ``minimum viable bureaucracy'' via a scale-free (below) architecture, which naturally extends the way a single Scrum Team functions across the organization.
+In the field, it was repeatedly observed that as the number of Scrum
+teams within an organization grew, two major issues emerged:
 
-This guide contains the definitions of the components that make up the Scrum@Scale framework, including its scaled roles, scaled events, and enterprise artifacts, as well as the rules that bind them together.
-
-Dr. Jeff Sutherland developed Scrum@Scale based on the fundamental principles behind Scrum, Complex Adaptive Systems theory, game theory, and his work in biology. This guide was developed with the input of many experienced Scrum practitioners based on the results of their field work. 
-
-\subsection{Why Scrum@Scale?}
-
-Scrum was designed for a single team to be able to work at its optimal capacity while maintaining a sustainable pace. In the field, it was found that as the number of Scrum Teams within an organization grew, the output (working product) and velocity of those teams began to fall (due to issues like cross-team dependencies and duplication of work). It became obvious that a framework for effectively coordinating those teams was needed in order to achieve linear scalability. Scrum@Scale is designed to accomplish this goal via its scale-free architecture.
-
-Scale-free architectures are commonly found in biological systems like the human body, and in chip design that requires putting billions of transistors on a chip. The internet is designed to be scale-free by every node having the same structure as every other node. By utilizing a scale-free architecture, an organization is not constrained to grow in a particular way determined by a set of arbitrary rules; rather it can grow organically based on its unique needs and at a sustainable pace of change that can be accepted by the groups of individuals that make up the organization. The simplicity of the Scrum@Scale model is essential to a scale-free architecture and carefully avoids introducing extra complexity that will cause productivity per team to decrease as more teams are created.
-
-Scrum@Scale is designed to scale across the organization as a whole: all departments, products and services. It can be applied across multiple domains in all types of organizations in industry, government, or academia.  Scrum@Scale allows entire organizations to produce more valuable work at a faster yet sustainable cadence.
-
-\subsection{Definition of Scrum@Scale}
-
-\textbf{Scrum}: A framework within which people can address complex adaptive problems, while productively and creatively delivering viable products or services of the highest possible value.
-
-The Scrum Guide is the minimal feature set that allows inspection and adaptability via radical transparency to drive innovation, customer satisfaction, performance, and team happiness.
-
-\textbf{Scrum@Scale}: A framework for multiple Scrum Teams operating consistently with the Scrum Guide to address complex problems, while creatively delivering products or services of the highest possible value.
-\textbf{NOTE}: These ``products'' may be hardware, software, complex integrated systems, processes, services, etc., depending upon the domain of the Scrum Teams.  These “services” may be customer support services, repair services, maintenance services, or government services.  
-
-Scrum@Scale is:
-\begin{itemize}
-	\item Lightweight - the minimum viable bureaucracy
-	\item Easy to understand - consists of only Scrum Teams
-	\item Hard to master - requires implementing a new operating model
+\begin{itemize}%[label={\huge\textbullet}]
+\itemsep10pt
+\item
+  the volume, speed, and quality of their output (working product) per
+  team began to fall, due to issues such as cross-team dependencies,
+  duplication of work, and communication overhead
+\item
+  the original management structure was ineffective for achieving
+  business agility. Issues arose like competing priorities and the
+  inability to quickly shift teams around to respond to dynamic market
+  conditions
 \end{itemize}
 
-Scrum@Scale is a framework for scaling Scrum. It radically simplifies scaling by using Scrum to scale Scrum. 
+To counteract these issues, a framework for effectively coordinating
+multiple Scrum teams was clearly needed which would aim for the
+following:
 
-Scrum@Scale consists of components that allow an organization to customize their transformational strategy and implementation. It gives them the ability to target their incrementally prioritized change efforts in the area(s) they deem most valuable or most in need of change and then progress on to others. 
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  Linear scalability: A corresponding percentage increase in delivery of
+  working product with an increase in the number of teams
+\item
+  Business agility: The ability of a business system to rapidly respond
+  to change by adapting its initial stable
+  configuration\textsuperscript{\hyperref[citation1]{1}}
+\end{itemize}
 
-In Scrum, the removal of impediments is a central component to increase team speed. In Scrum@Scale impediment removal is applied at scale to increase the speed of the entire organization.
+Scrum@Scale helps an organization to focus multiple networks of Scrum
+teams on prioritized goals. It aims to achieve this by setting up a
+structure which naturally extends the way a \emph{single} Scrum team
+functions across a network and whose managerial function exists within a
+minimum viable bureaucracy (MVB).
 
-In Scrum, care is taken to separate accountability of the ``what'' from the ``how.'' The same care is taken in Scrum@Scale so that jurisdiction and accountability are expressly understood in order to eliminate wasteful organizational conflict that keeps teams from achieving their optimal productivity.
+A network can achieve linear scalability when its characteristics are
+independent of its size. Designing and coordinating a network of teams
+with this goal does not constrain growth in a particular way; instead,
+it allows for the network to grow organically, based on its unique
+needs, and at a sustainable pace of change that can be better accepted
+by the individuals involved.
 
-In separating these two jurisdictions, Scrum@Scale contains two cycles: the Scrum Master Cycle (the ``how'') and the Product Owner Cycle (the ``what''), each touching the other at two points. Taken together, these cycles produce a powerful framework for coordinating the efforts of multiple teams along a single path.
+A minimum viable bureaucracy is defined as having the least amount of
+governing bodies and processes needed to carry out the function(s) of an
+organization without impeding the delivery of customer value. It helps
+to achieve business agility by reducing decision latency (time to make a
+decision), which has been noted as a primary driver of
+success.\textsuperscript{\hyperref[citation2]{2}}
 
-Scrum@Scale can be applied when an organization has positions that match the Scrum roles. In other words, Scrum@Scale works if job titles such as Scrum Master and Product Owner define positions within an organization.  Scrum@Scale also works when positions do not match Scrum Roles. In such cases one may be hired to be a project manager (position) but may serve a Scrum Team as a Product Owner (role). There is no conflict between roles and positions. In agile organizations where roles (Scrum Master) and positions (regional manager) are not the same, great care should be taken to harmonize roles and positions. Harmonizing roles and positions can be as important to scaling Scrum as any other factor. Governance, roles, and positions should be aligned in any organization that has implemented Scrum to ensure that Scrum can scale and preserve both the speed of teams and the ability of teams to produce valuable products or services. Governance should address who has the authority to remove impediments.
+In order to begin implementing Scrum@Scale, it is essential to be
+familiar with the Agile Manifesto and the Scrum Guide. A failure to
+understand the nature of agility will prevent business agility from
+being achieved. If an organization cannot Scrum, it cannot scale.
 
-\subsection{Values-Driven Culture}
+\subsection{Purpose of the Scrum@Scale
+Guide}\label{purpose-of-the-ScrumatScale-guide}
 
-Besides separating accountability of the ``what'' and the ``how,'' Scrum@Scale further aims to build healthy organizations by creating a values-driven culture in an empirical setting. The Scrum values are: Openness, Courage, Focus, Respect, and Commitment. These values drive empirical decision making, which depends on the three pillars of Transparency, Inspection, and Adaptation.
+This guide provides the definition of Scrum@Scale and the components of
+its framework. It explains the scaled roles, scaled events, and
+enterprise artifacts, as well as the rules that bind them together.
 
-Openness supports Transparency into all of the work and processes, without which there is no ability to inspect them honestly and attempt to adapt them for the better. Courage refers to taking the bold leaps required to deliver value quicker in innovative ways.
-Focus and Commitment refer to the way we handle our work obligations, putting customer value delivery as the highest priority. Lastly, all of this must occur in an environment based on Respect for the individuals doing the work, without whom nothing can be created.
+This guide is broken down into four basic sections:
 
-Scrum@Scale helps organizations thrive by supporting a transformational leadership model which fosters a positive environment for working at a sustainable pace and putting commitment to deliver customer-facing value at the forefront of our efforts.
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  an introduction to Scrum@Scale, with the basics for getting started
+\item
+  an overview of the Scrum Master Cycle
+\item
+  an overview of the Product Owner Cycle
+\item
+  a walk-through of bringing the cycles together
+\end{itemize}
 
-\subsection{The Components of the Scrum@Scale\textregistered ~Framework}
+Each component serves a specific purpose which is required for success
+at scale. Changing their core design or ideas, omitting them, or not
+following the base rules laid out in this guide limits the benefits of
+Scrum@Scale.
 
-\includegraphics[width=1.0\linewidth]{SMPO-Cycle.png}
+Specific tactics beyond the basic structure and rules for implementing
+each component vary and are not described in this Guide. Other sources
+provide complementary patterns, processes, and insights.
 
-\section{Scaled Structure: the Scrum of Scrums}
+\subsection{Definitions}\label{definitions}
 
-A set of Scrum Teams that need to coordinate in order to deliver value to customers comprise a \textbf{Scrum of Scrums (SoS)}. This team is responsible for a fully integrated set of potentially shippable increments of product at the end of every Sprint from all participating teams. A SoS functions as a Release Team and must be able to directly deliver value to customers.
+Scrum: A framework within which people can address complex adaptive
+problems, while productively and creatively delivering viable products
+of the highest possible value.
 
-A Scrum of Scrums operates as a Scrum Team with scaled versions of the Scrum roles, events and artifacts. Given the scaled nature of the SoS there are some additional considerations.
+The Scrum Guide describes the minimal set of components that creates a
+team environment that drives innovation, customer satisfaction,
+performance, and happiness. Scrum utilizes radical transparency and a
+series of formal events to provide opportunities to inspect and adapt a
+team and its product(s).
 
-\subsection{SoS Roles}
+Scrum@Scale: A framework in which a network of teams operating
+consistently with the Scrum Guide can address complex adaptive problems,
+while creatively delivering products of the highest possible value.
+These ``products'' may be physical, digital, complex integrated systems,
+processes, services, etc.
 
-The SoS needs to have all of the skills necessary to deliver a fully integrated potentially shippable Product Increment at the end of every Sprint and to facilitate cross-team coordination where necessary. (It may need experienced architects, QA Leaders, members of the Product Ownership Team, and other operational skill sets.) 
+The Scrum@Scale Guide describes the minimal set of components to scale
+Scrum by using Scrum and its resulting business agility across an entire
+organization. It can be used in all types of organizations within
+industry, government, nonprofits, or academia. If an organization does
+not already use Scrum, it will require changes to its operating system.
 
-\subsubsection{Product Owner Team}
+In Scrum, care is taken to separate accountability of the ``what''
+(product) from the ``how'' (process). The same care is taken in
+Scrum@Scale, so that jurisdiction and accountability are expressly
+understood. This eliminates wasteful organizational conflict that keep
+teams from achieving their optimal productivity. Because Scrum@Scale
+consists of components, it allows an organization to customize their
+transformation strategy and implementation. It gives an organization the
+ability to target incrementally prioritized change efforts in the
+area(s) deemed most valuable or most in need of adaptation and then
+progress on to others.
 
-For each SoS, there is an associated group of Product Owners called a \textbf{Product Owner Team} which aligns the teams' priorities along a single enterprise backlog so that they can coordinate their Scrum Team's backlogs and build alignment with stakeholders.
+Scrum@Scale separates these components into two cycles: The Scrum Master
+Cycle (the ``how'') and the Product Owner Cycle (the ``what''),
+intersecting at two components and sharing a third. Taken as a whole,
+these cycles produce a powerful supporting structure for coordinating
+the efforts of multiple teams along a single path.
 
-A team's Product Owner is responsible for the composition and prioritization of the team backlog and may pull backlog items from the shared SoS backlog into the team backlog or generate independent backlog items at their discretion.
+\subsection{The Components of
+Scrum@Scale}\label{the-components-of-scrumatscale}
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.25]{SMPO-Cycle.png}
+\end{figure}
+
+
+\subsubsection{Values-Driven Culture}\label{values-driven-culture}
+
+Scrum@Scale aims to build a healthy organizational culture through the
+pillars of empirical process control and the Scrum values. The pillars
+of empirical process control are transparency, inspection, and
+adaptation.\textsuperscript{\hyperref[citation3]{3}} These pillars are
+actualized by the Scrum values of Openness, Courage, Focus, Respect, and
+Commitment.
+
+Openness supports transparency into all of the work and processes and
+without it, there is no ability to inspect them honestly and attempt to
+adapt them for the better. Courage refers to taking the bold leaps
+required to deliver value quicker in innovative ways. Focus and
+Commitment refer to the way we handle our work obligations, putting
+customer value delivery as the highest priority. Lastly, all of this
+must occur in an environment based on respect for the individuals doing
+the work, without whom nothing can be created.
+
+Scrum@Scale helps organizations thrive by supporting a positive team
+learning environment for working at a sustainable pace, while putting
+customer value at the forefront.
+
+\subsubsection{Getting Started: Installing an Agile Operating
+System}\label{getting-started-installing-an-agile-operating-system}
+
+When implementing networks of teams, it is critical to develop a
+scalable Reference Model prior to scaling. The reference model is a
+small set of teams that coordinates to deliver every Sprint. As these
+teams successfully implement Scrum, the rest of the organization has a
+functioning, healthy example of Scrum to replicate. It serves as a
+prototype for scaling Scrum across the next network of teams. Any
+deficiencies in a Scrum implementation will be magnified when multiple
+teams are deployed. Scaling problems include organizational policies and
+procedures or development practices that block performance and frustrate
+teams.
+
+In a scaled setting, the Reference Model is best enabled by grouping
+teams together that need to coordinate in order to deliver a fully
+integrated set of increments into a Scrum of Scrums (SoS). To operate
+effectively, the Scrum of Scrums needs to be supported by a minimum
+viable bureaucracy composed of two leadership groups: an Executive
+MetaScrum (EMS) forum, focused on what is produced by the Scrum of
+Scrums and an Executive Action Team (EAT) focused on how they can get it
+done faster. The Executive MetaScrum and Executive Action Team
+components are the hubs around which each cycle revolves.
+
+\subsubsection{Scaling The Teams}\label{scaling-the-teams}
+
+In Scrum, the ideal state is for a Scrum Team to be an independent path
+to production. As such, it needs members who have all the skills
+necessary to go from ideation to implementation. The Scrum of Scrums is
+a team of multiple teams that replicates this ideal at scale. Each team
+within the Scrum of Scrums must satisfy the Team Process component.
+
+\subsubsection{The Team Process}\label{the-team-process}
+
+The Team Process is Scrum as prescribed by the Scrum Guide. Since every
+Scrum Team has a Product Owner and a Scrum Master, it constitutes the
+first intersection between the Product Owner and Scrum Master Cycles.
+The goals of the Team Process are to:
+
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  maximize the flow of completed and quality-tested work
+\item
+  increase performance of the team over time
+\item
+  operate in a way that is sustainable and enriching for the team
+\item
+  accelerate the customer feedback loop
+\end{itemize}
+
+\subsubsection{The Scrum of Scrums (SoS)}\label{the-scrum-of-scrums}
+
+A Scrum of Scrums operates as if it were a Scrum Team, satisfying the
+Team Process component with scaled versions of the Scrum roles, events,
+and artifacts. While the Scrum Guide defines the optimal team size as
+being 3 to 9 people, Harvard
+research\textsuperscript{\hyperref[citation4]{4}} has determined that
+optimal team size is 4.6 people (on average), therefore the optimal
+number of teams in a Scrum of Scrums is 4 or 5.
+
+As a dynamic group, the teams composing the Scrum of Scrums are
+responsible for a fully integrated set of potentially shippable
+increments of product at the end of every Sprint. Optimally, they carry
+out all of the functions required to release value directly to
+customers.
+
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.15]{1.png}
+\end{figure}
+
+
+\emph{NOTE: In the above and following diagrams, light-grey outlined
+pentagons represent a team. Where applicable, we have chosen to
+represent the SM \& PO roles as smaller pentagons. These diagrams are
+meant to be examples only, as each organizational diagram may differ
+greatly.}
+
+\subsubsection{Scaling in Larger
+Organizations}\label{scaling-in-larger-organizations}
+
+Depending upon the size of an implementation, more than one Scrum of
+Scrums may be needed to deliver a complex product. In such cases, a
+Scrum of Scrum of Scrums (SoSoS) can be created out of multiple Scrums
+of Scrums. Each of these will have scaled versions of each Scrum of
+Scrums' roles, artifacts, and events.
+
+Scaling the Scrum of Scrums reduces the number of communication pathways
+within the organization so that complexity of communication overhead is
+limited. The SoSoS interfaces with a Scrum of Scrums in the exact same
+manner that a Scrum of Scrums interfaces with a single Scrum Team, which
+allows for linear scalability.
+
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.15]{2.png}
+  
+\end{figure}
+
+\emph{NOTE: For simplicity, the numbers of teams and groupings in the
+sample diagrams are symmetrical. They are meant to be examples only, as
+each organizational diagram may differ greatly.}
+
+\subsubsection{Scaling the Events and
+Roles}\label{scaling-the-events-and-roles}
+
+If a Scrum of Scrums (SoS) operates as a Scrum Team, then it needs to
+scale the Scrum events and the teams' corresponding roles. To coordinate
+the ``how'' in every Sprint, a SoS will need to hold scaled versions of
+the Daily Scrum and Sprint Retrospective. To coordinate the ``what'' in
+every Sprint, a SoS will need to hold scaled versions of Sprint Planning
+and a Sprint Review. As an ongoing practice, Backlog Refinement will
+also need to be done at scale.
+
+The scaled versions of the Daily Scrum and Retrospective are facilitated
+by a Scrum Master for the group called the Scrum of Scrums Master
+(SoSM). The scaled versions of the Sprint Review and Backlog Refinement
+are facilitated by a Product Owner Team guided by a Chief Product Owner.
+The scaled version of Sprint Planning is held with the Product Owner
+Team and the Scrum Masters. The Product Owner Team gains insight into
+what will be delivered in the current Sprint and the Scrum Masters gain
+insight into capacity and technical capabilities. The roles of Scrum of
+Scrums Master and Chief Product Owner scale into the leadership groups
+which then drive their corresponding cycles satisfying the components of
+Scrum@Scale.
+
+\subsubsection{Event: The Scaled Daily Scrum
+(SDS)}\label{event-the-scaled-daily-scrum}
+
+The main talking points of a Daily Scrum are the progress of items in
+the Sprint Backlog and impediments to getting them done. In a scaled
+setting, the Scrum of Scrums needs to understand collective progress and
+be responsive to impediments raised by participating teams; therefore,
+at least one representative from each team attends a Scaled Daily Scrum
+(SDS). Any person or number of people from participating teams may
+attend as needed.
+
+To optimize collaboration and performance, the Scaled Daily Scrum event
+mirrors the Daily Scrum, in that it:
+
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  is time-boxed to 15 minutes or less
+\item
+  must be attended by a representative of each team, including the
+  Product Owner Team
+\item
+  is a forum to discuss how teams can work together more effectively,
+  what has been done, what will be done, what is going wrong \& why, and
+  what the group is going to do about it
+\end{itemize}
+
+Some examples of questions to be answered:
+
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  What impediments does a team have that will prevent them from
+  accomplishing their Sprint Goal or that will impact the upcoming
+  release?
+\item
+  Is a team doing anything that will prevent another team from
+  accomplishing their Sprint Goal or that will impact their upcoming
+  release?
+\item
+  Have any new dependencies between the teams or a way to resolve an
+  existing dependency been discovered?
+\end{itemize}
+
+\subsubsection{Event: The Scaled
+Retrospective}\label{event-the-scaled-retrospective}
+
+Every Sprint the Scrum of Scrums holds a scaled version of the Sprint
+Retrospective where the Scrum Masters of each team get together and
+discuss what experiments have been done to drive continuous improvement
+and their results. Additionally, they should discuss the next round of
+experiments and how successful improvements can be leveraged across the
+group of teams or beyond.
+
+\subsection{The Scrum Master Cycle: Coordinating the
+``How''}\label{the-scrum-master-cycle}
+
+\subsubsection{Role: The Scrum of Scrums Master
+(SoSM)}\label{role-the-scrum-of-scrums-master}
+
+The Scrum Master of the Scrum of Scrums is called the Scrum of Scrums
+Master (SoSM). The Scrum of Scrums Master is responsible for
+facilitating the Scaled Daily Scrum and any other scaled events. The
+Scrum of Scrums Master may be one of the team's Scrum Masters or a
+person specifically dedicated to this role. They are accountable for the
+release of the joint teams' efforts and continuously improving the
+delivery capability of the Scrum of Scrums. This includes greater team
+throughput, lower cost, and higher quality. In order to achieve these
+goals, they must:
+
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  work closely with the Chief Product Owner to deliver a potentially
+  releasable product increment at least every Sprint
+\item
+  coordinate the teams' delivery with the Product Owners Team's release
+  plans
+\item
+  make impediments, process improvements, and progress visible to the
+  organization
+\item
+  facilitate the prioritization and removal of impediments, paying
+  particular attention to cross-team dependencies
+\end{itemize}
+
+The Scrum of Scrums Master serves the organization by understanding
+cross-team dependencies, including those outside of the Scrum of Scrums
+and enabling cross team coordination and communication. They are
+accountable for keeping the Chief Product Owner, stakeholders, and
+larger organization informed by radiating information about product
+development progress, impediments removal status, and other metrics. The
+Scrum of Scrums Master leads by example, mentoring others to increase
+the penetration of Scrum throughout the organization.
+
+In the case where multiple Scrum of Scrums are grouped into a Scrum of
+Scrum of Scrums, then a Scrum of Scrum of Scrums Master (SoSoSM) is
+needed to coordinate from that wider perspective.
+
+\subsubsection{The Hub of the SM Cycle: The Executive Action Team
+(EAT)}\label{the-hub-of-the-sm-cycle}
+
+The Executive Action Team (EAT) fulfills the Scrum Master role for an
+entire agile organization. This leadership team creates an agile
+ecosystem that allows the Reference Model to function optimally, by:
+
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  implementing the Scrum values
+\item
+  assuring that Scrum roles are created and supported
+\item
+  Scrum events are held and attended
+\item
+  Scrum artifacts are generated and updated every Sprint
+\item
+  formulating guidelines and procedures that act as a translation layer
+  between the Reference model and any part of the organization that is
+  not agile
+\end{itemize}
+
+The Executive Action Team is the final stop for impediments that cannot
+be removed by members of the Scrum of Scrums (or wider network).
+Therefore, it must be comprised of individuals who are empowered,
+politically and financially, to remove them. The function of the
+Executive Action Team is to coordinate multiple Scrum of Scrums (or
+wider networks) and to interface with any non-agile parts of the
+organization. As with any Scrum Team, it needs a Product Owner, a Scrum
+Master, and a transparent backlog.
+
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.15]{3.png}
+    
+\end{figure}
+
+
+\emph{Sample Diagram showing an EAT coordinating 5 groupings of 25
+teams}
+
+\subsubsection{EAT Backlog and
+Responsibilities}\label{EAT-backlog-and-responsibilities}
+
+The Executive Action Team (EAT) creates a backlog for the transformation
+of the organization, which is a prioritized list of the agile
+initiatives that need to be accomplished and the ongoing improvement of
+the performance of the agile organization. From this, they create a
+Sprint Backlog that also includes impediments that need to be removed
+and process improvements that need to be standardized. The function of
+the Executive Action Team is to see that this backlog is carried out.
+They may do this themselves or empower another group to do it. The
+Executive Action Team ensures that a Product Owner organization is
+created and funded, and also that this organization is represented on
+the Executive Action Team to support their efforts.
+
+The Executive Action Team's responsibilities include, but are not
+limited to:
+
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  creating an agile operating system for the Reference Model as it
+  scales through an organization, including corporate operational rules,
+  procedures, and guidelines to enable agility
+\item
+  measuring and improving the quality of Scrum in an organization
+\item
+  building capability within an organization for business agility
+\item
+  creating a center for continuous learning for Scrum professionals
+\item
+  supporting the exploration of new ways of working
+\end{itemize}
+
+As the Executive Action Team is accountable for the quality of Scrum
+within the organization, the entire Scrum Master organization reports
+into them.
+
+The Scrum Master organization (Scrum Masters, Scrum of Scrums Masters,
+and the Executive Action Team) work as a whole to implement the Scrum
+Master Cycle components. These unique components are:
+
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  Continuous Improvement and Impediment Removal
+\item
+  Cross-Team Coordination
+\item
+  Delivery
+\end{itemize}
+
+\subsubsection{Continuous Improvement and Impediment
+Removal}\label{Continuous-improvement-and-impediment-removal}
+
+Ideally, impediments should be removed as quickly as possible. This is
+critical to avoid scaling the impediments themselves, and because
+unresolved impediments may slow productivity. Therefore, the goals of
+Continuous Improvement and Impediment Removal are to:
+
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  identify impediments and reframe them as opportunities to improve
+\item
+  ensure transparency and visibility in the organization to effect
+  change
+\item
+  maintain an effective environment for prioritizing and removing
+  impediments
+\item
+  verify that improvements have positively impacted team and/or product
+  metrics
+\end{itemize}
+
+\subsubsection{Cross-Team Coordination}\label{cross-team-coordination}
+
+When multiple teams are needed for the creation of a shared product,
+streamlined collaboration is required for success. Therefore, the goals
+of Cross-Team Coordination are to:
+
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  sync up similar processes across multiple related teams
+\item
+  mitigate cross-team dependencies to ensure they do not become
+  impediments
+\item
+  maintain alignment of team norms and guidelines for consistent output
+\end{itemize}
+
+\subsubsection{Delivery}\label{Delivery}
+
+Since the goal of the Scrum of Scrums is to function as a single unit
+and release together, how the product is delivered falls under their
+scope as a group. The Product Owner Team determines both the content of
+the release and the optimal time to deliver the increment to customers.~
+Therefore, the goals of Delivery for the Scrum of Scrums are to:
+
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  deliver a consistent flow of valuable finished product to customers
+\item
+  integrate the work of different teams into one seamless product
+\item
+  ensure a high-quality customer experience
+\end{itemize}
+
+\subsection{The Product Owner Cycle: Coordinating the
+``What''}\label{The-product-owner-cycle}
+
+\subsubsection{Scaling the Product Owner - The Product Owner
+Cycle}\label{Scaling-the-product-owner}
+
+For each Scrum of Scrums, there is a shared common backlog that feeds
+the network of teams. It requires a Product Owner Team (PO Team),
+including a Chief Product Owner, who is the final authority on the
+ordering of it. The PO Team's main focus is ensuring that the individual
+teams' priorities follow along a single path. This allows them to
+coordinate their individual team's backlogs and build alignment with
+stakeholders and customer needs.
+
+Each team's Product Owner is accountable for the composition and
+prioritization of their team's Sprint backlog and may pull items from
+the common backlog or generate independent backlog items at their
+discretion as needed to meet business objectives.
 
 The main functions of the Product Owner Team are to:
 
 \begin{itemize}
-	\item create an overarching vision for the product and make it visible to the organization.
-	\item build alignment with key stakeholders to secure support for backlog implementation.
-	\item generate a single, prioritized backlog, ensuring that duplication of work is avoided.
-	\item assure impediments get resolved by properly prioritizing them in the backlog.
-	\item create a minimal, uniform ``Definition of Done'' that applies to all teams.
-	\item resolve dependencies raised by the teams.
-	\item generate a coordinated Release Plan and forecast beyond the current Release Plan (often called a roadmap).
-	\item decide upon and monitor metrics that give insight into the product and the market.
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  communicate the overarching vision for the product \& make it visible
+  to everyone in the organization
+\item
+  build alignment with key stakeholders to secure support for backlog
+  implementation
+\item
+  generate a single, prioritized backlog; ensuring that duplication of
+  work is avoided
+\item
+  work with the Scrum of Scrums Master to create a minimally uniform
+  ``Definition of Done'' that applies to all team
+\item
+  eliminate dependencies raised by the teams
+\item
+  generate a coordinated Roadmap and Release Plan
+\item
+  monitor metrics that give insight into the product and the market
 \end{itemize}
 
-Product Owner Teams, just like SoS, function as Scrum Teams on their own. As such, they need to have someone acting as the Scrum Master and keeping the team on track in discussions. They also need a single person who is responsible for coordinating the generation of a single Product Backlog for all teams within the Scrum of Scrums. This person is designated as the \textbf{Chief Product Owner}.
+\subsubsection{Role: The Chief Product Owner
+(CPO)}\label{role-the-chief-product-owner}
 
-\subsubsection{Chief Product Owner (CPO)}
-
-The \textbf{Chief Product Owner} (CPO) coordinates priorities among Product Owners who work with individual teams. They align backlog priorities with Stakeholder and Customer needs. It may be an individual team PO who plays this role as well, or there may be a person specifically dedicated to this role. The responsibilities of the CPO are the same as that of a team PO, but at scale, the CPO is responsible for:
+The Chief Product Owner (CPO) coordinates priorities with the Product
+Owner Team. Together they align backlog priorities with stakeholder and
+customer needs. The CPO may be an individual team Product Owner who
+functions in this role also, or they may be a person specifically
+dedicated to it. Their main responsibilities are the same as a regular
+Product Owner's, but at scale:
 
 \begin{itemize}
-	\item setting a strategic vision for the whole SoS.
-	\item creating a single, prioritized backlog of value to be delivered by all of the teams.
-	\begin{itemize}
-		\item Note: these items are typically larger Product Backlog Items that will need further refinement and decomposition by the team POs.
-	\end{itemize}
-	\item working closely with their associated Scrum of Scrums Master (below) so that the Release Plan that the Product Owner team generates can be deployed efficiently.
-	\item monitoring customer product feedback, as well as product feedback from the SoS, and adjusting the backlog accordingly.
-	\item at the executive/meta level, leading the MetaScrum event where the overall Product Backlog is presented and alignment with stakeholders is achieved.
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  setting a strategic vision for the whole product
+\item
+  creating a single, prioritized backlog to be delivered by all of the
+  teams
+\item
+  decide which metrics the Product Owner Team will monitor
+\item
+  assess customer product feedback and adjust the common backlog
+  accordingly
+\item
+  facilitate the MetaScrum event (see below)
 \end{itemize}
 
+The Chief Product Owner is accountable along with their associated Scrum
+of Scrums Masters for the efficient delivery of product increments
+according to the Release Plan.
 
+\subsubsection{Scaling the Product Owner
+Team}\label{scaling-the-product-owner-team}
 
-\subsubsection{Scrum of Scrums Master (SoSM)}
+Having Product Owner Teams enables a network design of Product Owners
+which scales along with their associated Scrum of Scrums. There is no
+specific term associated with these expanded units, nor do the Chief
+Product Owners of them have specific expanded titles. Each organization
+is encouraged to develop their own.
 
-The Scrum Master of the Scrum of Scrums is called the \textbf{Scrum of Scrums Master (SoSM)}. The SoSM is accountable for the release of the joint teams' effort and must:
+\subsubsection{The Hub of the PO Cycle: The Executive MetaScrum
+(EMS)}\label{the-hub-of-the-po-cycle}
+
+To fulfill the Product Owner role for the entire agile organization, the
+Chief Product Owners meet with executives and key stakeholders at an
+Executive MetaScrum event. This event is derived from the MetaScrum
+pattern\textsuperscript{\hyperref[citation5]{5}}. It is \emph{the forum}
+for Leadership and other stakeholders to express their preferences to
+the PO Team, negotiate priorities, alter budgets, or realign teams to
+maximize the delivery of value. At no other time during the Sprint
+should these decisions be made.
+
+At the Executive MetaScrum a dynamic group of leaders sets the
+organizational vision and the strategic priorities, aligning all of the
+teams around common goals.~ In order to be effective, the Chief Product
+Owner facilitates and each team's Product Owner (or a proxy) must
+attend. This event occurs as often as needed- at least once per Sprint-
+to ensure an aligned backlog within the Scrum of Scrums.~ Optimally,
+this group of leaders operates as a scrum team.
+
+In the case of larger implementations where there are multiple Scrum of
+Scrums, there may be multiple MetaScrums which have their strategic
+backlog created and prioritized at an Executive MetaScrum.
+
+\subsubsection{Coordinating the ``What'' - The Product Owner
+Cycle}\label{coordinating-the-what}
+
+The Product Owner organization (the Product Owners, the Chief Product
+Owners, and the Executive MetaScrum) work as a whole to satisfy the
+unique components of the Product Owner Cycle:
 
 \begin{itemize}
-	\item make progress visible.
-	\item make an impediment backlog visible to the organization.
-	\item remove impediments that the teams cannot address themselves.
-	\item facilitate prioritization of impediments, with particular attention to cross-team dependencies and the distribution of backlog.
-	\item improve the effectiveness of the Scrum of Scrums.
-	\item work closely with the Product Owner Team to deploy a potentially releasable Product Increment at least every Sprint.
-	\item coordinate the teams' deployment with the Product Owner's Release Plans.
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  Strategic Vision
+\item
+  Backlog Prioritization
+\item
+  Backlog Decomposition \& Refinement
+\item
+  Release Planning
 \end{itemize}
 
-\subsection{SoS Events}
-
-\subsubsection{Scaled Daily Scrum (SDS)}
-
-Since the SoS needs to be responsive to impediments raised by participating teams, at least one representative (usually the team's Scrum Master or whoever best understands the teams' impediment) of each of the participating teams needs to attend a \textbf{Scaled Daily Scrum (SDS)}. The SDS event mirrors the Daily Scrum in that it optimizes the collaboration and performance of the network of teams. Any person or number of people from participating teams may attend as needed. Additionally, the SDS:
-
-\begin{itemize}
-	\item is time-boxed to 15 minutes or less.
-	\item must be attended by a representative of each team, including the Product Owner Team.
-	\item is a forum where team representatives discuss what is going well, what is getting done, and how teams can work together more effectively. 
-\end{itemize}
-	
-Some examples of what might be discussed are:
-\begin{itemize}
-	\item What impediments does my team have that will prevent them from accomplishing their Sprint Goal (or impact the upcoming release)?
-	\item Is my team doing anything that will prevent another team from accomplishing their Sprint Goal (or impact their upcoming release)?
-	\item Have we discovered any new dependencies between the teams or discovered a way to resolve an existing dependency?
-	\item What improvements have we discovered that can be leveraged across teams?
-\end{itemize}
-
-\subsubsection{Dealing with Impediments in a SoS}
-
-
-The SoSM should facilitate the refinement of an impediment backlog wherein impediments are identified as ``ready'' and prioritized to be removed. The teams then determine how best to remove them and how they will know when they are ``done.'' In some cases, impediment resolution may require product development, in which case, involvement from the SoS CPO and Product Owner Team will be necessary.
-
-
-Particular attention should be paid to the SoS Retrospective in which the teams' representatives share any learnings or process improvements that their individual teams have succeeded with, in order to share best practices across the teams within the SoS.  
-
-\section{Reference Model}
-
-When implementing large networks of teams, it is critical to develop a scalable \textbf{Reference Model} for a small set of teams. Any deficiencies in a Scrum implementation will be magnified when multiple teams are deployed. Many of the initial scaling problems will be organizational policies and procedures or development practices that block high performance and frustrate teams. 
-
-Therefore, the first challenge is to create a small set of teams that implements Scrum well.  This is best accomplished by the creation of an \textbf{Executive Action Team (EAT)} (below), which is accountable for the development and execution of the transformation strategy.  The EAT must be comprised of individuals who are empowered, politically and financially, to ensure the existence of the Reference Model. This set of teams works through organizational issues that block agility and creates a Reference Model for Scrum that is known to work in the organization and can be used as a pattern for scaling Scrum across the organization.
-
-As the Reference Model of teams accelerates, impediments and bottlenecks that delay delivery, produce waste, or impede business agility become apparent. The most effective way to eliminate these problems is to spread Scrum across the organization so that the entire value stream is optimized.
-
-Scrum@Scale achieves linear scaling in productivity by saturating the organization with Scrum and distributing velocity and quality organically, consistent with the organization's specific strategy, products, and services.
-
-\section{Leadership Teams}
-
-\subsection{Executive Action Team (EAT)}
-
-The \textbf{Executive Action Team (EAT)} fulfills the Scrum Master role for the entire agile organization. This leadership team creates an agile bubble in the organization where the Reference Model operates with its own guidelines and procedures that integrates effectively with any part of the organization that is not agile. It owns the agile ecosystem, implements the Scrum values, and assures that Scrum roles are created and supported.
-
-The EAT is the final stop for impediments that cannot be removed by the SoS that feed it. Therefore, it must be comprised of individuals who are empowered, politically and financially, to remove them. The function of the EAT is to coordinate multiple SoS and to interface with any non-agile parts of the organization. As with any Scrum Team, it needs a PO, a SM and a transparent backlog.
-
-Sample Diagram showing an EAT coordinating 5 groupings of 25 teams:
-
-\includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{SoS-EAT.png}
-
-\subsubsection{EAT Backlog and Responsibilities}
-
-The EAT is accountable for the quality of Scrum within the organization. As such, the entire SM organization reports to the EAT.
-
-The EAT's role is to create an Organizational Transformation Backlog (a prioritized list of the agile initiatives that need to be accomplished) and see that it is carried out. The EAT ensures that a Product Owner organization is created and funded and that this organization is represented on the EAT to support these efforts. 
-
-The EAT's responsibilities include but are not limited to:
-
-\begin{itemize}
-	\item creating an agile operating system for the Reference Model as it scales through the organization, including corporate operational rules, procedures, and guidelines to enable agility.
-	\item measuring and improving the quality of Scrum in the organization.
-	\item building capability within the organization for business agility.
-	\item creating a center for continuous learning for Scrum professionals.
-	\item supporting the exploration of new ways of working.
-\end{itemize}
-
-\subsection{Executive MetaScrum Team (EMT)}
-
-The \textbf{Executive MetaScrum Team (EMT)} fulfills the Product Owner role for the entire agile organization. This leadership team owns the organizational vision and sets the strategic priorities, aligning all the teams around common goals. The Product Owner Teams enable a network design of Product Owners which is infinitely scalable with their associated SoS. The Product Owner Team for the entire agile organization meets with key stakeholders at the \textbf{MetaScrum Event} (below).
-
-Sample diagram showing an EMT coordinating 5 groups of 25 teams:
-
-\includegraphics[width=1.0\linewidth]{ExecMetaScrum.png}
-
-At least once per Sprint, the Executive MetaScrum Team holds a stakeholder alignment meeting, the \textbf{MetaScrum Event}. 
-
-\begin{itemize}
-	\item At the MetaScrum event, decisions affecting the entire organization get made. Changing direction of the organization, killing products and restructuring the organizational backlog can all happen at this event.
-	\item The Chief Product Owner presents the Product Backlog to the MetaScrum Team, business owners who control funding, personnel, and customer commitments. They address any changes needed to strategy, funding, resource allocation, and deployments, and collaborate with the Chief Product Owner to build an agreement on a Product Backlog that they will support until the next MetaScrum Event.
-\end{itemize}
-
-\section{Scaling}
-
-\subsection{Scaling the SoS}
-
-Depending upon the size of the organization or implementation, more than one SoS may be needed to deliver a very complex product. In such cases, a \textbf{Scrum of Scrum of Scrums (SoSoS)} can be created out of multiple Scrums of Scrums. The SoSoS is an organic pattern of Scrum Teams which is infinitely scalable. Each SoSoS should have SoSoSMs and scaled versions of each artifact and event.
-
-Scaling the SoS reduces the number of communication pathways within the organization so that complexity is encapsulated. The SoSoS interfaces with a SoS in the exact same manner that a SoS interfaces with a single Scrum Team, which allows for linear scalability.
-
-Sample Diagrams:
-
-\includegraphics[width=1.0\linewidth]{Sos-R2.png}
-
-\textbf{\textsc{note:}} While the Scrum Guide defines the optimal team size as being 3 to 9 people, Harvard research determined that optimal team size is 4.6 people (on average).\footnote{Hackman, J Richard, Leading teams: Setting the stage for great performances, Harvard Business Press, 2002} Experiments with high performing Scrum Teams have repeatedly shown that 4 or 5 people doing the work is the optimal size. It is essential to linear scalability that this pattern be the same for the number of teams in a SoS. Therefore, in the above and following diagrams, pentagons were chosen to represent a team of 5. These diagrams are meant to be examples only, your organizational diagram may differ greatly.
-
-\subsection{Scaling the Product Owner Team}
-
-Just as SoS can grow into SoSoS, Product Owner Teams also expand by the same mechanism. There is no specific term associated with these expanded units, nor do the CPO's of them have specific expanded titles. We encourage each organization to develop their own. For the following diagrams, we have chosen to add an additional ``Chief'' to the title of those PO's as they magnify out.
-
-Sample diagrams:
-
-\includegraphics[width=1.0\linewidth]{MetaScrum-R2.png}
-
-\section{Scrum Master Cycle - Coordinating the ``How''}
-
-The SM organization (SM's, SoSM's, and EAT) work as a whole to complete the components of the Scrum Master Cycle. The components unique to the Scrum Master Cycle are: 
-\begin{itemize}
-	\item \textbf{Continuous Improvement and Impediment Removal},
-	\item \textbf{Cross-Team Coordination}, and
-	\item \textbf{Deployment}.
-\end{itemize}
-
-\subsection{Continuous Improvement and Impediment Removal}
-
-In order to scale, impediments need to be removed as soon as possible.
-Unresolved impediments scale with the implementation and cripple productivity.
-We remove impediments to guarantee a scale-free architecture.
-
-Continuous Improvement and Impediment Removal are repeatedly applied to:
-
-\begin{itemize}
-	\item identify impediments and reframe them as opportunities,
-	\item ensure visibility in the organization to effect change,
-	\item maintain a healthy and structured environment for prioritizing and removing impediments, and 
-	\item verifying the resulting improvements.
-\end{itemize}
-
-\subsection{Cross-Team Coordination}
-
-When multiple teams have to cooperate on the creation of a shared product,
-they have a strong need to coordinate.
-
-Cross-Team Coordination is essential in Scrum@Scale to:
-
-\begin{itemize}
-	\item coordinate similar processes across multiple related teams,
-	\item mitigate cross-team dependencies to ensure they don't become impediments, and 
-	\item maintain alignment of team norms and guidelines for consistent output.
-\end{itemize}
-
-\subsection{Deployment}
-
-Since the goal of the SoS is to function as a release team, the deployment of product falls under their scope, while what is contained in any release falls under the scope of the Product Owners. Therefore, the goals of the Deployment are to:
-
-\begin{itemize}
-	\item deliver a consistent flow of valuable finished product to customers.
-	\item integrate the work of different teams into one seamless product.
-	\item ensure high quality of the customer experience.
-\end{itemize}
-
-\section{Product Owner Cycle - Coordinating the ``What''}
-
-The PO organization (the Product Owners, the CPO's, and the Executive MetaScrum) work as a whole to satisfy the components of the Product Owner Cycle. The components unique to the Product Owner Cycle are:
-\begin{itemize}
-	\item \textbf{Strategic Vision},
-	\item \textbf{Backlog Prioritization},
-	\item \textbf{Backlog Decomposition and Refinement}, and
-	\item \textbf{Release Planning}.
-\end{itemize}
-
-\subsection{Strategic Vision}
+\subsubsection{Strategic Vision}\label{strategic-vision}
 
 A compelling vision attracts both customers and great employees.
-Therefore, in the PO cycle, a Strategic Vision needs to be formulated and communicated both internally and externally.
-
-The goals of setting a Strategic Vision are to:
-
-\begin{itemize}
-	\item clearly align the entire organization along a shared path forward,
-	\item compellingly articulate why the organization exists,
-	\item describe what the organization will do to leverage key assets in support of its mission, and
-	\item respond to rapidly changing market conditions.
-\end{itemize}
-
-\subsection{Backlog Prioritization}
-
-Proper Prioritization Prevents Poor Performance.
-Prioritizing the backlog can reveal activities that have negative value, no value or little value.
-Identifying them and eliminating them provides focus and prevents waste.
-Therefore, in Scrum@Scale, a crucial component of the PO cycle is Backlog Prioritization.
-
-The goals of Backlog Prioritization are to:
+Therefore, formulate a Strategic Vision to be communicated, both
+externally and internally, with the goals of:
 
 \begin{itemize}
-	\item identify a clear ordering for products, features, and services to be delivered;
-	\item reflect value creation, risk mitigation and internal dependencies in ordering of the backlog, and
-	\item prioritize the high-level initiatives across the entire agile organization prior to Backlog Decomposition and Refinement.
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  clearly aligning the entire organization along a shared path forward
+\item
+  compellingly articulating why the organization and its products exist
+\item
+  describing what the organization will do to leverage key assets in
+  support of it
+\item
+  being able to respond to rapidly changing market conditions
 \end{itemize}
 
-\subsection{Backlog Decomposition and Refinement}
+\subsubsection{Backlog Prioritization}\label{backlog-prioritization}
 
-Backlog gets pulled by teams.
-In order for backlog from higher level teams to be pulled, it might need to be broken down and understood better.
-This is done in the Backlog Decomposition and Refinement component of the PO cycle.
+Competition between priorities creates waste and slows organizations
+down because it pulls teams in opposing directions. Proper backlog
+prioritization is essential for teams to work in a coordinated manner to
+optimize value delivery. The goals of Backlog Prioritization are to:
 
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  identify a clear ordering for products, capabilities, and services to
+  be delivered
+\item
+  reflect value creation, risk mitigation, and internal dependencies in
+  ordering of the backlog
+\item
+  prioritize the high-level initiatives across the entire agile
+  organization prior to Backlog Decomposition and Refinement
+\end{itemize}
+
+\subsubsection{Backlog Decomposition and
+Refinement}\label{backlog-decomposition-and-refinement}
+
+A Chief Product Owner's backlog contains items which are larger in scope
+than an individual team's backlog. To pull prioritized items into
+individual teams, they may need to be broken down and understood better.
 The goals of Backlog Decomposition and Refinement are to:
 
 \begin{itemize}
-	\item break complex products and projects into independent functional elements that can be completed by one team in one Sprint.
-	\item capture and distill emerging requirements and customer feedback.
-	\item ensure all backlog items are truly ``Ready'' so that they can be pulled by the individual teams.
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  identify the complex products and projects which will make the vision
+  a reality
+\item
+  break those complex products and projects into independent elements
+\item
+  ensure all backlog items can be refined further by the teams into
+  items they can complete in one Sprint
 \end{itemize}
 
-\subsection{Release Planning}
+\subsubsection{Release Planning}\label{Release-planning}
 
-The goals of Release Planning are to:
+Release Planning may encompass one or many releases of the product to a
+customer. It is a longer-term planning horizon than a single Sprint. The
+goals of Release Planning are to:
 
 \begin{itemize}
-	\item forecast delivery of key features and capabilities.
-	\item communicate delivery expectations to stakeholders.
-	\item enable financial forcasts for the enterprise
-	\item update prioritization, as needed.
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  forecast the delivery timeline of key Product Increments and
+  capabilities.
+\item
+  communicate delivery expectations to stakeholders.
+\item
+  communicate the financial impact of the delivery schedule.
 \end{itemize}
 
-Note that Release Planning may encompass one or many releases of the product to a customer. It is a higher-level planning horizon than a single Sprint, usually covering a period of 1 to 6 months.
+\subsection{Connecting the Product Owner and Scrum Master
+Cycles}\label{Connecting-the-product-owner-and-scrum-master-cycles}
 
-\section{Connecting the PO/SM Cycles}
+The cycles first intersect at the Team Process component. From that
+point, the accountability for the what and how separate until done
+product gets delivered. The cycles connect again within the Feedback
+component where customer response to the product is interpreted. This
+requires Metrics in order to make empirical decisions about adapting for
+the next delivery cycle. The Product Owner and Scrum Master
+organizations work together to fulfill the requirements of these
+components.
 
-The PO and SM Cycles have two touchpoints:
-\begin{itemize}
-	\item \textbf{Team-Level Process, and}
-	\item \textbf{Product and Release Feedback.}
-\end{itemize}
-Both cycles need \textbf{Metrics and Transparency}.
+\subsubsection{Product Feedback and Release
+Feedback}\label{product-feedback-and-release-feedback}
 
-\subsection{Team-Level Process}
-
-The \textbf{Team-Level Process} is Scrum as prescribed by the Scrum Guide. It constitutes the first touch point between the Scrum Master and Product Owner Cycles. The goals of the Team-Level Process are to:
-
-\begin{itemize}
-	\item maximize the flow of completed and quality tested work.
-	\item increase performance of the team over time.
-	\item operate in a way that is sustainable and enriching for the team.
-	\item accelerate the customer feedback loop.
-\end{itemize}
-
-\subsection{Product and Release Feedback}
-
-The \textbf{Product and Release Feedback} component is the second point where the PO and SM Cycles touch. Product feedback drives continuous improvement through adjusting the Product Backlog while Release feedback drives continuous improvement through adjusting the Deployment mechanisms. The goals of obtaining and analyzing feedback are to:
-
-\begin{itemize}
-	\item validate our assumptions.
-	\item understand how customers use and interact with the product.
-	\item capture ideas for new features and functionality.
-	\item define improvements to existing functionality.
-	\item update progress towards product/project completion to refine release planning and stakeholder alignment.
-	\item identify improvements to deployment methods and mechanisms.
-\end{itemize}
-
-\subsection{Metrics and Transparency}
-
-Radical transparency is essential for Scrum to function optimally, but it is only possible in an organization that has embraced the Scrum values. It gives the organization the ability to honestly assess its progress and to inspect and adapt its products and processes. This is the foundation of the empirical nature of Scrum as laid out in the Scrum Guide.
-
-Both the SM and PO Cycles require metrics that will be decided upon by the separate SM and PO organizations. Metrics may be unique to both specific organizations as well as to specific functions within those organizations. Scrum@Scale does not require any specific set of metrics, but it does suggest that at a bare minimum, the organization should measure:
+Product feedback is interpreted by the Product Owner organization to
+drive continuous improvement of the product through updating the Product
+Backlog(s). Release feedback is interpreted by the Scrum Master
+organization to drive continuous improvement of the Delivery mechanisms.
+The goals of obtaining and analyzing Feedback are to:
 
 \begin{itemize}
-	\item Productivity - e.g. change in amount of Working Product delivered per Sprint
-	\item Value Delivery - e.g. business value per unit of team effort
-	\item Quality - e.g. defect rate or service downtime
-	\item Sustainability - e.g. team happiness
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  validate assumptions
+\item
+  understand how customers use and interact with the product
+\item
+  capture new ideas and emerging requirements for new functionality
 \end{itemize}
+
+\subsubsection{Metrics and Transparency}\label{Metrics-and-transparency}
+
+Metrics may be unique to both specific organizations as well as to
+specific functions within those organizations. Scrum@Scale does not
+require any specific set of metrics, but it does suggest that at a bare
+minimum, the organization should measure:
+
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  Productivity - e.g. change in amount of working product delivered per
+  Sprint
+\item
+  Value Delivery - e.g. business value per unit of team effort
+\item
+  Quality - e.g. defect rate or service down-time
+\item
+  Sustainability - e.g. team happiness
+\end{itemize}
+
+Radical transparency is essential for Scrum to function optimally,
+giving the organization the ability to honestly assess its progress and
+to inspect and adapt its products and processes.
 
 The goals of having Metrics and Transparency are to:
 
 \begin{itemize}
-	\item provide all decision makers, including team members, with appropriate context to make good decisions.
-	\item shorten feedback cycles as much as possible to avoid over-correction.
-	\item require minimal additional effort by teams, stakeholders or leadership.
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  provide the appropriate context with which to make data-driven
+  decisions
+\item
+  reduce decision latency
+\item
+  streamline the work required by teams, stakeholders or leadership
 \end{itemize}
 
-\section{Some notes on Organizational Design}
+\subsubsection{Some Notes on Organizational
+Design}\label{some-notes-on-organizational-design}
 
-The scale-free nature of Scrum@Scale allows the design of the organization to be component-based, just like the framework itself. This permits for rebalancing or refactoring of teams in response to the market. As an organization grows, capturing the benefits of distributed teams may be important. Some organizations reach talent otherwise unavailable and are able to expand and contract as needed through outsourced development. Scrum@Scale enables linear scalability both in size and global distribution while avoiding long lag times, compromised communications, and inferior quality.\footnote{Sutherland, Jeff and Schoonheim, Guido and Rustenburg, Eelco and Rijk, Maurits, ``Fully distributed scrum: The secret sauce for hyperproductive offshored development teams'', AGILE'08. Conference, IEEE: 339-344, 2008}
+The goal of organizational design with Scrum@Scale is to allow it to be
+component-based, just like the framework itself. This permits for
+rebalancing or refactoring of teams in response to the market.
 
 Sample diagrams:
-\includegraphics[width=1.0\linewidth]{VariableSoS-R2.png}
-\includegraphics[width=1.0\linewidth]{OrganizationalDiagram.png}
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.15]{4.png}
+\end{figure}
 
-In this organizational diagram, the \textbf{Knowledge and Infrastructure Teams} represent virtual teams of specialists of which there are too few to staff each team. They coordinate with the Scrum Teams as a group via service-level agreements where requests flow through a PO for each specialty who converts them into a transparent ordered backlog. An important note is that these teams are NOT silos of individuals who sit together (this is why they are represented as hollow pentagons); their team members sit on the actual Scrum Teams, but they make up this virtual Scrum of their own for the purpose of backlog dissemination and process improvement.
 
-\textbf{Customer Relations, Legal / Compliance, and People Operations} are included here since they are necessary parts of organizations and will exist as independent Scrum Teams on their own, which all of the others may rely upon.
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.15]{5.png}
+\end{figure}
 
-A final note on the representation of the EAT and EMT: in this diagram, they are shown as overlapping since some members sit on both of the teams. In very small organizations or implementations, the EAT and EMT may consist entirely of the same team members.
 
-\section{End Note}
 
-Scrum@Scale is designed to scale productivity, to get the entire organization delivering twice the value at half the cost in a significantly improved work environment. Large organizations that properly implement the framework can cut the cost of their products and services while improving quality and innovation.
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.15]{6.png}
+\end{figure}
 
-Scrum@Scale is designed to saturate an organization with Scrum. All teams, including Leadership, Human Resources, Legal, Consulting and Training, and product and service teams, implement the same style of Scrum while streamlining and enhancing an organization.
 
-Well implemented Scrum can run an entire organization and Scrum@Scale becomes the operating system for the organization.
+\emph{In this organizational diagram, the Knowledge and Infrastructure
+Teams represent virtual teams of specialists of which there are too few
+to staff each team. If they act as shared-services team, they coordinate
+with the Scrum Teams as a group, where requests flow through a Product
+Owner for each specialty who converts them into a transparent
+prioritized backlog. An important note is that these teams are NOT silos
+of individuals who sit together (this is why they are represented as
+hollow pentagons); their team members sit on the actual Scrum Teams, but
+they make up this virtual Scrum of their own for the purpose of backlog
+dissemination and process improvement.}
 
-\section{Acknowledgements}
+Customer Relations, Legal/Compliance, and People Operations~are included
+here since they are necessary parts of organizations and will exist as
+independent Scrum Teams on their own, upon which all other teams may
+rely.
 
-We acknowledge IDX for the creation of the Scrum of Scrums which first allowed Scrum to scale to hundreds of teams,\footnote{Sutherland, Jeff, ``Inventing and Reinventing SCRUM in five Companies'', Sur le site officiel de l'alliance agile, 2001} PatientKeeper for the creation of the MetaScrum,\footnote{Sutherland, Jeff, ``Future of scrum: Parallel pipelining of sprints in complex projects'', Proceedings of the Agile Development Conference,  IEEE Computer Society 90-102,  2005.} which enabled rapid deployment of innovative product, and OpenView Venture Partners for scaling Scrum to the entire organization.\footnote{Sutherland, Jeff and Altman, Igor, ``Take no prisoners: How a venture capital group does scrum'', Agile Conference, 2009. AGILE'09, IEEE 350-355.  2009} We value input from Intel who taught us ``nothing scales'' except a scale-free architecture, and SAP with the largest Scrum team product organization who taught us management involvement in the MetaScrum is essential to get 2,000 Scrum Teams to work together.
+A final note on the representation of the Executive Action Team and the
+Executive MetaScrum: In this diagram, they are shown as overlapping
+since some members sit on both of the teams. In very small organizations
+or implementations, the Executive Action Team and the Executive
+MetaScrum may consist entirely of the same team members.
 
-The agile coaches and trainers implementing these concepts at Amazon, GE, 3M, Toyota, Spotify, Maersk, Comcast, AT\&T and many other companies working with Jeff Sutherland have been helpful in testing these concepts across a wide range of companies in different domains.
+\subsection{End Note}\label{End-Note}
 
-And finally, Avi Schneier, Alex Sutherland, Jessica Larsen, Kim Antelo, and Serge Beaumont have been invaluable in formulating and editing this document.
+Scrum@Scale is designed to scale productivity, to get an entire
+organization delivering twice the value at half the cost. Implementing a
+streamlined workflow at a sustainable pace with better decision making
+improves the work environment, increases business agility, and generates
+higher returns to all stakeholders.
 
-\pagebreak
+Scrum@Scale is designed to saturate an organization with Scrum. Well
+implemented Scrum can run an entire organization with Scrum@Scale as the
+operating system.
 
-\printbibliography
+\subsection{Acknowledgements}\label{Acknowledgements}
+
+\subsubsection{History}\label{History}
+
+Dr. Jeff Sutherland developed Scrum@Scale based on the fundamental
+principles behind Scrum, Complex Adaptive Systems theory, game theory,
+and his work in biology. This guide was developed with the input of many
+experienced Scrum practitioners based on the results of their field
+work.
+
+\subsubsection{People and Organizations}\label{People-and-Organizations}
+
+We acknowledge IDX for the creation of the Scrum of Scrums which first
+allowed Scrum to scale to hundreds of
+teams\textsuperscript{\hyperref[citation6]{6}}, PatientKeeper for the
+creation of the MetaScrum\textsuperscript{\hyperref[citation7]{7}},
+which enabled rapid deployment of innovative product, and OpenView
+Venture Partners for scaling Scrum to the entire
+organization\textsuperscript{\hyperref[citation8]{8}}. We value input
+from Intel, who taught us ``nothing scales except a scale-free
+architecture'', and SAP, with the largest Scrum team product
+organization, who taught us management involvement in the MetaScrum is
+essential to get more than 2,000 Scrum Teams to work together.
+
+The agile coaches and trainers implementing these concepts at Amazon,
+GE, 3M, Toyota, Spotify, Maersk, Comcast, AT\&T and many other companies
+have been helpful in testing these concepts across a wide range of
+businesses across different domains.
+
+~
+
+\begin{center}\rule{3in}{0.4pt}\end{center}
+
+\begin{enumerate}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  ``Business agility.'' Wikipedia, Last modified 27 February
+  2020.
+  \newline ~\href{https://en.wikipedia.org/wiki/Business_agility}{https://en.wikipedia.org/wiki/Business\_agility}.
+\item
+  Johnson, Jim. New CHAOS Report. The Standish Group. 2018.
+\item
+  Ogunnaike, Babatunde A. and Ray, W. Harmon. Process Dynamics, Modeling
+  and Control. Oxford University Press. 1994.
+\item
+  Hackman, J Richard. Leading Teams: Setting the Stage for Great
+  Performances. Harvard Business Press. 2002.
+\item
+  Sutherland, Jeff, Coplien, James O., and The Scrum Patterns Group. A
+  Scrum Book: The Spirit of the Game. Pragmatic Bookshelf. 2019.
+\item
+  Sutherland, Jeff. ``Inventing and Reinventing SCRUM in five
+  Companies.'' Sur le site officiel de l'alliance agile. 2001.
+\item
+  Sutherland, Jeff. ``Future of Scrum: Parallel Pipelining of Sprints in
+  Complex Projects.'' Proceedings of the Agile Development Conference.
+  IEEE Computer Society 90-102. 2005.
+\item
+  Sutherland, Jeff and Altman, Igor. ``Take No Prisoners: How a Venture
+  Capital Group Does Scrum.'' Agile Conference, 2009. AGILE'09, IEEE
+  350-355. 2009.
+\end{enumerate}
 
 \end{document}
