@@ -1,8 +1,8 @@
 \documentclass[12pt,a4paper,parskip=full]{scrartcl}
 \usepackage{float}
-\usepackage{bbding}
-\usepackage{pifont}
-\usepackage{wasysym}
+% \usepackage{bbding}
+% \usepackage{pifont}
+% \usepackage{wasysym}
 \usepackage[default,scale=1]{opensans} 
 %\usepackage[T1]{fontenc}
 \usepackage[margin=1in]{geometry}
@@ -13,19 +13,17 @@
 \usepackage{sectsty}
 \sectionfont{\color{red}}
 \subsectionfont{\fontsize{25}{25}\color{red}}
-
 \subsubsectionfont{\fontsize{20}{20}\color{red}}
 \usepackage{graphicx}
 \usepackage{hyperref}
-\usepackage{amssymb}
+%\usepackage{amssymb}
 \usepackage[style=footnote-dw]{biblatex}
 \bibliography{S@SGuideBib}
 \setlength\bibitemsep{0.5\baselineskip}
 \graphicspath{{./images/}}
 
-
 \usepackage{enumitem}
-\setitemize{noitemsep}
+%\setitemize{noitemsep}
 % \setlist{noitemsep, topsep=-5pt}
 % \setlength\itemsep{-0.10em}
 
@@ -39,21 +37,34 @@
 \usepackage[T1]{fontenc}
 \fontfamily{verdana}
 
-\usepackage{scrlayer-scrpage}{}
+%\usepackage{scrlayer-scrpage}{}
+\usepackage{fancyhdr}
 \makeatletter
 \renewcommand{\@seccntformat}[1]{}
 \makeatother
 
 \setlength\parindent{0pt}{}
 
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{ \fancyplain{}{The Scrum@Scale Guide}}
+\rfoot{ \fancyplain{}{\thepage} }
+\lfoot{\textcopyright 2006-2021 Jeff Sutherland \& Scrum Inc.}
+
+
+
 \title{\Huge{\color{red}\textbf{The Scrum@Scale 
-\textsuperscript{\copyright} 
+\textsuperscript{\registered} 
 Guide}}}
 \subtitle{\color{gray}The Definitive Guide to Scrum@Scale:\\ Scaling that Works}
 % \author{}
 \date{}
 
+
+
+
 \begin{document}
+\tableofcontents
 
 \subsection{Preface to the Scrum@Scale
 Guide}\label{preface-to-the-ScrumatScale-guide}
@@ -213,7 +224,7 @@ each organizational diagram may differ greatly.}
 \subsubsection{Scaling the Events and
 Roles}\label{scaling-the-events-and-roles}
 
-If a Scrum of Scrums (SoS) operates as a Scrum Team, then it needs to scale the Scrum Events and the teams’ corresponding accountabilities. To coordinate the ``how'' in every Sprint, a SoS will need to hold scaled versions of the Daily Scrum and Sprint Retrospective. To coordinate the ``what'' in every Sprint, a SoS will need to hold scaled versions of Sprint Planning and a Sprint Review. As an ongoing practice, Backlog Refinement will also need to be done at scale.
+If a Scrum of Scrums (SoS) operates as a Scrum Team, then it needs to scale the Scrum Events and the teams' corresponding accountabilities. To coordinate the ``how'' in every Sprint, a SoS will need to hold scaled versions of the Daily Scrum and Sprint Retrospective. To coordinate the ``what'' in every Sprint, a SoS will need to hold scaled versions of Sprint Planning and a Sprint Review. As an ongoing practice, Backlog Refinement will also need to be done at scale.
 
 The scaled versions of the Daily Scrum and Retrospective are facilitated by a Scrum Master for the group, called the Scrum of Scrums Master (SoSM). The scaled versions of the Sprint Review and Backlog Refinement are facilitated by a Product Owner Team guided by a Chief Product Owner (CPO). The scaled version of Sprint Planning is held with the Product Owner Team and the Scrum Masters. The Product Owner Team gains insight into what will be delivered in the current Sprint and the Scrum Masters gain insight into capacity and technical capabilities. The roles of Scrum of Scrums Master and Chief Product Owner scale into the leadership groups which then drive their corresponding cycles, satisfying the components of Scrum@Scale.
 
@@ -262,7 +273,7 @@ Every Sprint, the Scrum of Scrums holds a scaled version of the Sprint Retrospec
 \subsubsection{Role: The Scrum of Scrums Master
 (SoSM)}\label{role-the-scrum-of-scrums-master}
 
-The Scrum Master of the Scrum of Scrums is called the Scrum of Scrums Master (SoSM). The Scrum of Scrums Master is accountable for ensuring the Scaled events take place, are productive, positive, and kept within the time-box. The Scrum of Scrums Master may be one of the team's Scrum Masters or a person specifically dedicated to this role. They are accountable for the release of the joint teams’ efforts and continuously improving the effectiveness of the Scrum of Scrums. This includes greater team throughput, lower cost, and higher quality. In order to achieve these goals, they must:
+The Scrum Master of the Scrum of Scrums is called the Scrum of Scrums Master (SoSM). The Scrum of Scrums Master is accountable for ensuring the Scaled events take place, are productive, positive, and kept within the time-box. The Scrum of Scrums Master may be one of the team's Scrum Masters or a person specifically dedicated to this role. They are accountable for the release of the joint teams' efforts and continuously improving the effectiveness of the Scrum of Scrums. This includes greater team throughput, lower cost, and higher quality. In order to achieve these goals, they must:
 
 \begin{itemize}
 \itemsep1pt\parskip0pt\parsep0pt
@@ -413,10 +424,10 @@ Since the goal of the Scrum of Scrums is to function as a single unit and releas
 \subsubsection{Scaling the Product Owner - The Product Owner
 Cycle}\label{Scaling-the-product-owner}
 
-For each Scrum of Scrums, there is a shared common backlog that feeds the network of teams. It requires a Product Owner Team (PO Team), including a Chief Product Owner, who is accountable as the Product Owner for the group of teams. The PO Team’s main focus is ensuring that the individual teams’ priorities follow along a single path. This allows them to coordinate their individual team’s backlogs and build alignment with stakeholders and customer needs.
+For each Scrum of Scrums, there is a shared common backlog that feeds the network of teams. It requires a Product Owner Team (PO Team), including a Chief Product Owner, who is accountable as the Product Owner for the group of teams. The PO Team's main focus is ensuring that the individual teams' priorities follow along a single path. This allows them to coordinate their individual team's backlogs and build alignment with stakeholders and customer needs.
 
 
-Each team’s Product Owner is accountable for the composition and prioritization of their team’s Sprint backlog and may pull items from the common backlog or generate independent backlog items at their discretion as needed to meet business objectives.
+Each team's Product Owner is accountable for the composition and prioritization of their team's Sprint backlog and may pull items from the common backlog or generate independent backlog items at their discretion as needed to meet business objectives.
 
 The main functions of the Product Owner Team are to:
 
@@ -445,7 +456,7 @@ The main functions of the Product Owner Team are to:
 \subsubsection{Role: The Chief Product Owner
 (CPO)}\label{role-the-chief-product-owner}
 
-The Chief Product Owner coordinates priorities with the Product Owner Team. Together they align backlog priorities with stakeholder and customer needs. The CPO may be an individual team Product Owner who plays this role as well, or they may be a person specifically dedicated to it. Their main responsibilities are the same as a regular Product Owner’s now scaled:
+The Chief Product Owner coordinates priorities with the Product Owner Team. Together they align backlog priorities with stakeholder and customer needs. The CPO may be an individual team Product Owner who plays this role as well, or they may be a person specifically dedicated to it. Their main responsibilities are the same as a regular Product Owner's now scaled:
 
 \begin{itemize}
 \itemsep1pt\parskip0pt\parsep0pt
@@ -555,7 +566,7 @@ Proper backlog prioritization is essential for teams to work in a coordinated ma
 \subsubsection{Backlog Decomposition and
 Refinement}\label{backlog-decomposition-and-refinement}
 
-A Chief Product Owner’s backlog contains items which are larger in scope than an individual team’s backlog. To pull prioritized items into individual teams, they may need to be broken down and understood better. The goals of Backlog Decomposition and Refinement are to:
+A Chief Product Owner's backlog contains items which are larger in scope than an individual team's backlog. To pull prioritized items into individual teams, they may need to be broken down and understood better. The goals of Backlog Decomposition and Refinement are to:
 
 \begin{itemize}
 \itemsep1pt\parskip0pt\parsep0pt
