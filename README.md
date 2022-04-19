@@ -22,7 +22,7 @@ If you have a concrete change or addition to the guide that you would like to su
 For detailed instructions on how to submit a pull request, please see this tutorial video: https://www.youtube.com/watch?v=yEf-wpawgWc
 
 ## Cadence
-In the short term, we will be evaluating and pulling in changes on a biannual cycle.  While the guide is new, our goal is to release an update at least once a month.
+We will be evaluating and pulling in changes on a biannual cycle.
 
 ## Guide Format
 The Scrum@Scale guide is in Latex format, which is a standard for academic papers and journals world-wide.  There are a wide range of free and open Latex editors, for a complete list see here: https://en.wikipedia.org/wiki/Comparison_of_TeX_editors.
