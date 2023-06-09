@@ -60,8 +60,7 @@
       <file>standard-dw.cbx</file>
       <file>footnote-dw.cbx</file>
       <file>biblatex.cfg</file>
-      <file>english.lbx</file>
-      <file>english-dw.lbx</file>
+      <file>polish.lbx</file>
     </requires>
   </internal>
   <external package="biblatex" priority="5" active="0">

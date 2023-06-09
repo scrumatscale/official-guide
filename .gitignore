@@ -5,3 +5,9 @@
 *.out
 *.run.xml
 *.synctex.gz
+translations/pl-PL/guide-pl-polish.aux
+translations/pl-PL/guide-pl-polish.bcf
+translations/pl-PL/guide-pl-polish.log
+translations/pl-PL/guide-pl-polish.run.xml
+translations/pl-PL/guide-pl-polish.synctex.gz
+translations/pl-PL/guide-pl-polish.toc
